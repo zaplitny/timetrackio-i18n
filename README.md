@@ -2,6 +2,7 @@
 Below is very brief explanation of new timetrackio features. 
 ## Tags
 New field appeared for activity - tags. User can set tags from predefined list or enter new. 
+![alt text](https://raw.githubusercontent.com/zaplitny/timetrackio-i18n/master/images/image7.PNG?raw=true "Image with tags")
 ## Pomodoro
 ### Setup
 Go to Settings / Pomodoro.
