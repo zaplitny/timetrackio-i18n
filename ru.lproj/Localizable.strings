@@ -1,0 +1,744 @@
+"Sleep" = "Сон";
+"Transport" = "Транспорт";
+"Work" = "Работа";
+"Eat" = "Еда";
+"Sport" = "Спорт";
+"Read" = "Чтение";
+"Shop" = "Магазин";
+"Entertainment" = "Развлечения";
+"Housework" = "Работа по дому";
+"Cinema" = "Кино";
+"Walk" = "Прогулка";
+"Study" = "Учеба";
+"Internet" = "Интернет";
+"Drink" = "Алкоголь";
+
+"history.title" = "История";
+
+"first_run.sign_in" = "Войти";
+"first_run.sign_up" = "Регистрация";
+
+"first_run_setup.message.import" = "Хотите ли Вы импортировать данные из aTimeLogger?";
+"first_run_setup.action.init_with_default" = "Использовать предустановленные";
+"first_run_setup.action.import" = "Импортировать";
+
+"import.action.import" = "Импорт";
+
+"sign_up.error.empty_email" = "Укажите почтовый ящик";
+"sign_up.error.invalid_email" = "Неверный почтовый ящик";
+"sign_up.error.empty_password" = "Пароль не может быть пустым";
+"sign_up.error.password_match" = "Пароли должны совпадать";
+
+/**
+ Common
+*/
+"common.title.warning" = "Предупреждение";
+"common.title.edit" = "Редактирование";
+"common.action.cancel" = "Отмена";
+"common.action.save" = "Сохранить";
+"common.action.delete" = "Удалить";
+"common.action.edit" = "Ред";
+"common.action.close" = "Закрыть";
+"common.action.back" = "Назад";
+"common.action.select" = "Выберите";
+"common.action.select_type" = "Выберите тип";
+"common.action.select_types" = "Выберите типы";
+"common.action.select_tags" = "Выберите метки";
+"common.action.select_deselect" = "Выбрать/отменить все";
+"common.action.add_before" = "Add"; // use icon intead
+"common.action.select_place" = "Выберите место";
+"common.title.loading" = "Загрузка ...";
+"common.title.syncing" = "Синхронизация ...";
+"common.email.placeholder" = "Введите почту";
+"common.first_name.placeholder" = "Ваше имя";
+"common.last_name.placeholder" = "Ваша фамилия";
+"common.password.placeholder" = "Введите пароль";
+"common.repeat_password.placeholder" = "Повторите пароль";
+"common.enabled" = "Вкл";
+"common.disabled" = "Выкл";
+"common.minutes" = "%ld мин";
+"common.premium.message" = "Эта возможность доступна только в ПРО версии";
+"common.premium.try_10_days" = "Попробовать ПРО бесплатно 10 дней";
+"common.premium.purchase" = "Перейти на ПРО версию";
+"common.premium.try_10_days_activated" = "ПРО версия активирована на 10 дней";
+"common.mail_disabled.title" = "Email не может быть отправлен";
+"common.mail_disabled.description" = "Почтовый ящик не настроен";
+"common.title.sync_failed" = "Ошибка синхронизации";
+"common.action.retry" = "Попробовать еще";
+
+/**
+ Sign In
+ */
+"sign_in.sign_in" = "Войти";
+"sign_in.forgot" = "Забыли пароль?";
+
+"sign_up.sign_up" = "Зарегистрироваться";
+"User already exists" = "Пользователь с таким email уже существует. Если у Вас есть учетная запись aTimeLogger войдите с ее паролем";
+
+"error.invalid_grant" = "Неверный email/пароль";
+"error.unknown" = "Произошла неизвестная ошибка. Свяжитесь с нами по email: support@timetrack.io";
+
+/**
+ First run
+*/
+"first_run.page1.title" = "Управляйте временем";
+"first_run.page1.description" = "Начинайте активность простым нажатием! Просто откройте приложение и нажмите на соответствующую иконку.";
+"first_run.page2.title" = "Просмотр истории";
+"first_run.page2.description" = "Просматривайте записи день за днем и наблюдайте как Ваша продуктивность улучшается.";
+"first_run.page3.title" = "Визуализация";
+"first_run.page3.description" = "Статистика доступна в виде графиков и диаграмм. Так намного нагляднее!";
+"first_run.page4.title" = "Достигайте цели";
+"first_run.page4.description" = "Создавайте цели и достигайте их. Когда цель достигнута, Вы получите об этом уведомление";
+
+/**
+ First sync
+*/
+"first_sync.title" = "";
+"first_sync.status.get_user_info" = "";
+"first_sync.progress.get_user_info" = "Загрузка учетной записи...";
+"first_sync.status.sync_data" = "";
+"first_sync.progress.sync_data" = "Синхронизация данных...";
+
+/**
+ Restore
+ */
+"restore.title" = "Восстановить пароль";
+"restore.action.restore" = "Восстановить";
+"restore.message.success" = "Сообщение с дальнейшими инструкциями было выслано на Ваш электронный ящик";
+"restore.message.failure" = "При попытке восстановления пароля произошла ошибка. Проверьте, что ввели электронный адрес правильно и попробуйте еще либо напишите нам в support@timetrack.io";
+"restore.message.email_invalid" = "Неправильный формат email";
+
+/**
+ Menu
+*/
+"menu.activities" = "Активности";
+"menu.history" = "История";
+"menu.pomodoro" = "Pomodoro";
+"menu.types" = "Типы";
+"menu.goals" = "Цели";
+"menu.reports" = "Отчеты";
+"menu.settings" = "Настройки";
+"menu.account" = "Пользователь";
+"menu.help" = "Помощь";
+"menu.about" = "О программе";
+"menu.more" = "Еще";
+"menu.places" = "Места";
+
+/**
+ Activities
+ */
+"activities.empty.title" = "Нет типов";
+"activities.empty.description" = "Чтобы записывать время Вам нужны типы активностей. Вы можете их создать во вкладке \"Типы\"";
+"activities.title" = "Активности";
+"activities.action.start" = "Начать";
+"activities.action.stop" = "Стоп";
+"activities.action.resume" = "Возобновить";
+"activities.action.pause" = "Пауза";
+"activities.action.start_pomodoro" =  "Начать Pomodoro";
+"activities.action.start_usual" = "Обычный старт";
+"activities.start.message" = "Начать активность?";
+"activities.stop.message" = "Остановить активность?";
+"activities.pause.message" = "Приостановить активность?";
+"activities.resume.message" = "Возобновить активность?";
+"activities.start_pomodoro.message" = "Вы хотите начать активность как Pomodoro?";
+"activities.sync.title" = "Sync";
+
+"edit_activity.title" = "Ред";
+"edit_activity.field.type" = "Тип";
+"edit_activity.field.comment" = "Комментарий";
+"edit_activity.field.tags" = "Метки";
+"edit_activity.field.start" = "Начало";
+"edit_activity.field.place" = "Место";
+"edit_activity.intervals" = "Интервалы";
+"edit_activity.running" = "Активно";
+"edit_activity.paused" = "Пауза";
+"edit_activity.stopped" = "Закончено";
+"edit_activity.empty.description" = "Нажмите \"+\" чтобы добавить интервал";
+"edit_activity.no_comment" = "Нет комментария";
+"edit_activity.delete.message" = "Удалить активность?";
+"edit_activity.error.no_type" = "Выберите тип";
+"edit_activity.error.no_intervals" = "У активности должен быть как минимум 1 интервал";
+"edit_activity.action.skip_and_save" = "Пропустить и сохранить";
+"edit_activity.intersection.change" = "Изменить %@ на %@";
+"edit_activity.intersection.start_date_intersects" = "Дата начала %@ пересекает интервал %@";
+"edit_activity.intersection.change_start_date" = "Изменить дату начала на %@";
+"edit_activity.intersection.interval_intersects" = "Интервал %@ пересекает %@ (%@)";
+
+"edit_interval.title" = "Ред";
+"edit_interval.error.from_greater_to" = "Начало позже конца";
+"edit_interval.field.from" = "Начало";
+"edit_interval.field.to" = "Конец";
+"edit_interval.field.duration" = "Длительность";
+"edit_interval.field.calendar_event" = "Событие";
+"edit_interval.now" = "Сейчас";
+"edit_interval.duration.hours" = "%d ч";
+"edit_interval.duration.minutes" = "%d мин";
+
+/**
+Pomodoros
+*/
+"pomodoros.empty.title" = "Нет записей";
+"pomodoros.empty.description" = "Нет записей для выбранного промежутка. Выберите другой промежуток или создайте новые записи";
+
+/**
+ History
+ */
+"history.title" = "История";
+"history.pie.show_untracked" = "Показывать незаписанное";
+"history.empty.title" = "Нет записей";
+"history.empty.description" = "Нет записей для выбранного промежутка. Выберите другой промежуток или создайте новые записи нажав на \"+\" в правом верхнем углу";
+"history.range.today" = "Сегодня";
+"history.range.day" = "День";
+"history.range.week" = "Неделя";
+"history.range.month" = "Месяц";
+"history.view.list" = "Список";
+"history.view.pie" = "Диаграмма";
+"history.view.calendar" = "Календарь";
+"history.time_tracked" = "Записанное время: %@";
+"history.title.delete_interval" = "Вы точно хотите удалить выбранный интервал?";
+
+/**
+ Types
+ */
+"types.empty.title" = "Нет типов";
+"types.empty.description" = "Чтобы записывать время Вам нужны типы активностей. Вы можете их создать во вкладке \"Типы\"";
+"types.title" = "Типы";
+"types.order.title" = "Сортировка: %@";
+"types.order.manual" = "Вручную";
+"types.order.by_name" = "По имени";
+"types.archived" = "Архив";
+
+"type_details.title" = "Тип";
+"type_details.action.move" = "Переместить";
+"type_details.action.archive" = "Архивировать";
+"type_details.action.unarchive" = "Разархивировать";
+"type_details.unarchive.message" = "Разархивировать тип?";
+"type_details.archive.message" = "Архивировать тип?";
+"type_details.archived" = "Архив";
+"type_details.last_30_days" = "Последние 30 дней";
+"type_details.last_30_days_nothing_tracked" = "Нет записей за последние 30 дней";
+"type_details.items" = "Подтипы/подгруппы";
+"type_details.empty.title" = "Нет подтипов/подгрупп";
+"type_details.empty.description" = "Чтобы добавить подтип или подгруппу нажмите \"+\" в правом верхнем углу";
+"type_details.last_activity" = "Последняя активность: %@";
+"type_details.last_activity.running" = "Последняя активность: активно сейчас";
+"type_details.last_activity.empty" = "Последняя активность: нет записей";
+"type_details.average" = " Среднее/запись";
+"type_details.average_day" = "Среднее/день";
+"type_details.total" = "Всего за период";
+
+"edit_type.field.group" = "Группа";
+"edit_type.field.name" = "Имя";
+"edit_type.field.icon" = "Картинка";
+"edit_type.field.color" = "Цвет";
+"edit_type.delete.message" = "Удалить тип?";
+"edit_type.empty_name.message" = "Имя не может быть пустым";
+
+"archived.title" = "Архив";
+
+"select_color.title" = "Выберите цвет";
+"select_color.picker" = "Выбор: %@";
+"select_color.predefined" = "Предустановленные";
+"select_color.manual" = "Вручную";
+
+"select_icon.title" = "Выберите картинку";
+
+"select_move_to.action.move_to_top" = "Переместить в верхний уровень";
+
+/**
+ Goals
+ */
+"goals.archived" = "Архив";
+"goals.title" = "Цели";
+"goals.order.title" = "Сортировка: %@";
+"goals.order.manual" = "Вручную";
+"goals.order.by_name" = "По имени";
+"goals.empty.title" = "Нет целей";
+"goals.empty.description" = "У Вас нет целей. Создавайте цели нажав на \"+\" и достигайте их";
+"goals.delete.title" = "Удалить цель?";
+"goals.field.name" = "Имя";
+"goals.field.goal_type" = "Тип";
+"goals.field.goal_type.limit" = "Ограничить";
+"goals.field.goal_type.reach" = "Достигнуть";
+"goals.field.based_on" = "Основано на";
+"goals.field.based_on.duration" = "Длительность";
+"goals.field.based_on.occurrence" = "Количество";
+"goals.field.types" = "Типы";
+"goals.field.tags" = "Метки";
+"goals.field.alerts" = "Предупреждения";
+"goals.field.alerts.no_alerts" = "Нет";
+"goals.field.alert_sound" = "Звук";
+"goals.field.alert_sound.no_sound" = "Нет";
+"goals.field.alerts.value" = "%ld";
+"goals.field.alerts.action.add" = "Добавить еще";
+"goals.field.alerts.at_time_of_event" = "Время достижения цели";
+"goals.field.alerts.before_event" = "%d мин до цели";
+"goals.field.alerts.after_event" = "%d мин после цели";
+"goals.field.types.value" = "%ld типов";
+"goals.field.tags.value" = "%ld меток";
+
+"goals.notification.time_limit_reached" = "Внимание! Лимит времени цели \"%@\" истек";
+"goals.notification.time_limit_will_reach" = "Лимит времени цели \"%@\" истечет через %d минут";
+"goals.notification.time_limit_has_been_reached" = "Лимит времени \"%@\" истек %d минут назад";
+"goals.notification.goal_reached" = "Поздравляем! Цель достигнута: \"%@\"";
+"goals.notification.goal_will_reach" = "Вы достигните цель \"%@\" через %d минут";
+"goals.notification.goal_has_been_reached" = "Цель \"%@\" была достигнута %d минут назад";
+"goals.notification.occurrence_reached" = "Поздравляем! Вы достигли цель: \"%@\"";
+"goals.notification.occurrence_limit_reached" = "Внимание! Лимит в цели \"%@\" исчерпан";
+
+"goal_details.title" = "Цель";
+"goal_details.action.archive" = "Архивировать";
+"goal_details.action.unarchive" = "Разархивировать";
+"goal_details.unarchive.message" = "Разархивировать цель?";
+"goal_details.archive.message" = "Архивировать цель?";
+"goal_details.last10_days.title" = "Последние 10 дней";
+"goal_details.last30_days.title" = "Последние 30 дней";
+"goal_details.last10_weeks.title" = "Последние 10 недель";
+"goal_details.last10_months.title" = "Последние 10 месяцев";
+"goal_details.last10_activities.title" = "Последние 10 активностей";
+"goal_details.last10_intervals.title" = "Последние 10 интервалов";
+"goal_details.stats.line.goal_value" = "Цель";
+"goal_details.stats.average" = "Среднее";
+"goal_details.stats.total" = "Всего";
+"goal_details.stats.success" = "Успешно";
+
+"edit_goal.title" = "Ред";
+"edit_goal.error.empty_name" = "Имя не может быть пустым";
+"edit_goal.error.types" = "Выберите тип/типы";
+"edit_goal.error.duration_or_occurence" = "Длительность не может быть пустой";
+"edit_goal.goal_type.activity" = "активность";
+"edit_goal.goal_type.interval" = "интервал";
+"edit_goal.goal_type.day" = "день";
+"edit_goal.goal_type.week" = "неделя";
+"edit_goal.goal_type.month" = "месяц";
+"edit_goal.goal_type.total" = "всего";
+
+"goal.description.duration_per_activity" = "%@ за активность";
+"goal.description.duration_per_interval" = "%@ за интервал";
+"goal.description.duration_per_day" = "%@ в день";
+"goal.description.duration_per_week" = "%@ в неделю";
+"goal.description.duration_per_month" = "%@ в месяц";
+"goal.description.duration_total" = "%@ всего";
+"goal.description.occurrence_per_day" = "%d раза в день";
+"goal.description.occurrence_per_week" = "%d раза в неделю";
+"goal.description.occurrence_per_month" = "%d раза в месяц";
+
+"goal.average.occurrence_per_day" = "%.1f раза в день";
+"goal.average.occurrence_per_week" = "%.1f раза в неделю";
+"goal.average.occurrence_per_month" = "%.1f раза в месяц";
+
+/**
+Tags
+*/
+"tags.edit.title" = "Метки";
+"tags.edit.placeholder.nonempty" = "Выберите метки из списка или введите новые";
+"tags.edit.placeholder.empty" = "Введите новую метку";
+"tags.edit.placeholder.readonly" = "Выберите метки из списка";
+
+"more.title" = "Еще";
+
+"select_value.title" = "Выберите значение";
+
+"Activities" = "Активности";
+"History" = "История";
+"Types" = "Типы";
+"Goals" = "Цели";
+"Reports" = "Отчеты";
+"%@ per activity" = "%@ за активность";
+
+/**
+  Pomodoros
+ */
+"pomodoro.title" = "Pomodoro";
+"pomodoro.history" = "История";
+"pomodoro.statistics" = "Статистика";
+"pomodoro.time_tracked" = "Записано: %@";
+"pomodoro.action.reset" = "Сброс";
+"pomodoro.action.short_break" = "Короткий перерыв";
+"pomodoro.action.long_break" = "Долгий перерыв";
+"pomodoro.title.quit" = "Выйти из режима Pomodoro?";
+"pomodoro.action.quit" = "Выход";
+"pomodoro.action.break" = "Перерыв";
+"pomodoro.title.resume_previous" = "Возобновить предыдущую активность?";
+"pomodoro.action.resume_previous" = "Начать предыдущий";
+"pomodoro.action.start_new" = "Начать новый";
+"pomodoro.action.resume" = "Возобновить";
+"pomodoro.action.more" = "Еще";
+"pomodoro.title.select_work_type" = "Выберите тип работы";
+"pomodoro.title.select_break_type" = "Выберите тип отдыха";
+"pomodoro.title.reset" = "Сбросить Pomodoro?";
+"pomodoro.completed" = "%d из %d";
+"pomodoro.notification.work_complete" = "Время сделать перерыв";
+"pomodoro.notification.short_break_complete" = "Короткий перерыв закончен. Пора немного поработать";
+"pomodoro.notification.long_break_complete" = "Долгий перерыв закончен. Пора немного поработать";
+
+"pomodoro.history.header.completed" = "%d из %d завершено";
+"pomodoro.history.action.message" = "Вы можете удалить интервал только из Pomodoro или полностю из истории";
+"pomodoro.history.action.remove_interval" = "Удалить полностью";
+"pomodoro.history.action.remove_interval_from_pomodoro" = "Удалить из Pomodoro";
+
+"pomodoro.stats.total" = "Всего";
+"pomodoro.stats.completed" = "Завершенные";
+"pomodoro.stats.uncompleted" = "Незавершенные";
+"pomodoro.stats.average_completed_day" = "Среднее время за день";
+"pomodoro.stats.average_completed_duration" = "Среднее время завершенных";
+"pomodoro.stats.average_break_duration" = "Среднее время отдыха";
+"pomodoro.stats.header.daily" = "Статистика по дням";
+
+"pomodoro.stats.bar.completed" = "Завершенные";
+"pomodoro.stats.bar.uncompleted" = "Незавершенные";
+"pomodoro.stats.bar.break" = "Перерыв";
+"pomodoro.stats.line.daily_goal" = "Дневная цель";
+
+/**
+ Remind me
+*/
+"remind_me.title.what_are_you_doing" = "Чем Вы сейчас занимаетесь?";
+"remind_me.title.what_are_you_doing_running" = "Чем Вы сейчас занимаетесь? Активно: %@";
+"remind_me.action.change" = "Изменить";
+"remind_me.action.start" = "Начать активность";
+
+/**
+ Reports
+ */
+"reports.title" = "Отчеты";
+"reports.type.custom" = "Создать";
+"reports.type.predefined" = "Предустановленные";
+"reports.type.user" = "Сохраненные";
+"reports.type.range_type" = "Промежуток";
+"reports.type.predefined.today" = "Сегодня";
+"reports.type.predefined.this_week" = "Эта неделя";
+"reports.type.predefined.this_month" = "Этот месяц";
+"reports.type.predefined.last_10_days" = "Последние 10 дней";
+"reports.type.predefined.last_30_days" = "Последние 30 дней";
+"reports.type.predefined.yesterday" = "Вчера";
+"reports.type.predefined.last_week" = "Предыдущая неделя";
+"reports.type.predefined.last_month" = "Предыдущий месяц";
+"reports.range_picker.range_type" = "Range type";
+"reports.range_picker.manual" = "Вручную";
+"reports.range_picker.predefined" = "Предустановленные";
+"reports.premium.message" = "Количество пользовательских фильтров ограничено в бесплатном аккаунте";
+"report.title" = "Отчет";
+"report.action.select_format" = "Выберите формат";
+"report.action.create" = "Создать";
+"report.action.export" = "Экспорт";
+"report.action.batch_remove" = "Удалить все";
+"report.action.save_to" = "Сохранить в Документы";
+"report.action.send_by_email" = "Отправить E-Mail";
+"report.action.collapse_expand" = "Свернуть/развернуть все";
+"report.title.saved" = "Сохранено успешно";
+"report.params.types" = "Типы";
+"report.params.types.value" = "%ld типов";
+"report.params.tags" = "Метки";
+"report.params.tags.value" = "%ld меток";
+"report.params.date_range" = "Промежуток";
+"report.params.show_other" = "Показывать \"Другое\"";
+"report.params.from" = "Начало";
+"report.params.to" = "Конец";
+"report.type.total" = "Общая статистика";
+"report.type.history" = "История";
+"report.type.pie" = "Диаграмма";
+"report.type.daily_total" = "Общее по дням";
+"report.type.daily_bar" = "История по дням";
+"report.type" = "Тип: %@";
+"report.empty.title" = "Нет записей";
+"report.empty.description" = "Нет записей для выбранных параметров";
+"report.statistics.date_range" = "Промежуток";
+"report.statistics.total" = "Общее";
+"report.title.batch_remove" = "Вы уверены что хотите удалить все записи?";
+"report.title.remove" = "Удалить отчет?";
+
+/**
+ Places
+ */
+"places.field.name" = "Имя";
+"places.field.location" = "Геолокация";
+"places.field.notify_on_entry" = "Уведомление при входе";
+"places.field.notify_on_exit" = "Уведомление при выходе";
+"places.delete.title" = "Удалить место?";
+"places.field.exit_types" = "Типы при выходе";
+"places.field.entry_types" = "Типы при входе";
+"places.field.exit_types.value" = "%ld типов";
+"places.field.entry_types.value" = "%ld типов";
+
+"places.empty.title" = "Нет созданных мест";
+"places.empty.description" = "Вы сможете чекиниться в разных местах и получать гео уведомления";
+
+"places.premium.message" = "Количество мест ограничено 2 для бесплатной учетной записи";
+
+"edit_place.error.empty_name" = "Имя места не может быть пустым";
+"place.notification.location_changed" = "Ваше местоположение изменилось";
+"place.notification.entered" = "Вы вошли в \"%@\"";
+"place.notification.leaving" = "Вы покидаете \"%@\"";
+"place.notification.start_new" = "Начать новую активность";
+"place.notification.start" = "Начать \"%@\"";
+"place.notification.pause" = "Пауза \"%@\"";
+
+"select_location.title" = "Выберите место";
+"select_location.subtitle" = "Карта: %@";
+"select_location.provider.apple" = "Apple";
+"select_location.provider.baidu" = "Baidu";
+"select_location.tap_and_drag" = "Чтобы изменить позицию нажмите на нее, а после передвиньте";
+
+/**
+ Settings
+ */
+"settings.title" = "Настройки";
+"settings.sections.activities" = "Активности";
+
+"settings.action_on_start.name" = "Действие при старте";
+"settings.action_on_start.description" = "При старте новой активности текущая активность может быть остановлена автоматически или продолжать запись";
+"settings.action_on_start.values.none" = "Нет";
+"settings.action_on_start.values.pause" = "Пауза";
+"settings.action_on_start.values.stop" = "Остановка";
+
+"settings.default_edit_field.name" = "Поле ред по умолчанию";
+"settings.default_edit_field.description" = "Поле редактирования по умолчанию на экране редактирования интервала";
+"settings.default_edit_field.values.from" = "Начало";
+"settings.default_edit_field.values.to" = "Конец";
+
+"settings.min_duration.name" = "Мин. длительность";
+"settings.min_duration.description" = "Активность не сохраняется если длительность меньше заданного значения";
+"settings.min_duration.none" = "Нет";
+"settings.min_duration.10_sec" = "10 секунд";
+"settings.min_duration.1_min" = "1 минута";
+"settings.min_duration.5_min" = "5 минут";
+
+"settings.picker_increment.name" = "Длина шага";
+"settings.picker_increment.description" = "Длина шага при выборе времени и длительности";
+"settings.picker_increment.1_min" = "1 минута";
+"settings.picker_increment.2_min" = "2 минуты";
+"settings.picker_increment.5_min" = "5 минут";
+"settings.picker_increment.10_min" = "10 минут";
+"settings.picker_increment.15_min" = "15 минут";
+
+"settings.activity.pauses" = "Пауза";
+"settings.activity.pauses.description" = "";
+
+"settings.sections.warnings" = "Предупреждения";
+
+"settings.warn_on_actions.name" = "При действиях";
+"settings.warn_on_actions.description" = "Предупреждения показываются при старте/остановке/паузе активностей";
+
+"settings.sections.advanced" = "Продвинутые";
+
+"settings.remind_me.name" = "Напоминания";
+"settings.remind_me.description" = "TODO";
+"settings.remind_me.title" = "Напоминания";
+"settings.remind_me.hours" = "Время";
+"settings.remind_me.alert_sound" = "Звук напоминания";
+"settings.remind_me.interval" = "Интервал";
+
+"settings.comment_on_start.name" = "Комментарий при старте";
+"settings.comment_on_start.description" = "После старта активности показывается поле с комментарием";
+
+"settings.comment_on_stop.name" = "Комментарий при остановке";
+"settings.comment_on_stop.description" = "После остановки активности показывается поле с комментарием";
+
+"settings.sections.appearance" = "Внешний вид";
+"settings.theme.name" = "Тема";
+"settings.theme.name.light" = "Светлая";
+"settings.theme.name.dark" = "Темная";
+"settings.goal_progress.name" = "Прогресс цели";
+"settings.goal_progress.gray" = "Серый";
+"settings.goal_progress.colored" = "Цветной";
+"settings.navigation" = "Навигация";
+"settings.navigation.left_menu" = "Меню слева";
+"settings.navigation.tab_bar" = "Вкладки";
+
+"settings.sections.history" = "История";
+"settings.history.order.title" = "Сортировка";
+"settings.history.order.asc" = "Возр";
+"settings.history.order.desc" = "Убыв";
+"settings.history.pie_view_mode.title" = "Круговая диаграмма";
+"settings.history.pie_view_mode.grouped" = "Группы";
+"settings.history.pie_view_mode.types_only" = "Только типы";
+"settings.history.pie_view_mode.description" = "";
+
+"settings.show_types_hierarchy.name" = "Показывать иерархию типов";
+"settings.show_types_hierarchy.description" = "Экран типов показывает группы в развернутом виде";
+
+"settings.show_seconds.name" = "Секунды в отчетах";
+"settings.show_seconds.description" = "";
+
+"settings.first_day_of_week.name" = "Первый день недели";
+"settings.first_day_of_week.monday" = "Понедельник";
+"settings.first_day_of_week.tuesday" = "Вторник";
+"settings.first_day_of_week.wednesday" = "Среда";
+"settings.first_day_of_week.thursday" = "Четверг";
+"settings.first_day_of_week.friday" = "Пятница";
+"settings.first_day_of_week.saturday" = "Суббота";
+"settings.first_day_of_week.sunday" = "Воскресенье";
+
+"settings.warn_on_intersection.name" = "Пересечения";
+"settings.warn_on_intersection.description" = "При пересечении записей показывается сообщение и варианты редактирования";
+
+"settings.activity.main_timer" = "Главный таймер";
+"settings.activity.main_timer.description" = "";
+"settings.activity.main_timer.total" = "Общее";
+"settings.activity.main_timer.running" = "Текущее";
+
+"settings.activity.secondary_timer" = "Вспомогательный таймер";
+"settings.activity.secondary_timer.description" = "TODO";
+"settings.activity.secondary_timer.no_timer" = "Нет";
+"settings.activity.secondary_timer.total" = "Общее";
+"settings.activity.secondary_timer.running" = "Текущее";
+"settings.activity.secondary_timer.goal_left" = "Прогресс цели";
+
+"settings.activity.lock_screen" = "Блокировка экрана активностей";
+"settings.activity.lock_screen.description" = "В случае отключения экран активностей не будет блокироваться";
+
+"settings.activity.flat_types" = "Flat types";
+"settings.activity.flat_types.description" = "TODO";
+
+"settings.pomodoro.title" = "Pomodoro";
+"settings.pomodoro.name" = "Pomodoro";
+"settings.pomodoro.enabled.name" = "Pomodoro";
+"settings.pomodoro.rest_types.select" = "Выберите";
+"settings.pomodoro.rest_types.name" = "Типы отдыха";
+"settings.pomodoro.work_types.name" = "Типы работы";
+"settings.pomodoro.work_types.select" = "Выберите";
+"settings.pomodoro.pomodoro_length" = "Длина Pomodoro";
+"settings.pomodoro.pomodoro_length.1min" = "1 минута";
+"settings.pomodoro.pomodoro_length.2min" = "2 минуты";
+"settings.pomodoro.pomodoro_length.5min" = "5 минут";
+"settings.pomodoro.pomodoro_length.10min" = "10 минут";
+"settings.pomodoro.pomodoro_length.15min" = "15 минут";
+"settings.pomodoro.pomodoro_length.20min" = "20 минут";
+"settings.pomodoro.pomodoro_length.25min" = "25 минут";
+"settings.pomodoro.pomodoro_length.30min" = "30 минут";
+"settings.pomodoro.pomodoro_length.35min" = "35 минут";
+"settings.pomodoro.pomodoro_length.40min" = "40 минут";
+"settings.pomodoro.pomodoro_length.45min" = "45 минут";
+"settings.pomodoro.pomodoro_length.50min" = "50 минут";
+"settings.pomodoro.pomodoro_length.55min" = "55 минут";
+"settings.pomodoro.pomodoro_length.60min" = "1 час";
+"settings.pomodoro.pomodoros_a_day" = "Pomodoro в день";
+"settings.pomodoro.work_alert" = "Звук для работы";
+"settings.pomodoro.rest_alert" = "Звук для перерыва";
+"settings.pomodoro.short_break_length" = "Длина короткого отдыха";
+"settings.pomodoro.long_break_length" = "Длина длинного отдыха";
+"settings.pomodoro.mode.title" = "Режим Pomodoro";
+"settings.pomodoro.mode.simple.title" = "Обычный";
+"settings.pomodoro.mode.strict.title" = "Строгий";
+"settings.pomodoro.work_tick_sound" = "Звук помодоро";
+"settings.pomodoro.break_tick_sound" = "Звук отдыха";
+
+"settings.stats_calculation.name" = "Статистика";
+"settings.stats_calculation.intersection_on" = "С пересечениями";
+"settings.stats_calculation.intersection_off" = "Без пересечений";
+
+"settings.changes_applied" = "Изменения станут активными после перезагрузки приложения";
+
+"settings.sections.formatting" = "Форматирование";
+"settings.formatter.date" = "Дата";
+"settings.formatter.time" = "Время";
+
+"settings.show_sync_error.name" = "Отображение ошибок синхронизации";
+"settings.show_sync_error.description" = "";
+
+"activities.pomodoro.break.title" = "Отдых";
+
+/**
+ Account
+*/
+"account.title" = "Пользователь";
+"account.action.signout" = "Выйти";
+"account.action.force_sync" = "Синхронизация";
+"account.signout.warning" = "Несинхронизированные данные будут утеряны. Вы уверены?";
+"account.last_sync.unknown" = "Последняя синхронизация неизвестна";
+"account.expired" = "Премиум закончился. Нажмите чтобы продолжить";
+"account.free" = "Бесплатный аккаунт. Попробовать премиум";
+"account.expires" = "Премиум ( действует до %@ )";
+"account.last_sync.at" = "Успешная синхронизация: %@";
+"account.last_sync.failed" = "Неудачная синхронизация: %@. Сообщение: %@";
+
+/**
+ Subscribe
+*/
+"subscribe.title" = "Подписка";
+"subscribe.enable.title" = "Внутренние покупки не включены";
+"subscribe.enable.message" = "Включите их в Настройках";
+"subscribe.settings" = "Настройки";
+
+/**
+ About
+*/
+"about.title" = "О программе";
+"about.contact_support.title" = "Связаться с разработчиками";
+"about.send_db_file.title" = "Послать файл базы";
+"about.send_log_file.title" = "Послать файл с логами";
+"about.send_watch_log_file.title" = "Послать файл с логами часов";
+"about.force_crash.title" = "Вызвать ошибку";
+"about.version" = "Версия: %@";
+"about.export.title" = "Импортировать из aTimeLogger";
+"about.thanks.title" = "Спасибо";
+"about.review.title" = "Написать отзыв в AppStore";
+"about.view_watch_info.title" = "Инфо об Apple Watch";
+
+/**
+ Today Extension
+ */
+"today.action.hide" = "Скрыть";
+"today.action.more" = "Еще";
+
+/**
+ Help
+*/
+"help.title" = "Помощь";
+"help.load_error.title" = "Ошибка";
+"help.load_error.description" = "Ошибка при загрузке файла с помощью. Проверьте соединение и попробуйте еще раз";
+"help.reload" = "Обновить";
+"help.quick_tutorial.title" = "Введение";
+"help.manual.title" = "Инструкция";
+
+"quick_tour.title" = "Введение";
+"quick_tour.action.skip" = "Пропустить";
+
+"quick_tour.page1.title" = "Старт активности";
+"quick_tour.page1.description" = "Нажмите на иконку чтобы начать активность";
+
+"quick_tour.page2.title" = "Остановка активности";
+"quick_tour.page2.description" = "Нажмите на кнопку стоп, что остановить активность";
+
+"quick_tour.page3.title" = "История";
+"quick_tour.page3.description" = "Вы можете просматривать историю своих записей на вкладке Истории";
+
+"quick_tour.page4.title" = "История ч.2";
+"quick_tour.page4.description" = "Вы можете посмотреть историю в форме диаграммы, а также сменить рассматриваемый промежуток времени";
+
+"quick_tour.page5.title" = "Тип (Категория)";
+"quick_tour.page5.description" = "Чтобы создать свой тип активности нажмите кнопку \"+\" в правом верхнем углу";
+
+"quick_tour.page6.title" = "Тип (Категория)";
+"quick_tour.page6.description" = "Введите имя, выберите иконку и цвет. Здесь Вы также можете создать группу, а затем поместить в нее другие типы";
+
+"quick_tour.page7.title" = "Цели";
+"quick_tour.page7.description" = "Используйте цели, если Вы хотите что-то ограничить или достичь";
+
+"quick_tour.page8.title" = "Статистика цели";
+"quick_tour.page8.description" = "На экране конкретной цели можно увидеть статистику за предыдущие промежутки";
+
+"quick_tour.page9.title" = "Отчеты";
+"quick_tour.page9.description" = "Вы можете создать отчет, основанный на различных параметрах и экспортировать в CSV или HTML";
+
+"quick_tour.page10.title" = "Отчеты";
+"quick_tour.page10.description" = "Отчеты содержат общую статистику, историю, дневные графики и т.д";
+
+"quick_tour.page11.title" = "И многое другое";
+"quick_tour.page11.description" = "Метки, pomodoro, веб приложение, темы, огромное количество настроек. Обо всем этом Вы можете узнать в Инструкции. \n\nМы открыты для любых предложений. Не стесняйтесь - пишите";
+
+/**
+ Armchair
+ */
+"If you enjoy using %@, would you mind taking a moment to rate it? It won't take more than a minute. Thanks for your support!" = "Если Вам нравится %@, пожалуйста, поставьте свою оценку. Это займет у Вас не больше одной минуты.\n Спасибо за поддержку!";
+"Rate %@" = "Оценить %@";
+"No, Thanks" = "Нет, спасибо";
+"Remind me later" = "Напомнить позже";
+
+/**
+ Watch
+ */
+"complication.start" = "Начать";
+"complication.no_running" = "Нет активностей";
+"watch.warning.first_sync" = "Откройте приложение на телефоне для первой синхронизации";
