@@ -119,7 +119,7 @@
 "menu.reports" = "レポート";
 "menu.settings" = "環境設定";
 "menu.account" = "Account";
-"menu.help" = "Help";
+"menu.help" = "ヘルプ";
 "menu.about" = "このアプリについて";
 "menu.more" = "設定";
 "menu.places" = "Places";
@@ -149,7 +149,7 @@
 "edit_activity.field.tags" = "Tags";
 "edit_activity.field.start" = "開始";
 "edit_activity.field.place" = "Place";
-"edit_activity.intervals" = "Intervals";
+"edit_activity.intervals" = "期間";
 "edit_activity.running" = "記録中";
 "edit_activity.paused" = "中断";
 "edit_activity.stopped" = "停止";
@@ -169,7 +169,7 @@
 "edit_interval.field.from" = "開始";
 "edit_interval.field.to" = "終了";
 "edit_interval.field.duration" = "記録時間";
-"edit_interval.field.calendar_event" = "Calendar event";
+"edit_interval.field.calendar_event" = "Calendar event"; // you can skip it now, calendar integration won't be included in 1.2
 "edit_interval.now" = "今";
 "edit_interval.duration.hours" = "%d時間";
 "edit_interval.duration.minutes" = "%d分";
@@ -185,14 +185,14 @@ Pomodoros
  */
 "history.title" = "履歴";
 "history.pie.show_untracked" = "非記録時間";
-"history.empty.title" = "この期間には記録がありません";
+"history.empty.title" = "この期間には記録がありません"; // need something shorter
 "history.empty.description" = "Nothing tracked for selected period. Choose another period or start logging your time";
 "history.range.today" = "今日";
 "history.range.day" = "日";
 "history.range.week" = "週";
 "history.range.month" = "月";
-"history.view.list" = "履歴リストの表示";
-"history.view.pie" = "円グラフの表示";
+"history.view.list" = "履歴リストの表示"; // need something shorter
+"history.view.pie" = "円グラフの表示"; // need something shorter
 "history.view.calendar" = "Calendar";
 "history.time_tracked" = "合計時間: %@";
 "history.title.delete_interval" = "Are you sure you want to delete this interval?";
@@ -206,7 +206,7 @@ Pomodoros
 "types.order.title" = "並び替え: %@";
 "types.order.manual" = "Manual";
 "types.order.by_name" = "名前";
-"types.archived" = "アーカイブしたアクティビティの種類";
+"types.archived" = "アーカイブしたアクティビティの種類"; // need something shorter
 
 "type_details.title" = "Type details";
 "type_details.action.move" = "移動する ...";
@@ -214,7 +214,7 @@ Pomodoros
 "type_details.action.unarchive" = "アーカイブから復元";
 "type_details.unarchive.message" = "アクティビティの種類をアーカイブから復元？";
 "type_details.archive.message" = "アクティビティの種類をアーカイブ？";
-"type_details.archived" = "アーカイブしたアクティビティの種類";
+"type_details.archived" = "アーカイブしたアクティビティの種類";  // need something shorter
 "type_details.last_30_days" = "Last 30 days";
 "type_details.last_30_days_nothing_tracked" = "Nothing tracked for last 30 days";
 "type_details.items" = "項目";
@@ -231,6 +231,7 @@ Pomodoros
 "edit_type.field.name" = "名前";
 "edit_type.field.icon" = "アイコン";
 "edit_type.field.color" = "色";
+"edit_type.field.calendar" = "Calendar";
 "edit_type.delete.message" = "アクティビティの種類を削除するとその記録がすべて削除されます。よろしいですか？";
 "edit_type.empty_name.message" = "Name cannot be empty";
 
@@ -258,7 +259,7 @@ Pomodoros
 "goals.delete.title" = "目標を削除？";
 "goals.field.name" = "名前";
 "goals.field.goal_type" = "目標の種類";
-"goals.field.goal_type.limit" = "Limit"; // it was limit duration before but now it can also be limit occurrence 
+"goals.field.goal_type.limit" = "Limit"; // it was limit duration before but now it can also be limit occurrence
 "goals.field.goal_type.reach" = "Reach"; //
 "goals.field.based_on" = "Based on";
 "goals.field.based_on.duration" = "Duration";
@@ -280,7 +281,7 @@ Pomodoros
 "goals.notification.time_limit_reached" = "注意！'%@'の目標の制限期間に達しました。";
 "goals.notification.time_limit_will_reach" = "Time limit of goal \"%@\" will be reached in %d minutes";
 "goals.notification.time_limit_has_been_reached" = "Time limit of goal \"%@\" has been reached %d minutes ago";
-"goals.notification.goal_reached" = ""おめでとう！目標を果たした：'%@'";
+"goals.notification.goal_reached" = "おめでとう！目標を果たした：'%@'";
 "goals.notification.goal_will_reach" = "You will reach goal \"%@\" in %d minutes";
 "goals.notification.goal_has_been_reached" = "Goal \"%@\" has been reached %d minutes ago";
 "goals.notification.occurrence_reached" = "Congratulations! You reached the goal: \"%@\"";
@@ -306,7 +307,7 @@ Pomodoros
 "edit_goal.error.empty_name" = "Name cannot be empty";
 "edit_goal.error.types" = "At least 1 type should be selected";
 "edit_goal.error.duration_or_occurence" = "Duration or occurrence should be selected";
-"edit_goal.goal_type.activity" = "activity"; 
+"edit_goal.goal_type.activity" = "activity";
 "edit_goal.goal_type.interval" = "interval";
 "edit_goal.goal_type.day" = "day";
 "edit_goal.goal_type.week" = "week";
@@ -550,7 +551,7 @@ Tags
 "settings.history.order.asc" = "Ascending";
 "settings.history.order.desc" = "Descending";
 "settings.history.pie_view_mode.title" = "Pie view mode";
-"settings.history.pie_view_mode.grouped" = "Grouped";
+"settings.history.pie_view_mode.grouped" = "Grouped"; // top groups and activity types OR activity types only
 "settings.history.pie_view_mode.types_only" = "Types only";
 "settings.history.pie_view_mode.description" = "";
 
@@ -560,7 +561,7 @@ Tags
 "settings.show_seconds.name" = "Display seconds";
 "settings.show_seconds.description" = "Display seconds in report";
 
-"settings.first_day_of_week.name" = "First day of week";
+"settings.first_day_of_week.name" = "開始曜日";
 "settings.first_day_of_week.monday" = "月曜日";
 "settings.first_day_of_week.tuesday" = "火曜日";
 "settings.first_day_of_week.wednesday" = "水曜日";
