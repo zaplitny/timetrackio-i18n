@@ -1,6 +1,743 @@
+"Sleep" = "Sleep";
+"Transport" = "Transport";
+"Work" = "Work";
+"Eat" = "Eat";
+"Sport" = "Sport";
+"Read" = "Read";
+"Shop" = "Shop";
+"Entertainment" = "Entertainment";
+"Housework" = "Housework";
+"Cinema" = "Cinema";
+"Walk" = "Walk";
+"Study" = "Study";
+"Internet" = "Internet";
+"Drink" = "Drink";
+
+"history.title" = "History";
+
+"first_run.sign_in" = "Already a Member?";
+"first_run.sign_up" = "Get Started";
+
+"first_run_setup.message.import" = "Do you want to use predefined types or import data from aTimeLogger 2?";
+"first_run_setup.action.init_with_default" = "Use predefined";
+"first_run_setup.action.import" = "Import data from aTimeLogger";
+
+"import.action.import" = "Import";
+
+"sign_up.error.empty_email" = "Email cannot be empty";
+"sign_up.error.invalid_email" = "Email is not valid";
+"sign_up.error.empty_password" = "Password cannot be empty";
+"sign_up.error.password_match" = "Password and repeat password fields do not match";
+
+/**
+ Common
+*/
+"common.title.warning" = "Warning";
+"common.title.edit" = "Edit";
+"common.action.cancel" = "Cancel";
+"common.action.save" = "Save";
+"common.action.delete" = "Delete";
+"common.action.edit" = "Edit";
+"common.action.close" = "Close";
+"common.action.back" = "Back";
+"common.action.select" = "Select";
+"common.action.select_type" = "Select type";
+"common.action.select_types" = "Select types";
+"common.action.select_tags" = "Select tags";
+"common.action.select_deselect" = "Select/deselect all";
+"common.action.add_before" = "Add";
+"common.action.select_place" = "Select place";
+"common.title.loading" = "Loading ...";
+"common.title.syncing" = "Syncing ...";
+"common.email.placeholder" = "Enter your email";
+"common.first_name.placeholder" = "Your first name";
+"common.last_name.placeholder" = "Your last name";
+"common.password.placeholder" = "Enter your password";
+"common.repeat_password.placeholder" = "Repeat your password";
+"common.enabled" = "Enabled";
+"common.disabled" = "Disabled";
+"common.minutes" = "%ld min";
+"common.premium.message" = "The feature is available only for PRO account";
+"common.premium.try_10_days" = "Try 10 days for FREE";
+"common.premium.purchase" = "Upgrade";
+"common.premium.try_10_days_activated" = "Premium features will be available 10 days for FREE";
+"common.mail_disabled.title" = "Mail cannot be sent";
+"common.mail_disabled.description" = "Please set up email account";
+"common.title.sync_failed" = "Sync failed";
+"common.action.retry" = "Retry";
+
+/**
+ Sign In
+ */
+"sign_in.sign_in" = "Sign In";
+"sign_in.forgot" = "Forgot password?";
+
+"sign_up.sign_up" = "Sign Up";
+"User already exists" = "User with such email already exists. If you have aTimeLogger account sign in with its credentials";
+
+"error.invalid_grant" = "Invalid username/password";
+"error.unknown" = "Unknown error occurred. Contact us at support@timetrack.io";
+
+/**
+ First run
+*/
+"first_run.page1.title" = "Track with ease";
+"first_run.page1.description" = "Start tracking an activity with a single tap! Simply open the app and tap on the appropriate activity type icon.";
+"first_run.page2.title" = "Daily log";
+"first_run.page2.description" = "Review your activities day by day and see how your productivity improves.";
+"first_run.page3.title" = "Visualize data";
+"first_run.page3.description" = "Statistics are available in form of bar or pie chart. Everybody likes charts!";
+"first_run.page4.title" = "Reach goals";
+"first_run.page4.description" = "Create goals and reach them. When a goal is reached, you will be notified by the app.";
+
+/**
+ First sync
+*/
+"first_sync.title" = "";
+"first_sync.status.get_user_info" = "";
+"first_sync.progress.get_user_info" = "Loading account info...";
+"first_sync.status.sync_data" = "";
+"first_sync.progress.sync_data" = "Sync data...";
+
+/**
+ Restore
+ */
+"restore.title" = "Restore password";
+"restore.action.restore" = "Restore password";
+"restore.message.success" = "Message with instructions has been sent to your email";
+"restore.message.failure" = "Error occured while send instructions. Check your email and try again later or contact support";
+"restore.message.email_invalid" = "Email is not valid";
+
+/**
+ Menu
+*/
+"menu.activities" = "Activities";
+"menu.history" = "History";
+"menu.pomodoro" = "Pomodoro";
+"menu.types" = "Types";
+"menu.goals" = "Goals";
+"menu.reports" = "Reports";
+"menu.settings" = "Settings";
+"menu.account" = "Account";
+"menu.help" = "Help";
+"menu.about" = "About";
+"menu.more" = "More";
+"menu.places" = "Places";
+
+/**
+ Activities
+ */
+"activities.empty.title" = "No types";
+"activities.empty.description" = "You have no types. To create new type press on \"+\" button on \"Types\" tab";
+"activities.title" = "Activities";
+"activities.action.start" = "Start";
+"activities.action.stop" = "Stop";
+"activities.action.resume" = "Resume";
+"activities.action.pause" = "Pause";
+"activities.action.start_pomodoro" =  "Start Pomodoro";
+"activities.action.start_usual" = "Start Usual";
+"activities.start.message" = "Start activity?";
+"activities.stop.message" = "Stop activity?";
+"activities.pause.message" = "Pause activity?";
+"activities.resume.message" = "Resume activity?";
+"activities.start_pomodoro.message" = "Do you want to start it as pomodoro?";
+"activities.sync.title" = "Sync";
+
+"edit_activity.title" = "Edit";
+"edit_activity.field.type" = "Type";
+"edit_activity.field.comment" = "Comment";
+"edit_activity.field.tags" = "Tags";
+"edit_activity.field.start" = "Start";
+"edit_activity.field.place" = "Place";
+"edit_activity.intervals" = "Intervals";
+"edit_activity.running" = "Running";
+"edit_activity.paused" = "Paused";
+"edit_activity.stopped" = "Stopped";
+"edit_activity.empty.description" = "Press \"+\" to add interval";
+"edit_activity.no_comment" = "No comment";
+"edit_activity.delete.message" = "Delete activity?";
+"edit_activity.error.no_type" = "Select type of activity";
+"edit_activity.error.no_intervals" = "Activity must have at least 1 interval";
+"edit_activity.action.skip_and_save" = "Skip and Save";
+"edit_activity.intersection.change" = "Change %@ to %@";
+"edit_activity.intersection.start_date_intersects" = "Start date %@ intersects interval %@";
+"edit_activity.intersection.change_start_date" = "Change start date to %@";
+"edit_activity.intersection.interval_intersects" = "Interval %@ intersects %@ (%@)";
+
+"edit_interval.title" = "Edit";
+"edit_interval.error.from_greater_to" = "From is greater than To";
+"edit_interval.field.from" = "From";
+"edit_interval.field.to" = "To";
+"edit_interval.field.duration" = "Duration";
+"edit_interval.field.calendar_event" = "Calendar event";
+"edit_interval.now" = "Now";
+"edit_interval.duration.hours" = "%d h";
+"edit_interval.duration.minutes" = "%d min";
+
+/**
+Pomodoros
+*/
+"pomodoros.empty.title" = "No pomodoros";
+"pomodoros.empty.description" = "No pomodoros for selected period. Set up pomodoro mode in settings and start tracking it on activities tab";
+
+/**
+ History
+ */
+"history.title" = "History";
+"history.pie.show_untracked" = "Show Untracked Time";
+"history.empty.title" = "Nothing tracked";
+"history.empty.description" = "Nothing tracked for selected period. Choose another period or start logging your time";
+"history.range.today" = "Today";
+"history.range.day" = "Day";
+"history.range.week" = "Week";
+"history.range.month" = "Month";
+"history.view.list" = "List";
+"history.view.pie" = "Pie";
+"history.view.calendar" = "Calendar";
+"history.time_tracked" = "Time tracked: %@";
+"history.title.delete_interval" = "Are you sure you want to delete this interval?";
+
+/**
+ Types
+ */
+"types.empty.title" = "No types";
+"types.empty.description" = "You have no types. To create new type press on \"+\" button in upper right";
+"types.title" = "Types";
+"types.order.title" = "Order: %@";
+"types.order.manual" = "Manual";
+"types.order.by_name" = "By Name";
+"types.archived" = "Archived";
+
+"type_details.title" = "Type details";
+"type_details.action.move" = "Move to";
+"type_details.action.archive" = "Archive";
+"type_details.action.unarchive" = "Unarchive";
+"type_details.unarchive.message" = "Unarchive type?";
+"type_details.archive.message" = "Archive type?";
+"type_details.archived" = "Archived";
+"type_details.last_30_days" = "Last 30 days";
+"type_details.last_30_days_nothing_tracked" = "Nothing tracked for last 30 days";
+"type_details.items" = "Items";
+"type_details.empty.title" = "No children";
+"type_details.empty.description" = "Press \"+\" to add a child group or activity type";
+"type_details.last_activity" = "Last activity: %@";
+"type_details.last_activity.running" = "Last activity: now running";
+"type_details.last_activity.empty" = "Last activity: nothing tracked";
+"type_details.average" = "Average/activity";
+"type_details.average_day" = "Average/day";
+"type_details.total" = "Total";
+
+"edit_type.field.group" = "Group";
+"edit_type.field.name" = "Name";
+"edit_type.field.icon" = "Icon";
+"edit_type.field.color" = "Color";
+"edit_type.delete.message" = "Delete type?";
+"edit_type.empty_name.message" = "Name cannot be empty";
+
+"archived.title" = "Archived";
+
+"select_color.title" = "Select color";
+"select_color.picker" = "Picker: %@";
+"select_color.predefined" = "Predefined";
+"select_color.manual" = "Manual";
+
+"select_icon.title" = "Select icon";
+
+"select_move_to.action.move_to_top" = "Move to top level";
+
+/**
+ Goals
+ */
+"goals.archived" = "Archived";
+"goals.title" = "Goals";
+"goals.order.title" = "Order: %@";
+"goals.order.manual" = "Manual";
+"goals.order.by_name" = "By Name";
+"goals.empty.title" = "No goals";
+"goals.empty.description" = "You have no goals. Create goals and reach them by pressing on \"+\"";
+"goals.delete.title" = "Delete goal?";
+"goals.field.name" = "Name";
+"goals.field.goal_type" = "Goal type";
+"goals.field.goal_type.limit" = "Limit";
+"goals.field.goal_type.reach" = "Reach";
+"goals.field.based_on" = "Based on";
+"goals.field.based_on.duration" = "Duration";
+"goals.field.based_on.occurrence" = "Occurrence";
+"goals.field.types" = "Types";
+"goals.field.tags" = "Tags";
+"goals.field.alerts" = "Alerts";
+"goals.field.alerts.no_alerts" = "No alerts";
+"goals.field.alert_sound" = "Alert sound";
+"goals.field.alert_sound.no_sound" = "No sound";
+"goals.field.alerts.value" = "%ld alerts";
+"goals.field.alerts.action.add" = "Add another alert";
+"goals.field.alerts.at_time_of_event" = "At time of event";
+"goals.field.alerts.before_event" = "%d minutes before event";
+"goals.field.alerts.after_event" = "%d minutes after event";
+"goals.field.types.value" = "%ld types";
+"goals.field.tags.value" = "%ld tags";
+
+"goals.notification.time_limit_reached" = "Attention! Time limit of goal \"%@\" has been reached.";
+"goals.notification.time_limit_will_reach" = "Time limit of goal \"%@\" will be reached in %d minutes";
+"goals.notification.time_limit_has_been_reached" = "Time limit of goal \"%@\" has been reached %d minutes ago";
+"goals.notification.goal_reached" = "Congratulations! Goal reached: \"%@\"";
+"goals.notification.goal_will_reach" = "You will reach goal \"%@\" in %d minutes";
+"goals.notification.goal_has_been_reached" = "Goal \"%@\" has been reached %d minutes ago";
+"goals.notification.occurrence_reached" = "Congratulations! You reached the goal: \"%@\"";
+"goals.notification.occurrence_limit_reached" = "Attention! Limit of occurrences for goal \"%@\" exceeded";
+
+"goal_details.title" = "Goal";
+"goal_details.action.archive" = "Archive";
+"goal_details.action.unarchive" = "Unarchive";
+"goal_details.unarchive.message" = "Unarchive goal?";
+"goal_details.archive.message" = "Archive goal?";
+"goal_details.last10_days.title" = "Last 10 days";
+"goal_details.last30_days.title" = "Last 30 days";
+"goal_details.last10_weeks.title" = "Last 10 weeks";
+"goal_details.last10_months.title" = "Last 10 months";
+"goal_details.last10_activities.title" = "Last 10 activities";
+"goal_details.last10_intervals.title" = "Last 10 intervals";
+"goal_details.stats.line.goal_value" = "Goal value";
+"goal_details.stats.average" = "Average";
+"goal_details.stats.total" = "Total";
+"goal_details.stats.success" = "Success";
+
+"edit_goal.title" = "Edit";
+"edit_goal.error.empty_name" = "Name cannot be empty";
+"edit_goal.error.types" = "At least 1 type should be selected";
+"edit_goal.error.duration_or_occurence" = "Duration or occurrence should be selected";
+"edit_goal.goal_type.activity" = "activity";
+"edit_goal.goal_type.interval" = "interval";
+"edit_goal.goal_type.day" = "day";
+"edit_goal.goal_type.week" = "week";
+"edit_goal.goal_type.month" = "month";
+"edit_goal.goal_type.total" = "total";
+
+"goal.description.duration_per_activity" = "%@ per activity";
+"goal.description.duration_per_interval" = "%@ per interval";
+"goal.description.duration_per_day" = "%@ a day";
+"goal.description.duration_per_week" = "%@ a week";
+"goal.description.duration_per_month" = "%@ a month";
+"goal.description.duration_total" = "%@ total";
+"goal.description.occurrence_per_day" = "%d times a day";
+"goal.description.occurrence_per_week" = "%d times a week";
+"goal.description.occurrence_per_month" = "%d times a month";
+
+"goal.average.occurrence_per_day" = "%.1f times a day";
+"goal.average.occurrence_per_week" = "%.1f times a week";
+"goal.average.occurrence_per_month" = "%.1f times a month";
+
+/**
+Tags
+*/
+"tags.edit.title" = "Edit Tags";
+"tags.edit.placeholder.nonempty" = "Select tags from the list or enter new";
+"tags.edit.placeholder.empty" = "Enter new tag";
+"tags.edit.placeholder.readonly" = "Select tags from the list";
+
+"more.title" = "More";
+
+"select_value.title" = "Select Value";
+
 "Activities" = "Activities";
 "History" = "History";
 "Types" = "Types";
 "Goals" = "Goals";
 "Reports" = "Reports";
 "%@ per activity" = "%@ per activity";
+
+/**
+  Pomodoros
+ */
+"pomodoro.title" = "Pomodoros";
+"pomodoro.history" = "History";
+"pomodoro.statistics" = "Statistics";
+"pomodoro.time_tracked" = "Time tracked: %@";
+"pomodoro.action.reset" = "Reset";
+"pomodoro.action.short_break" = "Short Break";
+"pomodoro.action.long_break" = "Long Break";
+"pomodoro.title.quit" = "Quit pomodoro mode?";
+"pomodoro.action.quit" = "Quit Pomodoro";
+"pomodoro.action.break" = "Break";
+"pomodoro.action.resume_previous" = "Resume Previous";
+"pomodoro.title.resume_previous" = "Resume previous activity?";
+"pomodoro.action.start_new" = "Start New";
+"pomodoro.action.resume" = "Resume";
+"pomodoro.action.more" = "More";
+"pomodoro.title.select_work_type" = "Select work type";
+"pomodoro.title.select_break_type" = "Select break type";
+"pomodoro.title.reset" = "Reset pomodoro?";
+"pomodoro.completed" = "%d of %d";
+"pomodoro.notification.work_complete" = "Time to have a break";
+"pomodoro.notification.short_break_complete" = "You had short break. It's time to work";
+"pomodoro.notification.long_break_complete" = "You had long break. It's time to work";
+
+"pomodoro.history.header.completed" = "%d out of %d completed";
+"pomodoro.history.action.message" = "You can remove the interval from pomodoros only or remove completely from history";
+"pomodoro.history.action.remove_interval" = "Remove completely";
+"pomodoro.history.action.remove_interval_from_pomodoro" = "Remove from pomodoros only";
+
+"pomodoro.stats.total" = "Total";
+"pomodoro.stats.completed" = "Completed";
+"pomodoro.stats.uncompleted" = "Uncompleted";
+"pomodoro.stats.average_completed_day" = "Average completed a day";
+"pomodoro.stats.average_completed_duration" = "Average completed duration";
+"pomodoro.stats.average_break_duration" = "Average break duration";
+"pomodoro.stats.header.daily" = "Statistics by day";
+
+"pomodoro.stats.bar.completed" = "Completed";
+"pomodoro.stats.bar.uncompleted" = "Uncompleted";
+"pomodoro.stats.bar.break" = "Break";
+"pomodoro.stats.line.daily_goal" = "Daily goal";
+
+/**
+ Remind me
+*/
+"remind_me.title.what_are_you_doing" = "What are you doing now?";
+"remind_me.title.what_are_you_doing_running" = "What are you doing now? Now running: %@";
+"remind_me.action.change" = "Change";
+"remind_me.action.start" = "Start activity";
+
+/**
+ Reports
+ */
+"reports.title" = "Reports";
+"reports.type.custom" = "Custom";
+"reports.type.predefined" = "Predefined";
+"reports.type.user" = "User";
+"reports.type.range_type" = "Range";
+"reports.type.predefined.today" = "Today";
+"reports.type.predefined.this_week" = "This week";
+"reports.type.predefined.this_month" = "This month";
+"reports.type.predefined.last_10_days" = "Last 10 days";
+"reports.type.predefined.last_30_days" = "Last 30 days";
+"reports.type.predefined.yesterday" = "Yesterday";
+"reports.type.predefined.last_week" = "Last week";
+"reports.type.predefined.last_month" = "Last month";
+"reports.range_picker.range_type" = "Range type";
+"reports.range_picker.manual" = "Manual";
+"reports.range_picker.predefined" = "Predefined";
+"reports.premium.message" = "Number of report filters is limited to 2 for free account";
+"report.title" = "Report";
+"report.action.select_format" = "Select format";
+"report.action.create" = "Create";
+"report.action.export" = "Export";
+"report.action.batch_remove" = "Remove all";
+"report.action.save_to" = "Save to Documents";
+"report.action.send_by_email" = "Send by Email";
+"report.action.collapse_expand" = "Collapse/expand all";
+"report.title.saved" = "Saved successfully";
+"report.params.types" = "Types";
+"report.params.types.value" = "%ld types";
+"report.params.tags" = "Tags";
+"report.params.tags.value" = "%ld tags";
+"report.params.date_range" = "Date Range";
+"report.params.show_other" = "Show \"Other\"";
+"report.params.from" = "From";
+"report.params.to" = "To";
+"report.type.total" = "Total";
+"report.type.history" = "History";
+"report.type.pie" = "Pie chart";
+"report.type.daily_total" = "Daily total";
+"report.type.daily_bar" = "Daily entry";
+"report.type" = "Type: %@";
+"report.empty.title" = "Nothing tracked";
+"report.empty.description" = "Nothing tracked for selected parameters";
+"report.statistics.date_range" = "Date range";
+"report.statistics.total" = "Total";
+"report.title.batch_remove" = "Are you sure you want to delete all of these intervals?";
+"report.title.remove" = "Delete report?";
+
+/**
+ Places
+ */
+"places.field.name" = "Name";
+"places.field.location" = "Location";
+"places.field.notify_on_entry" = "Notify on entry";
+"places.field.notify_on_exit" = "Notify on exit";
+"places.delete.title" = "Delete place?";
+"places.field.exit_types" = "Exit types";
+"places.field.entry_types" = "Entry types";
+"places.field.exit_types.value" = "%ld types";
+"places.field.entry_types.value" = "%ld types";
+
+"places.empty.title" = "You have no places";
+"places.empty.description" = "Places let you check-in to different locations and get geo notifications";
+
+"places.premium.message" = "Number of places is limited to 2 for free account";
+
+"edit_place.error.empty_name" = "Place name cannot be empty";
+"place.notification.location_changed" = "Your place changed";
+"place.notification.entered" = "You entered \"%@\"";
+"place.notification.leaving" = "You are leaving \"%@\"";
+"place.notification.start_new" = "Start new";
+"place.notification.start" = "Start \"%@\"";
+"place.notification.pause" = "Pause \"%@\"";
+"select_location.title" = "Select location";
+"select_location.subtitle" = "Map provider: %@";
+"select_location.provider.apple" = "Apple";
+"select_location.provider.baidu" = "Baidu";
+"select_location.tap_and_drag" = "To move pin to another location tap it and drag";
+
+/**
+ Settings
+ */
+"settings.title" = "Settings";
+"settings.sections.activities" = "Activities";
+
+"settings.action_on_start.name" = "Action on start";
+"settings.action_on_start.description" = "When start new activity current running can be stopped/paused automatically or continue running";
+"settings.action_on_start.values.none" = "None";
+"settings.action_on_start.values.pause" = "Pause";
+"settings.action_on_start.values.stop" = "Stop";
+
+"settings.default_edit_field.name" = "Default edit field";
+"settings.default_edit_field.description" = "Default edit field on interval edit screen";
+"settings.default_edit_field.values.from" = "From";
+"settings.default_edit_field.values.to" = "To";
+
+"settings.min_duration.name" = "Min. duration";
+"settings.min_duration.description" = "Activity is not saved if its duration is less than this value";
+"settings.min_duration.none" = "None";
+"settings.min_duration.10_sec" = "10 seconds";
+"settings.min_duration.1_min" = "1 minute";
+"settings.min_duration.5_min" = "5 minutes";
+
+"settings.picker_increment.name" = "Picker increment";
+"settings.picker_increment.description" = "Increment step on time and duration pickers";
+"settings.picker_increment.1_min" = "1 minute";
+"settings.picker_increment.2_min" = "2 minutes";
+"settings.picker_increment.5_min" = "5 minutes";
+"settings.picker_increment.10_min" = "10 minutes";
+"settings.picker_increment.15_min" = "15 minutes";
+
+"settings.activity.pauses" = "Pause";
+"settings.activity.pauses.description" = "";
+
+"settings.sections.warnings" = "Warnings";
+
+"settings.warn_on_actions.name" = "Warn on actions";
+"settings.warn_on_actions.description" = "Displays alert when start/stop/pause/resume activities";
+
+"settings.sections.advanced" = "Advanced";
+
+"settings.remind_me.name" = "Remind me";
+"settings.remind_me.description" = "TODO";
+"settings.remind_me.title" = "Remind me";
+"settings.remind_me.hours" = "Hours";
+"settings.remind_me.alert_sound" = "Alert sound";
+"settings.remind_me.interval" = "Interval";
+
+"settings.comment_on_start.name" = "Comment on start";
+"settings.comment_on_start.description" = "TODO";
+
+"settings.comment_on_stop.name" = "Comment on stop";
+"settings.comment_on_stop.description" = "TODO";
+
+"settings.sections.appearance" = "Appearance";
+"settings.theme.name" = "Theme";
+"settings.theme.name.light" = "Light";
+"settings.theme.name.dark" = "Dark";
+"settings.goal_progress.name" = "Goal progress";
+"settings.goal_progress.gray" = "Gray";
+"settings.goal_progress.colored" = "Colored";
+"settings.navigation" = "Navigation";
+"settings.navigation.left_menu" = "Left Menu";
+"settings.navigation.tab_bar" = "Tab Bar";
+
+"settings.sections.history" = "History";
+"settings.history.order.title" = "History order";
+"settings.history.order.asc" = "Ascending";
+"settings.history.order.desc" = "Descending";
+"settings.history.pie_view_mode.title" = "Pie view mode";
+"settings.history.pie_view_mode.grouped" = "Grouped";
+"settings.history.pie_view_mode.types_only" = "Types only";
+"settings.history.pie_view_mode.description" = "";
+
+"settings.show_types_hierarchy.name" = "Show types hierarchy";
+"settings.show_types_hierarchy.description" = "Expanded groups shown on Types screen";
+
+"settings.show_seconds.name" = "Display seconds";
+"settings.show_seconds.description" = "Display seconds in report";
+
+"settings.first_day_of_week.name" = "First day of week";
+"settings.first_day_of_week.monday" = "Monday";
+"settings.first_day_of_week.tuesday" = "Tuesday";
+"settings.first_day_of_week.wednesday" = "Wednesday";
+"settings.first_day_of_week.thursday" = "Thursday";
+"settings.first_day_of_week.friday" = "Friday";
+"settings.first_day_of_week.saturday" = "Saturday";
+"settings.first_day_of_week.sunday" = "Sunday";
+
+"settings.warn_on_intersection.name" = "Warn on intersection";
+"settings.warn_on_intersection.description" = "Warning and edit suggestions are shown when records intersects";
+
+"settings.activity.main_timer" = "Main timer";
+"settings.activity.main_timer.description" = "TODO";
+"settings.activity.main_timer.total" = "Total";
+"settings.activity.main_timer.running" = "Running";
+
+"settings.activity.secondary_timer" = "Secondary timer";
+"settings.activity.secondary_timer.description" = "TODO";
+"settings.activity.secondary_timer.no_timer" = "No timer";
+"settings.activity.secondary_timer.total" = "Total";
+"settings.activity.secondary_timer.running" = "Running";
+"settings.activity.secondary_timer.goal_left" = "Goal progress";
+
+"settings.activity.lock_screen" = "Lock activities screen";
+"settings.activity.lock_screen.description" = "When disabled activities screen won't be locked automatically";
+
+"settings.activity.flat_types" = "Flat types";
+"settings.activity.flat_types.description" = "TODO";
+
+"settings.pomodoro.title" = "Pomodoro";
+"settings.pomodoro.name" = "Pomodoro";
+"settings.pomodoro.enabled.name" = "Pomodoro";
+"settings.pomodoro.rest_types.select" = "Select";
+"settings.pomodoro.rest_types.name" = "Break types";
+"settings.pomodoro.work_types.name" = "Work types";
+"settings.pomodoro.work_types.select" = "Select";
+"settings.pomodoro.pomodoro_length" = "Pomodoro Length";
+"settings.pomodoro.pomodoro_length.1min" = "1 minute";
+"settings.pomodoro.pomodoro_length.2min" = "2 minutes";
+"settings.pomodoro.pomodoro_length.5min" = "5 minutes";
+"settings.pomodoro.pomodoro_length.10min" = "10 minutes";
+"settings.pomodoro.pomodoro_length.15min" = "15 minutes";
+"settings.pomodoro.pomodoro_length.20min" = "20 minutes";
+"settings.pomodoro.pomodoro_length.25min" = "25 minutes";
+"settings.pomodoro.pomodoro_length.30min" = "30 minutes";
+"settings.pomodoro.pomodoro_length.35min" = "35 minutes";
+"settings.pomodoro.pomodoro_length.40min" = "40 minutes";
+"settings.pomodoro.pomodoro_length.45min" = "45 minutes";
+"settings.pomodoro.pomodoro_length.50min" = "50 minutes";
+"settings.pomodoro.pomodoro_length.55min" = "55 minutes";
+"settings.pomodoro.pomodoro_length.60min" = "1 hour";
+"settings.pomodoro.pomodoros_a_day" = "Pomodoros a day";
+"settings.pomodoro.work_alert" = "Work alert";
+"settings.pomodoro.rest_alert" = "Break alert";
+"settings.pomodoro.short_break_length" = "Short Break Length";
+"settings.pomodoro.long_break_length" = "Long Break Length";
+"settings.pomodoro.mode.title" = "Pomodoro mode";
+"settings.pomodoro.mode.simple.title" = "Default";
+"settings.pomodoro.mode.strict.title" = "Strict";
+"settings.pomodoro.work_tick_sound" = "Work tick sound";
+"settings.pomodoro.break_tick_sound" = "Break tick sound";
+
+"settings.stats_calculation.name" = "Statistics calculation";
+"settings.stats_calculation.intersection_on" = "With intersections";
+"settings.stats_calculation.intersection_off" = "Without intersections";
+
+"settings.changes_applied" = "Changes will be applied after application restart";
+
+"settings.sections.formatting" = "Formatting";
+"settings.formatter.date" = "Date format";
+"settings.formatter.time" = "Time format";
+
+"settings.show_sync_error.name" = "Display sync errors";
+"settings.show_sync_error.description" = "";
+
+"activities.pomodoro.break.title" = "Break";
+
+/**
+ Account
+*/
+"account.title" = "Account";
+"account.action.signout" = "Sign Out";
+"account.action.force_sync" = "Force Sync";
+"account.signout.warning" = "All of your unsynced data will be lost. Are you sure?";
+"account.last_sync.unknown" = "Last sync: Unknown";
+"account.expired" = "Expired on %@. Press to subscribe";
+"account.free" = "Free account. Press to subscribe";
+"account.expires" = "Premium account (active till %@ )";
+"account.last_sync.at" = "Successful sync: %@";
+"account.last_sync.failed" = "Sync failed: %@. Message: %@";
+
+/**
+ Subscribe
+*/
+"subscribe.title" = "Subscribe";
+"subscribe.enable.title" = "In-App Purchases Not Enabled";
+"subscribe.enable.message" = "Please enable In App Purchase in Settings";
+"subscribe.settings" = "Settings";
+
+/**
+ About
+*/
+"about.title" = "About";
+"about.contact_support.title" = "Contact support";
+"about.send_db_file.title" = "Send DB file";
+"about.send_log_file.title" = "Send Log file";
+"about.send_watch_log_file.title" = "Send Watch Log file";
+"about.force_crash.title" = "Force Crash";
+"about.version" = "Version: %@";
+"about.export.title" = "Import from aTimeLogger";
+"about.thanks.title" = "Thanks to";
+"about.review.title" = "Review in AppStore";
+"about.view_watch_info.title" = "View watch info";
+
+/**
+ Today Extension
+ */
+"today.action.hide" = "Hide";
+"today.action.more" = "More";
+
+/**
+ Help
+*/
+"help.title" = "Help";
+"help.load_error.title" = "Error";
+"help.load_error.description" = "Error loading help. Check your connection and reload";
+"help.reload" = "Reload";
+"help.quick_tutorial.title" = "Quick Tour";
+"help.manual.title" = "Manual";
+
+"quick_tour.title" = "Quick Tour";
+"quick_tour.action.skip" = "Skip";
+
+"quick_tour.page1.title" = "Start activity";
+"quick_tour.page1.description" = "Press on icon to start activity";
+
+"quick_tour.page2.title" = "Stop/pause activity";
+"quick_tour.page2.description" = "Press on stop/pause buttons to stop or pause activity";
+
+"quick_tour.page3.title" = "View history";
+"quick_tour.page3.description" = "You can view your data on History tab";
+
+"quick_tour.page4.title" = "Charts";
+"quick_tour.page4.description" = "You can view data in form of calendar or pie chart and change date range";
+
+"quick_tour.page5.title" = "Custom type";
+"quick_tour.page5.description" = "To create custom activity type, press on \"+\" on \"Types\" tab";
+
+"quick_tour.page6.title" = "Custom type";
+"quick_tour.page6.description" = "Enter name, select icon, color and press \"Save\". You can also create group here";
+
+"quick_tour.page7.title" = "Goals";
+"quick_tour.page7.description" = "Create goals to set a limit or reach a target";
+
+"quick_tour.page8.title" = "Goal statistics";
+"quick_tour.page8.description" = "Goal details screen shows goal statistics for previous periods";
+
+"quick_tour.page9.title" = "Reports";
+"quick_tour.page9.description" = "You can create reports based on different parameters and then export them to CSV";
+
+"quick_tour.page10.title" = "Reports";
+"quick_tour.page10.description" = "Report contains total, history, daily statistics, etc";
+
+"quick_tour.page11.title" = "And much more";
+"quick_tour.page11.description" = "Tags, pomodoros, desktop web application, dark theme and many settings for personalization and customization. You can find more information in Manual. \n\nWe are open for any suggestions. Mail us if you have some";
+
+/**
+ Armchair
+ */
+"If you enjoy using %@, would you mind taking a moment to rate it? It won't take more than a minute. Thanks for your support!" = "If you enjoy using %@, would you mind taking a moment to rate it? It won't take more than a minute. Thanks for your support!";
+"Rate %@" = "Rate %@";
+"No, Thanks" = "No, thanks";
+"Remind me later" = "Remind me later";
+
+/**
+ Watch
+ */
+"complication.start" = "Start";
+"complication.no_running" = "No running activities";
+"watch.warning.first_sync" = "Open application on phone. You need to sync first time";
