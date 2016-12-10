@@ -9,8 +9,12 @@ Go to Settings / Pomodoro.
 Most of fields are self explanatory. "Strict" pomodoro mode does not enable Break button before pomodoro duration reached
 ### Work in pomodoro mode
 To start pomodoro enable it, go to "Activities" tab (or Today widget) and press on one of Work types - alert will appear asking if you want to start activity in default or pomodoro mode
+![alt text](https://raw.githubusercontent.com/zaplitny/timetrackio-i18n/master/images/image1.PNG?raw=true "Pomodoro ask")
+![alt text](https://raw.githubusercontent.com/zaplitny/timetrackio-i18n/master/images/image2.PNG?raw=true "Pomodoro work")
+![alt text](https://raw.githubusercontent.com/zaplitny/timetrackio-i18n/master/images/image3.PNG?raw=true "Pomodoro break")
 ### View stats
 When pomodoro enabled new menu appears on More tab - "Pomodoro"
+![alt text](https://raw.githubusercontent.com/zaplitny/timetrackio-i18n/master/images/image4.PNG?raw=true "Pomodoro break")
 ## New goal types
 ### Occurrence
 ### Total (early version)
