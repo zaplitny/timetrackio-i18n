@@ -1,17 +1,17 @@
-"Sleep" = "Sleep";
-"Transport" = "Transport";
-"Work" = "Work";
-"Eat" = "Eat";
-"Sport" = "Sport";
-"Read" = "Read";
-"Shop" = "Shop";
-"Entertainment" = "Entertainment";
-"Housework" = "Housework";
-"Cinema" = "Cinema";
-"Walk" = "Walk";
-"Study" = "Study";
-"Internet" = "Internet";
-"Drink" = "Drink";
+"Sleep" = "睡眠";
+"Transport" = "移動";
+"Work" = "仕事";
+"Eat" = "食事";
+"Sport" = "運動";
+"Read" = "読書";
+"Shop" = "買い物";
+"Entertainment" = "娯楽";
+"Housework" = "家事";
+"Cinema" = "映画";
+"Walk" = "散歩";
+"Study" = "勉強";
+"Internet" = "インターネット";
+"Drink" = "飲み";
 
 "history.title" = "History";
 
@@ -111,17 +111,17 @@
 /**
  Menu
 */
-"menu.activities" = "Activities";
-"menu.history" = "History";
+"menu.activities" = "記録画面";
+"menu.history" = "履歴";
 "menu.pomodoro" = "Pomodoro";
-"menu.types" = "Types";
-"menu.goals" = "Goals";
-"menu.reports" = "Reports";
-"menu.settings" = "Settings";
+"menu.types" = "種類";
+"menu.goals" = "目標";
+"menu.reports" = "レポート";
+"menu.settings" = "環境設定";
 "menu.account" = "Account";
 "menu.help" = "Help";
-"menu.about" = "About";
-"menu.more" = "More";
+"menu.about" = "このアプリについて";
+"menu.more" = "設定";
 "menu.places" = "Places";
 
 /**
@@ -129,23 +129,23 @@
  */
 "activities.empty.title" = "No types";
 "activities.empty.description" = "You have no types. To create new type press on \"+\" button on \"Types\" tab";
-"activities.title" = "Activities";
-"activities.action.start" = "Start";
-"activities.action.stop" = "Stop";
-"activities.action.resume" = "Resume";
-"activities.action.pause" = "Pause";
+"activities.title" = "記録画面";
+"activities.action.start" = "開始";
+"activities.action.stop" = "停止";
+"activities.action.resume" = "再開";
+"activities.action.pause" = "中断";
 "activities.action.start_pomodoro" =  "Start Pomodoro";
 "activities.action.start_usual" = "Start Usual";
-"activities.start.message" = "Start activity?";
-"activities.stop.message" = "Stop activity?";
-"activities.pause.message" = "Pause activity?";
-"activities.resume.message" = "Resume activity?";
+"activities.start.message" = "記録を開始しますか?";
+"activities.stop.message" = "記録を停止しますか?";
+"activities.pause.message" = "記録を中断しますか?";
+"activities.resume.message" = "記録を再開しますか?";
 "activities.start_pomodoro.message" = "Do you want to start it as pomodoro?";
-"activities.sync.title" = "Sync";
+"activities.sync.title" = "同期";
 
-"edit_activity.title" = "Edit";
-"edit_activity.field.type" = "Type";
-"edit_activity.field.comment" = "Comment";
+"edit_activity.title" = "編集";
+"edit_activity.field.type" = "ｱｸﾃｨﾋﾞﾃｨの種類";
+"edit_activity.field.comment" = "コメント";
 "edit_activity.field.tags" = "Tags";
 "edit_activity.field.start" = "Start";
 "edit_activity.field.place" = "Place";
