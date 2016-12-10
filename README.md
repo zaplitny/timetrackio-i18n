@@ -9,9 +9,11 @@ Go to Settings / Pomodoro.
 Most of fields are self explanatory. "Strict" pomodoro mode does not enable Break button before pomodoro duration reached
 ### Work in pomodoro mode
 To start pomodoro enable it, go to "Activities" tab (or Today widget) and press on one of Work types - alert will appear asking if you want to start activity in default or pomodoro mode
+
 ![alt text](https://raw.githubusercontent.com/zaplitny/timetrackio-i18n/master/images/image1.PNG?raw=true "Pomodoro ask")
 
 When started you'll see pomodoro timer and 2 buttons: Break and Reset. Pressing on Reset will restart current pomodoro immediately (e.g you were interrupted)
+
 ![alt text](https://raw.githubusercontent.com/zaplitny/timetrackio-i18n/master/images/image2.PNG?raw=true "Pomodoro work")
 
 Pressing on Break will show you Break types and after pressing on type break starts. 
