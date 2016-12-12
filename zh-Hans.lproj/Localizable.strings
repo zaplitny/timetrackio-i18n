@@ -231,6 +231,7 @@ Pomodoros
 "edit_type.field.name" = "名称";
 "edit_type.field.icon" = "图标";
 "edit_type.field.color" = "颜色";
+"edit_type.field.calendar" = "Calendar";
 "edit_type.delete.message" = "删除类型?";
 "edit_type.empty_name.message" = "活动类型不能为空";
 
@@ -512,7 +513,7 @@ Tags
 "settings.picker_increment.10_min" = "10 分钟";
 "settings.picker_increment.15_min" = "15 分钟";
 
-"settings.activity.pauses" = "停止";
+"settings.activity.pauses" = "隐藏暂停按钮";
 "settings.activity.pauses.description" = "";
 
 "settings.sections.warnings" = "弹出警告";
