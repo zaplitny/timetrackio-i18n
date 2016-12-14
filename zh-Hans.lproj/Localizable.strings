@@ -18,8 +18,8 @@
 "first_run.sign_in" = "登陆";
 "first_run.sign_up" = "注册";
 
-"first_run_setup.message.import" = "你想用 Timetrack.io 预设置的活动类型或者导入 atimelogger2的数据吗？";
-"first_run_setup.action.init_with_default" = "使用 Timetrack.io 预设置活动类型";
+"first_run_setup.message.import" = "用 Timetrack.io 预设的活动类型或者导入 atimelogger2的数据";
+"first_run_setup.action.init_with_default" = "使用 Timetrack.io 预设活动类型";
 "first_run_setup.action.import" = "从 atimelogger 导入数据";
 
 "import.action.import" = "导入";
@@ -27,7 +27,7 @@
 "sign_up.error.empty_email" = "邮箱不能为空";
 "sign_up.error.invalid_email" = "邮箱不正确";
 "sign_up.error.empty_password" = "密码不能为空";
-"sign_up.error.password_match" = "两次密码输入不对";
+"sign_up.error.password_match" = "两次密码输入不一致";
 
 /**
  Common
@@ -48,7 +48,7 @@
 "common.action.add_before" = "增加";
 "common.action.select_place" = "选择地址";
 "common.title.loading" = "载入中 ...";
-"common.title.syncing" = "同步中";
+"common.title.syncing" = "同步中 ...";
 "common.email.placeholder" = "输入邮箱";
 "common.first_name.placeholder" = "名字";
 "common.last_name.placeholder" = "姓";
@@ -57,10 +57,10 @@
 "common.enabled" = "开启";
 "common.disabled" = "关闭";
 "common.minutes" = "%ld 分钟";
-"common.premium.message" = "这个功能仅供 Pro 账户使用";
+"common.premium.message" = "Pro 账户功能";
 "common.premium.try_10_days" = "免费尝试10天的 Pro 账户";
 "common.premium.purchase" = "升级到 Pro 账户";
-"common.premium.try_10_days_activated" = "高级用户有效期为10天.";
+"common.premium.try_10_days_activated" = "Pro 账户有效期为10天";
 "common.mail_disabled.title" = "邮件发送不成功";
 "common.mail_disabled.description" = "请设置邮箱账号";
 "common.title.sync_failed" = "同步失败";
@@ -84,11 +84,11 @@
 "first_run.page1.title" = "追踪简便";
 "first_run.page1.description" = "手指轻点追踪你的活动! 非常便捷的操作，选择适时的活动图标开始追踪你的生活.";
 "first_run.page2.title" = "时间日志";
-"first_run.page2.description" = "回顾你每天做的事情，找到可以提升的空间.";
+"first_run.page2.description" = "回顾每天的时间花费，找到提升空间";
 "first_run.page3.title" = "时间可视化";
-"first_run.page3.description" = "我知道你们喜欢通过条形图或者饼图查看时间统计";
+"first_run.page3.description" = "通过条形图或饼状图查看时间统计";
 "first_run.page4.title" = "设置时间目标";
-"first_run.page4.description" = "为您的目标设置一个时间，当目标完成后，Timetrack 会通知你.";
+"first_run.page4.description" = "给目标设置一个时间。目标完成时，Timetrack会通知你";
 
 /**
  First sync
@@ -122,7 +122,7 @@
 "menu.help" = "帮助";
 "menu.about" = "关于";
 "menu.more" = "更多";
-"menu.places" = "地址";
+"menu.places" = "位置";
 
 /**
  Activities
@@ -134,13 +134,13 @@
 "activities.action.stop" = "停止";
 "activities.action.resume" = "恢复";
 "activities.action.pause" = "暂停";
-"activities.action.start_pomodoro" =  "进入专注";
+"activities.action.start_pomodoro" =  "番茄钟模式";
 "activities.action.start_usual" = "普通追踪";
-"activities.start.message" = "开始活动?";
-"activities.stop.message" = "停止活动?";
-"activities.pause.message" = "暂停活动?";
-"activities.resume.message" = "恢复活动?";
-"activities.start_pomodoro.message" = "你想开始一个番茄时间吗?";
+"activities.start.message" = "开始活动";
+"activities.stop.message" = "停止活动";
+"activities.pause.message" = "暂停活动";
+"activities.resume.message" = "恢复活动";
+"activities.start_pomodoro.message" = "开始一个番茄钟？";
 "activities.sync.title" = "同步";
 
 "edit_activity.title" = "编辑";
@@ -185,7 +185,7 @@ Pomodoros
  */
 "history.title" = "历史";
 "history.pie.show_untracked" = "未记录的时间";
-"history.empty.title" = "这段时间内没有任何记录";
+"history.empty.title" = "这段时间没有任何记录";
 "history.empty.description" = "改变时段, 请按 «+» 开始/重新启动一个活动，或者选择活动图标开始一个新活动";
 "history.range.today" = "今天";
 "history.range.day" = "日";
@@ -211,8 +211,8 @@ Pomodoros
 "type_details.title" = "活动类型细节";
 "type_details.action.move" = "移动至";
 "type_details.action.archive" = "归档";
-"type_details.action.unarchive" = "归档逆操作";
-"type_details.unarchive.message" = "确定逆归档活动类型？";
+"type_details.action.unarchive" = "还原归档";
+"type_details.unarchive.message" = "确定还原归档活动类型？";
 "type_details.archive.message" = "确定归档活动类型？";
 "type_details.archived" = "归档";
 "type_details.last_30_days" = "最近30天";
@@ -260,10 +260,10 @@ Pomodoros
 "goals.field.name" = "目标名称";
 "goals.field.goal_type" = "目标达成类型";
 "goals.field.goal_type.limit" = "不超过设置时间";
-"goals.field.goal_type.reach" = "至少达到设置时间";
-"goals.field.based_on" = "达标标准";
-"goals.field.based_on.duration" = "目标完成时间";
-"goals.field.based_on.occurrence" = "目标完成次数";
+"goals.field.goal_type.reach" = "不低于设置时间";
+"goals.field.based_on" = "达标形式";
+"goals.field.based_on.duration" = "时间";
+"goals.field.based_on.occurrence" = "次数";
 "goals.field.types" = "目标包含的活动";
 "goals.field.tags" = "目标包含的标签";
 "goals.field.alerts" = "提醒";
@@ -278,22 +278,22 @@ Pomodoros
 "goals.field.types.value" = "%ld 活动";
 "goals.field.tags.value" = "%ld 标签";
 
-"goals.notification.time_limit_reached" = "注意!目标设定的时间'%@'已经达成.";
+"goals.notification.time_limit_reached" = "目标设定的时间'%@'已经达成";
 "goals.notification.time_limit_will_reach" = "离达成目标设定的时间'%@'还有 %d 分钟";
-"goals.notification.time_limit_has_been_reached" = "你已经完成目标的时间并超过了 %d 分钟";
+"goals.notification.time_limit_has_been_reached" = "你已完成目标并超过了 %d 分钟";
 "goals.notification.goal_reached" = "恭喜！目标时间已经达成: '%@'";
 "goals.notification.goal_will_reach" = "离达成目标时间还有 '%@' 分钟";
 "goals.notification.goal_has_been_reached" = "已经超过目标时间（'%@'） %d 分钟";
 "goals.notification.occurrence_reached" = "恭喜！目标时间已经达成: '%@'";
-"goals.notification.occurrence_limit_reached" = "注意!目标设定的完成次数'%@'已经达成.";
+"goals.notification.occurrence_limit_reached" = "目标设定的次数'%@'已经达成";
 
 "goal_details.title" = "目标";
 "goal_details.action.archive" = "归档";
-"goal_details.action.unarchive" = "归档逆操作";
+"goal_details.action.unarchive" = "还原归档";
 "goal_details.unarchive.message" = "不归档目标?";
 "goal_details.archive.message" = "归档目标?";
 "goal_details.last10_days.title" = "最近 10 天";
-"goal_details.last30_days.title" = "Last 30 days";
+"goal_details.last30_days.title" = "最近 30 天";
 "goal_details.last10_weeks.title" = "最近 10 周";
 "goal_details.last10_months.title" = "最近 10 个月";
 "goal_details.last10_activities.title" = "最近 10 个活动";
@@ -357,21 +357,21 @@ Tags
 "pomodoro.action.reset" = "重置";
 "pomodoro.action.short_break" = "短休息";
 "pomodoro.action.long_break" = "长休息";
-"pomodoro.title.quit" = "退出专注模式?";
+"pomodoro.title.quit" = "退出番茄钟模式?";
 "pomodoro.action.quit" = "退出番茄钟";
 "pomodoro.action.break" = "休息";
 "pomodoro.action.resume_previous" = "重新番茄";
-"pomodoro.title.resume_previous" = "再次开始之前的专注活动?";
+"pomodoro.title.resume_previous" = "再次开始之前的活动?";
 "pomodoro.action.start_new" = "新活动番茄";
 "pomodoro.action.resume" = "恢复";
 "pomodoro.action.more" = "更多";
-"pomodoro.title.select_work_type" = "定义番茄活动类型";
-"pomodoro.title.select_break_type" = "定义休息活动类型";
+"pomodoro.title.select_work_type" = "选择番茄钟类型";
+"pomodoro.title.select_break_type" = "休息时活动类型";
 "pomodoro.title.reset" = "重置番茄?";
 "pomodoro.completed" = "%d of %d";
-"pomodoro.notification.work_complete" = "是时候休息下了";
-"pomodoro.notification.short_break_complete" = "短休息结束了!尽快进入工作状态";
-"pomodoro.notification.long_break_complete" = "长休息结束!尽快进入工作状态";
+"pomodoro.notification.work_complete" = "休息一会儿";
+"pomodoro.notification.short_break_complete" = "短休息结束!进入工作状态";
+"pomodoro.notification.long_break_complete" = "长休息结束!进入工作状态";
 
 "pomodoro.history.header.completed" = "%d 已完成完成番茄数 of %d 目标番茄数";
 "pomodoro.history.action.message" = "你可以把这时间记录从番茄记录删除（在时间历史保留）或者完全删除（包括时间历史记录）";
@@ -381,8 +381,8 @@ Tags
 "pomodoro.stats.total" = "全部";
 "pomodoro.stats.completed" = "完成";
 "pomodoro.stats.uncompleted" = "未完成";
-"pomodoro.stats.average_completed_day" = "平均每天完成番茄数";
-"pomodoro.stats.average_completed_duration" = "平均每天完成番茄时间";
+"pomodoro.stats.average_completed_day" = "平均每天完成番茄钟数";
+"pomodoro.stats.average_completed_duration" = "平均每天完成番茄钟时间";
 "pomodoro.stats.average_break_duration" = "平均每天中断时间";
 "pomodoro.stats.header.daily" = "番茄统计图（天）";
 
@@ -394,8 +394,8 @@ Tags
 /**
  Remind me
 */
-"remind_me.title.what_are_you_doing" = "你现在在做什么?";
-"remind_me.title.what_are_you_doing_running" = "你现在在做什么? 现在开始记录: %@";
+"remind_me.title.what_are_you_doing" = "现在在做什么?";
+"remind_me.title.what_are_you_doing_running" = "现在在做什么? 现在开始记录: %@";
 "remind_me.action.change" = "更改";
 "remind_me.action.start" = "开始记录活动";
 
@@ -432,7 +432,7 @@ Tags
 "report.params.types.value" = "%ld 类型";
 "report.params.tags" = "标签";
 "report.params.tags.value" = "%ld 标签";
-"report.params.date_range" = "日期范围";
+"report.params.date_range" = "日期";
 "report.params.show_other" = "显示 '其他'";
 "report.params.from" = "开始时间";
 "report.params.to" = "结束时间";
@@ -444,7 +444,7 @@ Tags
 "report.type" = "报告类型: %@";
 "report.empty.title" = "没有记录";
 "report.empty.description" = "没有选择参数";
-"report.statistics.date_range" = "日期范围";
+"report.statistics.date_range" = "日期";
 "report.statistics.total" = "总计";
 "report.title.batch_remove" = "你确定要删除所有的时间区间吗?";
 "report.title.remove" = "删除报告?";
@@ -452,25 +452,25 @@ Tags
 /**
  Places
  */
-"places.field.name" = "地址名称";
-"places.field.location" = "地址";
-"places.field.notify_on_entry" = "进入地址收到通知";
-"places.field.notify_on_exit" = "离开地址收到通知";
-"places.delete.title" = "删除地址?";
+"places.field.name" = "位置名称";
+"places.field.location" = "位置";
+"places.field.notify_on_entry" = "进入该位置收到通知";
+"places.field.notify_on_exit" = "离开该位置收到通知";
+"places.delete.title" = "删除位置?";
 "places.field.exit_types" = "取消类型";
 "places.field.entry_types" = "输入类型";
 "places.field.exit_types.value" = "%ld 类型";
 "places.field.entry_types.value" = "%ld 类型";
 
-"places.empty.title" = "没有找到改地址";
-"places.empty.description" = "地址监测：当你到达您设置的地理位置，会得到通知";
+"places.empty.title" = "没有找到该位置";
+"places.empty.description" = "位置监测：当你到达设定的位置，会得到通知";
 
-"places.premium.message" = "免费账户只能设置两个地址";
+"places.premium.message" = "免费账户只能设置两个位置";
 
-"edit_place.error.empty_name" = "地址不能为空";
+"edit_place.error.empty_name" = "位置不能为空";
 "place.notification.location_changed" = "你的位置发生变化";
-"place.notification.entered" = "您进入了 \"%@\"";
-"place.notification.leaving" = "您离开了 \"%@\"";
+"place.notification.entered" = "到达 \"%@\"";
+"place.notification.leaving" = "离开 \"%@\"";
 "place.notification.start_new" = "设置新的地址";
 "place.notification.start" = "开始 \"%@\"";
 "place.notification.pause" = "中断 \"%@\"";
@@ -489,7 +489,7 @@ Tags
 
 "settings.action_on_start.name" = "开始新活动时";
 "settings.action_on_start.description" = "当开始另一个新的活动时候，是选择暂停/停止/继续目前的活动";
-"settings.action_on_start.values.none" = "同时开始新活动";
+"settings.action_on_start.values.none" = "继续正在进行的活动并开始新活动";
 "settings.action_on_start.values.pause" = "暂停正在进行的活动并开始新活动";
 "settings.action_on_start.values.stop" = "结束正在进行的活动并开始新活动";
 
