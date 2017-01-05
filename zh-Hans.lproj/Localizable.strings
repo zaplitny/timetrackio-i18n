@@ -278,12 +278,12 @@ Pomodoros
 "goals.field.types.value" = "%ld 活动";
 "goals.field.tags.value" = "%ld 标签";
 
-"goals.notification.time_limit_reached" = "注意!目标设定的时间'%@'已经达成.";
-"goals.notification.time_limit_will_reach" = "离达成目标设定的时间'%@'还有 %d 分钟";
-"goals.notification.time_limit_has_been_reached" = "你已经完成目标的时间并超过了 %d 分钟";
-"goals.notification.goal_reached" = "恭喜！目标时间已经达成: '%@'";
-"goals.notification.goal_will_reach" = "离达成目标时间还有 '%@' 分钟";
-"goals.notification.goal_has_been_reached" = "已经超过目标时间（'%@'） %d 分钟";
+"goals.notification.time_limit_reached" = "警告!你设定'%@'的时间已经超标";
+"goals.notification.time_limit_will_reach" = "还有'%$2d'分钟，你设定的 %$1@ 时间就超标了";
+"goals.notification.time_limit_has_been_reached" = "你设定的 %$1@ 时间，已经超标了'%$2d'分钟";
+"goals.notification.goal_reached" = "恭喜！你设定'%@'的时间目标已达成";
+"goals.notification.goal_will_reach" = "离达成'%$1@'的目标时间还有'%$2d'分钟";
+"goals.notification.goal_has_been_reached" = "你设定的 '%$1@' 时间，已经超越了'%$2d'分钟";
 "goals.notification.occurrence_reached" = "恭喜！目标时间已经达成: '%@'";
 "goals.notification.occurrence_limit_reached" = "注意!目标设定的完成次数'%@'已经达成.";
 
@@ -513,8 +513,8 @@ Tags
 "settings.picker_increment.10_min" = "10 分钟";
 "settings.picker_increment.15_min" = "15 分钟";
 
-"settings.activity.pauses" = "隐藏暂停按钮";
-"settings.activity.pauses.description" = "";
+"settings.activity.pauses" = "显示暂停按钮";
+"settings.activity.pauses.description" = "关闭后，活动暂停按钮将隐藏";
 
 "settings.sections.warnings" = "弹出警告";
 
@@ -624,6 +624,7 @@ Tags
 "settings.pomodoro.mode.strict.title" = "强制（番茄无法终止）";
 "settings.pomodoro.work_tick_sound" = "番茄时间时发出滴滴声";
 "settings.pomodoro.break_tick_sound" = "番茄休息时发出滴滴声";
+"settings.pomodoro.cycles_count" = "多久一个长休息";
 
 "settings.stats_calculation.name" = "时间统计方法";
 "settings.stats_calculation.intersection_on" = "算上活动交叉时间";
@@ -661,6 +662,8 @@ Tags
 "subscribe.enable.title" = "应用内付费没有开启";
 "subscribe.enable.message" = "在设置里面开启应用内付费";
 "subscribe.settings" = "设置";
+"subscribe.payment_disabled.title" = "Payments restricted";
+"subscribe.payment_disabled.message" = "You are not authorized to make payments. You can enable it in Settings/General/Restrictions";
 
 /**
  About
