@@ -1,5 +1,5 @@
 # timetrackio-i18n
-Below is very brief explanation of new timetrackio features. 
+Below is very brief explanation of new timetrackio features compared with aTimeLogger (UNFINISHED)
 ## Tags
 New field appeared for activity - tags. User can set tags from predefined list or enter new. 
 ![alt text](https://raw.githubusercontent.com/zaplitny/timetrackio-i18n/master/images/image7.PNG?raw=true "Image with tags")
@@ -40,3 +40,17 @@ Forgot to mention another limitation - geo notification is iOS 10 specific featu
 ### User filters
 If compare with aTimeLogger predefined filters appeared: Today, Yesterday, This Week, etc. But user can also create his own filters for quick access where types, tags and period type defined. To create custom filter press '+' on 'Reports' screen
 ## Watch Complications
+
+## Useful tips
+### Insert between 2 intervals
+Swipe from right to left on cell on History tab and select first (green) choice - edit activity screen will appear with interval time between
+### Statistics calculation setting
+When activities intersect you get Activity1+ActivityB. You can override this behavior now (you can change it in Settings)
+### Warning on intersection
+If you save activity with interval that intersects another activity warning with suggestions will be shown (you can enable it in Settings)
+
+## Coming later
+### Calendar integration 
+### Tags statistics and management (now you can only filter by tags)
+### Custom field (e.g freelance rate)
+### More themes
