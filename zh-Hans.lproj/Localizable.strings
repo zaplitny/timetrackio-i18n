@@ -2,747 +2,747 @@
 "Transport" = "交通";
 "Work" = "工作";
 "Eat" = "用餐";
-"Sport" = "運動";
-"Read" = "閱讀";
-"Shop" = "購物";
-"Entertainment" = "娛樂";
-"Housework" = "家務";
-"Cinema" = "電影";
+"Sport" = "运动";
+"Read" = "阅读";
+"Shop" = "购物";
+"Entertainment" = "娱乐";
+"Housework" = "家务";
+"Cinema" = "电影";
 "Walk" = "步行";
-"Study" = "學習";
-"Internet" = "上網";
-"Drink" = "飲酒";
+"Study" = "学习";
+"Internet" = "上网";
+"Drink" = "饮酒";
 
-"history.title" = "歷史";
+"history.title" = "历史";
 
-"first_run.sign_in" = "登入";
-"first_run.sign_up" = "註冊";
+"first_run.sign_in" = "登陆";
+"first_run.sign_up" = "注册";
 
-"first_run_setup.message.import" = "你想使用 timetrack.io 預設的活動類型或匯入 aTimeLogger2 的數據嗎?";
-"first_run_setup.action.init_with_default" = "使用 timetrack.io 預設的活動類型";
-"first_run_setup.action.import" = "從 aTimeLogger 匯入數據";
+"first_run_setup.message.import" = "用 Timetrack.io 预设的活动类型或者导入 atimelogger2的数据";
+"first_run_setup.action.init_with_default" = "使用 Timetrack.io 预设活动类型";
+"first_run_setup.action.import" = "从 atimelogger 导入数据";
 
-"import.action.import" = "匯入";
+"import.action.import" = "导入";
 
-"sign_up.error.empty_email" = "郵件信箱不能為空";
-"sign_up.error.invalid_email" = "郵件信箱不正確";
-"sign_up.error.empty_password" = "密碼不能為空";
-"sign_up.error.password_match" = "兩次密碼輸入不對";
+"sign_up.error.empty_email" = "邮箱不能为空";
+"sign_up.error.invalid_email" = "邮箱不正确";
+"sign_up.error.empty_password" = "密码不能为空";
+"sign_up.error.password_match" = "两次密码输入不一致";
 
 /**
  Common
 */
 "common.title.warning" = "警告";
-"common.title.edit" = "編輯";
+"common.title.edit" = "编辑";
 "common.action.cancel" = "取消";
-"common.action.save" = "儲存";
-"common.action.delete" = "刪除";
-"common.action.edit" = "編輯";
-"common.action.close" = "關閉";
+"common.action.save" = "保存";
+"common.action.delete" = "删除";
+"common.action.edit" = "编辑";
+"common.action.close" = "关闭";
 "common.action.back" = "返回";
-"common.action.select" = "選擇";
-"common.action.select_type" = "選擇類別";
-"common.action.select_types" = "選擇活動類型";
-"common.action.select_tags" = "選擇標籤";
-"common.action.select_deselect" = "選擇/取消全選";
-"common.action.add_before" = "新增";
-"common.action.select_place" = "選擇地址";
-"common.title.loading" = "載入中 ...";
-"common.title.syncing" = "同步中";
-"common.email.placeholder" = "請輸入郵件信箱";
+"common.action.select" = "选择";
+"common.action.select_type" = "选择类别";
+"common.action.select_types" = "选择活动类型";
+"common.action.select_tags" = "选择标签";
+"common.action.select_deselect" = "选择/取消全选";
+"common.action.add_before" = "增加";
+"common.action.select_place" = "选择地址";
+"common.title.loading" = "载入中 ...";
+"common.title.syncing" = "同步中 ...";
+"common.email.placeholder" = "输入邮箱";
 "common.first_name.placeholder" = "名字";
-"common.last_name.placeholder" = "姓氏";
-"common.password.placeholder" = "請輸入密碼";
-"common.repeat_password.placeholder" = "請再次輸入密碼";
-"common.enabled" = "開啟";
-"common.disabled" = "關閉";
-"common.minutes" = "%ld 分鐘";
-"common.premium.message" = "這個功能僅供 Pro 帳戶使用";
-"common.premium.try_10_days" = "免費試用10天的 Pro 帳號";
-"common.premium.purchase" = "升級到 Pro 帳號;
-"common.premium.try_10_days_activated" = "高級用戶有效期為10天.";
-"common.mail_disabled.title" = "郵件發送失敗";
-"common.mail_disabled.description" = "請設定郵件信箱帳號";
-"common.title.sync_failed" = "同步失敗";
-"common.action.retry" = "重試";
+"common.last_name.placeholder" = "姓";
+"common.password.placeholder" = "输入密码";
+"common.repeat_password.placeholder" = "重复输入密码";
+"common.enabled" = "开启";
+"common.disabled" = "关闭";
+"common.minutes" = "%ld 分钟";
+"common.premium.message" = "Pro 账户功能";
+"common.premium.try_10_days" = "免费尝试10天的 Pro 账户";
+"common.premium.purchase" = "升级到 Pro 账户";
+"common.premium.try_10_days_activated" = "Pro 账户有效期为10天";
+"common.mail_disabled.title" = "邮件发送不成功";
+"common.mail_disabled.description" = "请设置邮箱账号";
+"common.title.sync_failed" = "同步失败";
+"common.action.retry" = "重试";
 
 /**
  Sign In
  */
-"sign_in.sign_in" = "登入";
-"sign_in.forgot" = "忘記密碼?";
+"sign_in.sign_in" = "登陆";
+"sign_in.forgot" = "忘记密码?";
 
-"sign_up.sign_up" = "註冊";
-"User already exists" = "您使用的信箱已經註冊過了";
+"sign_up.sign_up" = "注册";
+"User already exists" = "您使用的邮箱已经注册";
 
-"error.invalid_grant" = "錯誤的用戶名/密碼";
-"error.unknown" = "未知錯誤，請通過support@timetrack.io與我連絡";
+"error.invalid_grant" = "错误的用户名/密码";
+"error.unknown" = "未知错误，请通过support@timetrack.io联系我";
 
 /**
  First run
 */
-"first_run.page1.title" = "追蹤簡便";
-"first_run.page1.description" = "手指輕點追蹤你的活動！ 非常便捷的操作，選擇適時的活動圖示開始追蹤你的生活。";
-"first_run.page2.title" = "時間日誌";
-"first_run.page2.description" = "回願你每天做的事情，找到可以提升的空間。";
-"first_run.page3.title" = "時間可視化";
-"first_run.page3.description" = "我知道你們喜歡透過長條圖或者圓餅圖來查看時間統計";
-"first_run.page4.title" = "設定時間目標";
-"first_run.page4.description" = "為您的目標設置一個時間，當目標完成後，timetrack.io 會通知您。";
+"first_run.page1.title" = "追踪简便";
+"first_run.page1.description" = "手指轻点追踪你的活动! 非常便捷的操作，选择适时的活动图标开始追踪你的生活.";
+"first_run.page2.title" = "时间日志";
+"first_run.page2.description" = "回顾每天的时间花费，找到提升空间";
+"first_run.page3.title" = "时间可视化";
+"first_run.page3.description" = "通过条形图或饼状图查看时间统计";
+"first_run.page4.title" = "设置时间目标";
+"first_run.page4.description" = "给目标设置一个时间。目标完成时，Timetrack会通知你";
 
 /**
  First sync
 */
 "first_sync.title" = "";
 "first_sync.status.get_user_info" = "";
-"first_sync.progress.get_user_info" = "加載帳戶資訊...";
+"first_sync.progress.get_user_info" = "加载账户信息...";
 "first_sync.status.sync_data" = "";
-"first_sync.progress.sync_data" = "同步數據...";
+"first_sync.progress.sync_data" = "同步数据...";
 
 /**
  Restore
  */
-"restore.title" = "重置密碼";
-"restore.action.restore" = "重置密碼";
-"restore.message.success" = "重置密碼的件件已發送到你的郵件信箱了";
-"restore.message.failure" = "郵件發送錯誤，請再次檢查您的郵件信箱或連絡開發者";
-"restore.message.email_invalid" = "郵件地址錯誤";
+"restore.title" = "重置密码";
+"restore.action.restore" = "重置密码";
+"restore.message.success" = "重置密码的邮件已经发到你的邮箱了";
+"restore.message.failure" = "发送邮件发生错误. 再次检查你的邮箱地址或者联系开发者";
+"restore.message.email_invalid" = "邮箱地址错误";
 
 /**
  Menu
 */
-"menu.activities" = "活動";
-"menu.history" = "歷史";
-"menu.pomodoro" = "番茄時鐘";
-"menu.types" = "類別";
-"menu.goals" = "目標";
-"menu.reports" = "報告";
-"menu.settings" = "設定";
-"menu.account" = "帳號";
-"menu.help" = "幫助";
-"menu.about" = "關於";
+"menu.activities" = "活动";
+"menu.history" = "历史";
+"menu.pomodoro" = "番茄钟";
+"menu.types" = "类别";
+"menu.goals" = "目标";
+"menu.reports" = "报告";
+"menu.settings" = "设置";
+"menu.account" = "账户";
+"menu.help" = "帮助";
+"menu.about" = "关于";
 "menu.more" = "更多";
-"menu.places" = "地點";
+"menu.places" = "位置";
 
 /**
  Activities
  */
-"activities.empty.title" = "沒有活動類型";
-"activities.empty.description" = "你沒有選取活動類型。請通過點擊活動頁面頂端的'＋'來建立一個新的活動類型";
-"activities.title" = "活動";
-"activities.action.start" = "開始";
+"activities.empty.title" = "没有活动类型";
+"activities.empty.description" = "你没有活动类型.通过点击活动页面顶端的 '+'去创建一个新的活动类型";
+"activities.title" = "活动";
+"activities.action.start" = "开始";
 "activities.action.stop" = "停止";
-"activities.action.resume" = "恢復";
-"activities.action.pause" = "暫停";
-"activities.action.start_pomodoro" =  "使用番茄時鐘";
-"activities.action.start_usual" = "一般追蹤";
-"activities.start.message" = "開始活動？";
-"activities.stop.message" = "停止活動？";
-"activities.pause.message" = "暫停活動？";
-"activities.resume.message" = "恢復活動？";
-"activities.start_pomodoro.message" = "你想要開始一個番茄時鐘嗎？";
+"activities.action.resume" = "恢复";
+"activities.action.pause" = "暂停";
+"activities.action.start_pomodoro" =  "番茄钟模式";
+"activities.action.start_usual" = "普通追踪";
+"activities.start.message" = "开始活动";
+"activities.stop.message" = "停止活动";
+"activities.pause.message" = "暂停活动";
+"activities.resume.message" = "恢复活动";
+"activities.start_pomodoro.message" = "开始一个番茄钟？";
 "activities.sync.title" = "同步";
 
-"edit_activity.title" = "編輯";
-"edit_activity.field.type" = "活動類別";
-"edit_activity.field.comment" = "備註";
-"edit_activity.field.tags" = "標籤";
-"edit_activity.field.start" = "開始";
-"edit_activity.field.place" = "地點";
-"edit_activity.intervals" = "時間段";
-"edit_activity.running" = "進行中狀態";
-"edit_activity.paused" = "暫停狀態";
-"edit_activity.stopped" = "結束狀態";
-"edit_activity.empty.description" = "請按 «+» 增加新的活動時間段";
-"edit_activity.no_comment" = "新增備註";
-"edit_activity.delete.message" = "刪除活動？";
-"edit_activity.error.no_type" = "選擇活動的類型";
-"edit_activity.error.no_intervals" = "活動至少需要一個時間段";
-"edit_activity.action.skip_and_save" = "跳過並保存";
-"edit_activity.intersection.change" = "更改 %@ 為 %@"; // 比如修改 (9:00 am - 11:00 am) 為 (9:00 am - 10:30 am)
-"edit_activity.intersection.start_date_intersects" = "開始時間 %@ 已有存在有時間段重疊 %@"; // 如果您準備開始的時間為10:30但是存在一個時間區間為9:00 - 11:00,timetrack.io會建議您改變已存在的時間區間為9:00 - 10:30或者修改開始時間為11:00。
-"edit_activity.intersection.change_start_date" = "改變開始時間為 %@";  // 如果您準備開始的時間為10:30但是存在一個時間區間為9:00 - 11:00,timetrack.io會建議您改變已存在的時間區間為9:00 - 10:30或者修改開始時間為11:00。
-"edit_activity.intersection.interval_intersects" = "時間段 %@ 衝突時間段 %@ (%@)"; // 比如時間區間為(9:00 am - 11:00 am) 衝突時間段 (10:00 am - 12:30 )
+"edit_activity.title" = "编辑";
+"edit_activity.field.type" = "活动类别";
+"edit_activity.field.comment" = "备注";
+"edit_activity.field.tags" = "标签";
+"edit_activity.field.start" = "开始";
+"edit_activity.field.place" = "地址";
+"edit_activity.intervals" = "时间段";
+"edit_activity.running" = "进行中状态";
+"edit_activity.paused" = "暂停状态";
+"edit_activity.stopped" = "结束状态";
+"edit_activity.empty.description" = "请按 «+» 增加新的活动时间段";
+"edit_activity.no_comment" = "增加备注";
+"edit_activity.delete.message" = "删除活动?";
+"edit_activity.error.no_type" = "选择活动的类型";
+"edit_activity.error.no_intervals" = "活动需要至少一个时间段";
+"edit_activity.action.skip_and_save" = "跳过并保存";
+"edit_activity.intersection.change" = "更改 %@ 为 %@"; // 比如修改 (9:00 am - 11:00 am) 为 (9:00 am - 10:30 am)
+"edit_activity.intersection.start_date_intersects" = "开始时间 %@ 已有获得存在时间交叉 %@"; // 如果你准备开始的时间为10:30但是存在一个时间区间为9:00 - 11:00,Timetrack.io会建议你改变已存在的时间区间为9:00 - 10:30或者修改开始时间为11：00。
+"edit_activity.intersection.change_start_date" = "改变开始时间为 %@";  // 如果你准备开始的时间为10:30但是存在一个时间区间为9:00 - 11:00,Timetrack.io会建议你改变已存在的时间区间为9:00 - 10:30或者修改开始时间为11：00。
+"edit_activity.intersection.interval_intersects" = "时间段 %@ 冲突时间段 %@ (%@)"; // 比如时间区间为(9:00 am - 11:00 am) 冲突时间段 (10:00 am - 12:30 am)
 
-"edit_interval.title" = "編輯";
-"edit_interval.error.from_greater_to" = "結束時間小於開始時間";
-"edit_interval.field.from" = "開始時間";
-"edit_interval.field.to" = "結束時間";
-"edit_interval.field.duration" = "持續時間";
-"edit_interval.field.calendar_event" = "日曆事件";
-"edit_interval.now" = "目前時間";
-"edit_interval.duration.hours" = "%d 小時";
-"edit_interval.duration.minutes" = "%d 分鐘";
+"edit_interval.title" = "编辑";
+"edit_interval.error.from_greater_to" = "结束时间小于开始时间";
+"edit_interval.field.from" = "开始时间";
+"edit_interval.field.to" = "结束时间";
+"edit_interval.field.duration" = "持续时间";
+"edit_interval.field.calendar_event" = "日历事件";
+"edit_interval.now" = "此刻";
+"edit_interval.duration.hours" = "%d 小时";
+"edit_interval.duration.minutes" = "%d 分钟";
 
 /**
 Pomodoros
 */
-"pomodoros.empty.title" = "沒有番茄時鐘";
-"pomodoros.empty.description" = "選擇的時間區間不存在番茄時鐘，請先在設定頁面開啟番茄時鐘模式再開始追蹤";
+"pomodoros.empty.title" = "没有番茄钟";
+"pomodoros.empty.description" = "选择的时间区间不存在番茄钟.请在设置里面设置番茄钟模式并开始追踪";
 
 /**
  History
  */
-"history.title" = "歷史";
-"history.pie.show_untracked" = "未記錄的時間";
-"history.empty.title" = "這段時間內沒有任何記錄";
-"history.empty.description" = "變更時間，請按 «+» 開始/重新開始一個活動，或者請選擇活動圖示開始新活動";
+"history.title" = "历史";
+"history.pie.show_untracked" = "未记录的时间";
+"history.empty.title" = "这段时间没有任何记录";
+"history.empty.description" = "改变时段, 请按 «+» 开始/重新启动一个活动，或者选择活动图标开始一个新活动";
 "history.range.today" = "今天";
 "history.range.day" = "日";
-"history.range.week" = "週";
+"history.range.week" = "周";
 "history.range.month" = "月";
 "history.view.list" = "列表";
-"history.view.pie" = "圓餅圖";
-"history.view.calendar" = "日曆";
-"history.time_tracked" = "記錄時間總計： %@";
-"history.title.delete_interval" = "您確定要刪除這個時間段？";
+"history.view.pie" = "饼图";
+"history.view.calendar" = "日历";
+"history.time_tracked" = "记录时间总计: %@";
+"history.title.delete_interval" = "您确定要删除这个时间段?";
 
 /**
  Types
  */
-"types.empty.title" = "沒有活動類型";
-"types.empty.description" = "您沒有選擇活動類型，通過右上角 '+' 建立一個活動類型";
-"types.title" = "類別";
+"types.empty.title" = "没有活动类型";
+"types.empty.description" = "你没有选择活动类型，通过右上角'+'创建一个活动类型";
+"types.title" = "类别";
 "types.order.title" = "排序: %@";
-"types.order.manual" = "手動排序";
+"types.order.manual" = "手动排序";
 "types.order.by_name" = "按名字排序";
-"types.archived" = "封存";
+"types.archived" = "归档";
 
-"type_details.title" = "詳細資料";
-"type_details.action.move" = "移動至...";
-"type_details.action.archive" = "封存";
-"type_details.action.unarchive" = "取消封存";
-"type_details.unarchive.message" = "確定取消封存活動類型？";
-"type_details.archive.message" = "確定封存活動類型？";
-"type_details.archived" = "封存";
+"type_details.title" = "活动类型细节";
+"type_details.action.move" = "移动至";
+"type_details.action.archive" = "归档";
+"type_details.action.unarchive" = "还原归档";
+"type_details.unarchive.message" = "确定还原归档活动类型？";
+"type_details.archive.message" = "确定归档活动类型？";
+"type_details.archived" = "归档";
 "type_details.last_30_days" = "最近30天";
-"type_details.last_30_days_nothing_tracked" = "最近30天沒有開啟時間追蹤";
-"type_details.items" = "項目";
-"type_details.empty.title" = "沒有子活動";
-"type_details.empty.description" = "點擊 '+' 新增一個群組或活動類型";
-"type_details.last_activity" = "最近的活動: %@";
-"type_details.last_activity.running" = "最近活動：追蹤中";
-"type_details.last_activity.empty" = "最近活動： 沒有開啟";
-"type_details.average" = "平均/活動";
+"type_details.last_30_days_nothing_tracked" = "最近30天没有开启时间追踪";
+"type_details.items" = "项目";
+"type_details.empty.title" = "没有子活动";
+"type_details.empty.description" = "点击 '+' 添加一个活动组或活动类型";
+"type_details.last_activity" = "最近的活动: %@";
+"type_details.last_activity.running" = "最近活动: 追踪中";
+"type_details.last_activity.empty" = "最近活动: 没有开启";
+"type_details.average" = "平均/活动";
 "type_details.average_day" = "平均/天";
 "type_details.total" = "全部";
 
-"edit_type.field.group" = "群組";
-"edit_type.field.name" = "名稱";
-"edit_type.field.icon" = "圖示";
-"edit_type.field.color" = "顏色";
-"edit_type.field.calendar" = "日曆";
-"edit_type.delete.message" = "刪除類型？";
-"edit_type.empty_name.message" = "活動類型不能為空";
+"edit_type.field.group" = "群组";
+"edit_type.field.name" = "名称";
+"edit_type.field.icon" = "图标";
+"edit_type.field.color" = "颜色";
+"edit_type.field.calendar" = "Calendar";
+"edit_type.delete.message" = "删除类型?";
+"edit_type.empty_name.message" = "活动类型不能为空";
 
-"archived.title" = "封存";
+"archived.title" = "归档";
 
-"select_color.title" = "選擇顏色";
-"select_color.picker" = "選擇顏色: %@";
-"select_color.predefined" = "內建色彩";
-"select_color.manual" = "調色板";
+"select_color.title" = "选择颜色";
+"select_color.picker" = "选取颜色: %@";
+"select_color.predefined" = "内置颜色块";
+"select_color.manual" = "颜色板";
 
-"select_icon.title" = "選擇圖示";
+"select_icon.title" = "选择图标";
 
-"select_move_to.action.move_to_top" = "移到頂端";
+"select_move_to.action.move_to_top" = "移到顶层";
 
 /**
  Goals
  */
-"goals.archived" = "封存";
-"goals.title" = "目標";
+"goals.archived" = "归档";
+"goals.title" = "目标";
 "goals.order.title" = "排序: %@";
-"goals.order.manual" = "手動排序";
+"goals.order.manual" = "手动排序";
 "goals.order.by_name" = "按名字排序";
-"goals.empty.title" = "沒有目標";
-"goals.empty.description" = "你還沒有為活動建立時間目標，點擊 '+' 來建立一個目標";
-"goals.delete.title" = "刪除目標？";
-"goals.field.name" = "目標名稱";
-"goals.field.goal_type" = "目標達成類型";
-"goals.field.goal_type.limit" = "不超過設定時間";
-"goals.field.goal_type.reach" = "至少達到設定時間";
-"goals.field.based_on" = "目標達成標準";
-"goals.field.based_on.duration" = "目標完成時間";
-"goals.field.based_on.occurrence" = "目標完成次數";
-"goals.field.types" = "目標包含的活動";
-"goals.field.tags" = "目標包含的標籤";
+"goals.empty.title" = "没有目标";
+"goals.empty.description" = "你还没有为活动建立时间目标. 点击'+'创建一个目标";
+"goals.delete.title" = "删除目标?";
+"goals.field.name" = "目标名称";
+"goals.field.goal_type" = "目标达成类型";
+"goals.field.goal_type.limit" = "不超过设置时间";
+"goals.field.goal_type.reach" = "不低于设置时间";
+"goals.field.based_on" = "达标形式";
+"goals.field.based_on.duration" = "时间";
+"goals.field.based_on.occurrence" = "次数";
+"goals.field.types" = "目标包含的活动";
+"goals.field.tags" = "目标包含的标签";
 "goals.field.alerts" = "提醒";
-"goals.field.alerts.no_alerts" = "不需要提醒";
-"goals.field.alert_sound" = "提醒鈴聲";
-"goals.field.alert_sound.no_sound" = "沒有聲音";
+"goals.field.alerts.no_alerts" = "无需提醒";
+"goals.field.alert_sound" = "提醒铃声";
+"goals.field.alert_sound.no_sound" = "没有声音";
 "goals.field.alerts.value" = "%ld 提醒";
-"goals.field.alerts.action.add" = "新增另一個提醒";
-"goals.field.alerts.at_time_of_event" = "目標達成";
-"goals.field.alerts.before_event" = "目標時間達成前 %d 分鐘";
-"goals.field.alerts.after_event" = "目標達成後 %d 分鐘";
-"goals.field.types.value" = "%ld 活動";
-"goals.field.tags.value" = "%ld 標籤";
+"goals.field.alerts.action.add" = "添加另一个提醒";
+"goals.field.alerts.at_time_of_event" = "目标达成";
+"goals.field.alerts.before_event" = "目标时间达成前 %d 分钟";
+"goals.field.alerts.after_event" = "目标达成后 %d 分钟";
+"goals.field.types.value" = "%ld 活动";
+"goals.field.tags.value" = "%ld 标签";
 
-"goals.notification.time_limit_reached" = "警告！你設定'%@'的時間已經超過了";
-"goals.notification.time_limit_will_reach" = "還有'%$2d'分鐘，你設定的 %$1@ 時間就超過了";
-"goals.notification.time_limit_has_been_reached" = "你設定的 %$1@ 時間，已經超過'%$2d'分鐘";
-"goals.notification.goal_reached" = "恭喜！你設定'%@'的時間目標已達成";
-"goals.notification.goal_will_reach" = "離達成'%$1@'的目標時間還有'%$2d'分鐘";
-"goals.notification.goal_has_been_reached" = "你設定的 '%$1@' 時間，已經超過'%$2d'分鐘";
-"goals.notification.occurrence_reached" = "恭喜！目標時間已經達成: '%@'";
-"goals.notification.occurrence_limit_reached" = "注意！目標設定的完成次數'%@'已經達成。";
+"goals.notification.time_limit_reached" = "警告!你设定'%@'的时间已经超标";
+"goals.notification.time_limit_will_reach" = "还有'%$2d'分钟，你设定的 %$1@ 时间就超标了";
+"goals.notification.time_limit_has_been_reached" = "你设定的 %$1@ 时间，已经超标了'%$2d'分钟";
+"goals.notification.goal_reached" = "恭喜！你设定'%@'的时间目标已达成";
+"goals.notification.goal_will_reach" = "离达成'%$1@'的目标时间还有'%$2d'分钟";
+"goals.notification.goal_has_been_reached" = "你设定的 '%$1@' 时间，已经超越了'%$2d'分钟";
+"goals.notification.occurrence_reached" = "恭喜！目标时间已经达成: '%@'";
+"goals.notification.occurrence_limit_reached" = "目标设定的次数'%@'已经达成";
 
-"goal_details.title" = "目標";
-"goal_details.action.archive" = "封存";
-"goal_details.action.unarchive" = "取消封存";
-"goal_details.unarchive.message" = "不封存目標？";
-"goal_details.archive.message" = "封存目標？";
+"goal_details.title" = "目标";
+"goal_details.action.archive" = "归档";
+"goal_details.action.unarchive" = "归档逆操作";
+"goal_details.unarchive.message" = "不归档目标?";
+"goal_details.archive.message" = "归档目标?";
 "goal_details.last10_days.title" = "最近 10 天";
-"goal_details.last30_days.title" = "最近 30 天";
-"goal_details.last10_weeks.title" = "最近 10 週";
-"goal_details.last10_months.title" = "最近 10 個月";
-"goal_details.last10_activities.title" = "最近 10 個活動";
-"goal_details.last10_intervals.title" = "最近10個時間段"; // 這個會在目標的統計圖裡面顯示
+"goal_details.last30_days.title" = "Last 30 days";
+"goal_details.last10_weeks.title" = "最近 10 周";
+"goal_details.last10_months.title" = "最近 10 个月";
+"goal_details.last10_activities.title" = "最近 10 个活动";
+"goal_details.last10_intervals.title" = "最近10个时间段"; // 这个会在目标的统计图里面显示
 "goal_details.stats.line.goal_value" = "";
 "goal_details.stats.average" = "平均";
 "goal_details.stats.total" = "全部";
 "goal_details.stats.success" = "成功";
 
-"edit_goal.title" = "編輯";
-"edit_goal.error.empty_name" = "目標名稱不能為空";
-"edit_goal.error.types" = "至少選擇一個活動類型";
-"edit_goal.error.duration_or_occurence" = "請選擇要完成此目標所需的時間或次數"; // it's shown if duration or occurrence is 0
-"edit_goal.goal_type.activity" = "活動";
+"edit_goal.title" = "编辑";
+"edit_goal.error.empty_name" = "目标名称不能为空";
+"edit_goal.error.types" = "至少选择一个活动类型";
+"edit_goal.error.duration_or_occurence" = "要选择此目标所需完成的时间或次数"; // it's shown if duration or occurrence is 0
+"edit_goal.goal_type.activity" = "活动";
 "edit_goal.goal_type.interval" = "休息";
 "edit_goal.goal_type.day" = "天";
-"edit_goal.goal_type.week" = "週";
+"edit_goal.goal_type.week" = "周";
 "edit_goal.goal_type.month" = "月";
 "edit_goal.goal_type.total" = "全部";
 
-"goal.description.duration_per_activity" = "%@ 活動每次";
-"goal.description.duration_per_interval" = "%@ 每時間段";
+"goal.description.duration_per_activity" = "%@ 活动每次";
+"goal.description.duration_per_interval" = "%@ 每时间段";
 "goal.description.duration_per_day" = "%@ 每天";
-"goal.description.duration_per_week" = "%@ 每週";
+"goal.description.duration_per_week" = "%@ 每周";
 "goal.description.duration_per_month" = "%@ 每月";
 "goal.description.duration_total" = "%@ 全部";
 "goal.description.occurrence_per_day" = "每天 %d 次";
-"goal.description.occurrence_per_week" = "每週 %d 次";
+"goal.description.occurrence_per_week" = "每周 %d 次";
 "goal.description.occurrence_per_month" = "每月 %d 次";
 
 "goal.average.occurrence_per_day" = "%.1f 天/次";
-"goal.average.occurrence_per_week" = "%.1f 天/週";
+"goal.average.occurrence_per_week" = "%.1f 天/周";
 "goal.average.occurrence_per_month" = "%.1f 天/月";
 
 /**
 Tags
 */
-"tags.edit.title" = "修改標籤";
-"tags.edit.placeholder.nonempty" = "選擇/新增一個標籤";
-"tags.edit.placeholder.empty" = "輸入一個新標籤";
-"tags.edit.placeholder.readonly" = "從列表中選擇一個標籤";
+"tags.edit.title" = "修改标签";
+"tags.edit.placeholder.nonempty" = "选择/新建一个标签";
+"tags.edit.placeholder.empty" = "键入一个新标签";
+"tags.edit.placeholder.readonly" = "从列表选择一个标签";
 
 "more.title" = "更多";
 
-"select_value.title" = "目標完成數值基準";
+"select_value.title" = "目标完成数值基准";
 
-"Activities" = "活動";
-"History" = "歷史";
-"Types" = "類別";
-"Goals" = "目標";
-"Reports" = "報告";
-"%@ per activity" = "%@ 每個活動";
+"Activities" = "活动";
+"History" = "历史";
+"Types" = "类别";
+"Goals" = "目标";
+"Reports" = "报告";
+"%@ per activity" = "%@ 每个活动";
 
 /**
   Pomodoros
  */
-"pomodoro.title" = "番茄時鐘";
-"pomodoro.history" = "番茄歷史";
-"pomodoro.statistics" = "番茄統計";
-"pomodoro.time_tracked" = "記錄時間總計: %@";
+"pomodoro.title" = "番茄钟";
+"pomodoro.history" = "番茄历史";
+"pomodoro.statistics" = "番茄统计";
+"pomodoro.time_tracked" = "记录时间总计: %@";
 "pomodoro.action.reset" = "重置";
 "pomodoro.action.short_break" = "短休息";
-"pomodoro.action.long_break" = "長休息";
-"pomodoro.title.quit" = "退出專注模式?";
-"pomodoro.action.quit" = "退出番茄時鐘";
+"pomodoro.action.long_break" = "长休息";
+"pomodoro.title.quit" = "退出番茄钟模式?";
+"pomodoro.action.quit" = "退出番茄钟";
 "pomodoro.action.break" = "休息";
 "pomodoro.action.resume_previous" = "重新番茄";
-"pomodoro.title.resume_previous" = "再次開始之前的專注活動？";
-"pomodoro.action.start_new" = "新活動番茄";
-"pomodoro.action.resume" = "恢復";
+"pomodoro.title.resume_previous" = "再次开始之前的活动?";
+"pomodoro.action.start_new" = "新活动番茄";
+"pomodoro.action.resume" = "恢复";
 "pomodoro.action.more" = "更多";
-"pomodoro.title.select_work_type" = "定義番茄活動類型";
-"pomodoro.title.select_break_type" = "定義休息活動類型";
-"pomodoro.title.reset" = "重置番茄？";
+"pomodoro.title.select_work_type" = "选择番茄钟类型";
+"pomodoro.title.select_break_type" = "休息时活动类型";
+"pomodoro.title.reset" = "重置番茄?";
 "pomodoro.completed" = "%d of %d";
-"pomodoro.notification.work_complete" = "是時候該休息一下了";
-"pomodoro.notification.short_break_complete" = "短休息結束了！請盡快進入工作狀態";
-"pomodoro.notification.long_break_complete" = "長休息結束！請盡快進入工作狀態";
+"pomodoro.notification.work_complete" = "休息一会儿";
+"pomodoro.notification.short_break_complete" = "短休息结束!进入工作状态";
+"pomodoro.notification.long_break_complete" = "长休息结束!进入工作状态";
 
-"pomodoro.history.header.completed" = "%d 已完成番茄數 of %d 目標番茄数";
-"pomodoro.history.action.message" = "您可以把這時間記錄從番茄記錄刪除 (在時間歷史保留) 或者完全刪除 (保括時間歷史記錄)";
+"pomodoro.history.header.completed" = "%d 已完成完成番茄数 of %d 目标番茄数";
+"pomodoro.history.action.message" = "你可以把这时间记录从番茄记录删除（在时间历史保留）或者完全删除（包括时间历史记录）";
 "pomodoro.history.action.remove_interval" = "完全删除";
-"pomodoro.history.action.remove_interval_from_pomodoro" = "在番茄記錄移除";
+"pomodoro.history.action.remove_interval_from_pomodoro" = "在番茄记录移除";
 
 "pomodoro.stats.total" = "全部";
 "pomodoro.stats.completed" = "完成";
 "pomodoro.stats.uncompleted" = "未完成";
-"pomodoro.stats.average_completed_day" = "平均每天完成番茄數";
-"pomodoro.stats.average_completed_duration" = "平均每天完成番茄時間";
-"pomodoro.stats.average_break_duration" = "平均每天中斷時間";
-"pomodoro.stats.header.daily" = "番茄統計圖（天）";
+"pomodoro.stats.average_completed_day" = "平均每天完成番茄钟数";
+"pomodoro.stats.average_completed_duration" = "平均每天完成番茄钟时间";
+"pomodoro.stats.average_break_duration" = "平均每天中断时间";
+"pomodoro.stats.header.daily" = "番茄统计图（天）";
 
 "pomodoro.stats.bar.completed" = "完成";
 "pomodoro.stats.bar.uncompleted" = "未完成";
-"pomodoro.stats.bar.break" = "中斷";
-"pomodoro.stats.line.daily_goal" = "每日目標";
+"pomodoro.stats.bar.break" = "打断";
+"pomodoro.stats.line.daily_goal" = "每日目标";
 
 /**
  Remind me
 */
-"remind_me.title.what_are_you_doing" = "你現在在做什麼呢?";
-"remind_me.title.what_are_you_doing_running" = "你現在在做什麼呢？ 現在開始記錄： %@";
+"remind_me.title.what_are_you_doing" = "现在在做什么?";
+"remind_me.title.what_are_you_doing_running" = "现在在做什么? 现在开始记录: %@";
 "remind_me.action.change" = "更改";
-"remind_me.action.start" = "開始記錄活動";
+"remind_me.action.start" = "开始记录活动";
 
 /**
  Reports
  */
-"reports.title" = "報告";
-"reports.type.custom" = "自訂";
-"reports.type.predefined" = "預設報告類型";
-"reports.type.user" = "使用者";
-"reports.type.range_type" = "範圍";
+"reports.title" = "报告";
+"reports.type.custom" = "常规";
+"reports.type.predefined" = "内置报告类型";
+"reports.type.user" = "用户";
+"reports.type.range_type" = "范围";
 "reports.type.predefined.today" = "今天";
-"reports.type.predefined.this_week" = "本週";
+"reports.type.predefined.this_week" = "本周";
 "reports.type.predefined.this_month" = "本月";
 "reports.type.predefined.last_10_days" = "最近 10 天";
 "reports.type.predefined.last_30_days" = "最近 30 天";
 "reports.type.predefined.yesterday" = "昨天";
-"reports.type.predefined.last_week" = "上週";
+"reports.type.predefined.last_week" = "上周";
 "reports.type.predefined.last_month" = "上月";
-"reports.range_picker.range_type" = "範圍類型";
-"reports.range_picker.manual" = "選取";
-"reports.range_picker.predefined" = "預設";
-"reports.premium.message" = "免費帳號最多可以增加兩個類型";
-"report.title" = "報告";
-"report.action.select_format" = "選擇導出格式";
-"report.action.create" = "建立報告";
-"report.action.export" = "導出報告";
-"report.action.batch_remove" = "刪除全部";
-"report.action.save_to" = "儲存為...";
-"report.action.send_by_email" = "透過郵件發送";
-"report.action.collapse_expand" = "收合/展開全部";
-"report.title.saved" = "儲存成功";
-"report.params.types" = "報告類型";
-"report.params.types.value" = "%ld 類型";
-"report.params.tags" = "標籤";
-"report.params.tags.value" = "%ld 標籤";
-"report.params.date_range" = "日期範圍";
-"report.params.show_other" = "顯示 '其他'";
-"report.params.from" = "開始時間";
-"report.params.to" = "結束時間";
-"report.type.total" = "總共";
-"report.type.history" = "歷史";
-"report.type.pie" = "圓餅圖";
-"report.type.daily_total" = "每日活動完成時間（依類型彙總）";
-"report.type.daily_bar" = "每日活動完成時間（依活動開始時間排序並彙總）";
-"report.type" = "報告類型: %@";
-"report.empty.title" = "沒有記錄";
-"report.empty.description" = "沒有選擇參數";
-"report.statistics.date_range" = "日期範圍";
-"report.statistics.total" = "總計";
-"report.title.batch_remove" = "你確定要刪除所有的時間區間嗎？";
-"report.title.remove" = "刪除報告？";
+"reports.range_picker.range_type" = "范围类型";
+"reports.range_picker.manual" = "选取";
+"reports.range_picker.predefined" = "预设";
+"reports.premium.message" = "免费账号最多可以增加两个类型";
+"report.title" = "报告";
+"report.action.select_format" = "选择导出格式";
+"report.action.create" = "创建报告";
+"report.action.export" = "导出报告";
+"report.action.batch_remove" = "删除全部";
+"report.action.save_to" = "保存为文档";
+"report.action.send_by_email" = "通过邮件发送";
+"report.action.collapse_expand" = "折叠/展开全部";
+"report.title.saved" = "保存成功";
+"report.params.types" = "报告类型";
+"report.params.types.value" = "%ld 类型";
+"report.params.tags" = "标签";
+"report.params.tags.value" = "%ld 标签";
+"report.params.date_range" = "日期";
+"report.params.show_other" = "显示 '其他'";
+"report.params.from" = "开始时间";
+"report.params.to" = "结束时间";
+"report.type.total" = "总共";
+"report.type.history" = "历史";
+"report.type.pie" = "饼图";
+"report.type.daily_total" = "每日活动完成时间（按类型汇总）";
+"report.type.daily_bar" = "每日活动完成时间（按活动开始时间排序并汇总）";
+"report.type" = "报告类型: %@";
+"report.empty.title" = "没有记录";
+"report.empty.description" = "没有选择参数";
+"report.statistics.date_range" = "日期";
+"report.statistics.total" = "总计";
+"report.title.batch_remove" = "你确定要删除所有的时间区间吗?";
+"report.title.remove" = "删除报告?";
 
 /**
  Places
  */
-"places.field.name" = "地點名稱";
-"places.field.location" = "地點";
-"places.field.notify_on_entry" = "進入地點後收到通知";
-"places.field.notify_on_exit" = "離開地點後收到通知";
-"places.delete.title" = "刪除地點？";
-"places.field.exit_types" = "取消類型";
-"places.field.entry_types" = "輸入類型";
-"places.field.exit_types.value" = "%ld 類型";
-"places.field.entry_types.value" = "%ld 類型";
+"places.field.name" = "位置名称";
+"places.field.location" = "位置";
+"places.field.notify_on_entry" = "进入该位置收到通知";
+"places.field.notify_on_exit" = "离开该位置收到通知";
+"places.delete.title" = "删除位置?";
+"places.field.exit_types" = "取消类型";
+"places.field.entry_types" = "输入类型";
+"places.field.exit_types.value" = "%ld 类型";
+"places.field.entry_types.value" = "%ld 类型";
 
-"places.empty.title" = "沒有找到該地點";
-"places.empty.description" = "地點監測：當您到達您設定的地理位置時，會收到通知";
+"places.empty.title" = "没有找到该位置";
+"places.empty.description" = "位置监测：当你到达设定的位置，会得到通知";
 
-"places.premium.message" = "免費帳戶只能設置兩個地點";
+"places.premium.message" = "免费账户只能设置两个位置";
 
-"edit_place.error.empty_name" = "地點不能為空";
-"place.notification.location_changed" = "你的位置發生變化";
-"place.notification.entered" = "您進入了 \"%@\"";
-"place.notification.leaving" = "您離開了 \"%@\"";
-"place.notification.start_new" = "設置新的地點";
-"place.notification.start" = "開始 \"%@\"";
-"place.notification.pause" = "中斷 \"%@\"";
+"edit_place.error.empty_name" = "位置不能为空";
+"place.notification.location_changed" = "你的位置发生变化";
+"place.notification.entered" = "到达 \"%@\"";
+"place.notification.leaving" = "离开 \"%@\"";
+"place.notification.start_new" = "设置新的地址";
+"place.notification.start" = "开始 \"%@\"";
+"place.notification.pause" = "中断 \"%@\"";
 
-"select_location.title" = "選擇地點";
-"select_location.subtitle" = "地圖選擇: %@";
-"select_location.provider.apple" = "蘋果地圖";
-"select_location.provider.baidu" = "百度地圖";
-"select_location.tap_and_drag" = "點擊圖釘拖動到其他位置進行手動定位";
+"select_location.title" = "选择地址";
+"select_location.subtitle" = "地图选择: %@";
+"select_location.provider.apple" = "苹果地图";
+"select_location.provider.baidu" = "百度地图";
+"select_location.tap_and_drag" = "点击图钉拖动到其他地址进行手动定位";
 
 /**
  Settings
  */
-"settings.title" = "設定";
-"settings.sections.activities" = "活動";
+"settings.title" = "设置";
+"settings.sections.activities" = "活动";
 
-"settings.action_on_start.name" = "開始新活動時";
-"settings.action_on_start.description" = "當開始另一個新的活動時，是選擇暫停/停止/繼續目前的活動";
-"settings.action_on_start.values.none" = "同時開始新活動";
-"settings.action_on_start.values.pause" = "暫停正在進行的活動並開始新活動";
-"settings.action_on_start.values.stop" = "結束正在進行的活動並開始新活動";
+"settings.action_on_start.name" = "开始新活动时";
+"settings.action_on_start.description" = "当开始另一个新的活动时候，是选择暂停/停止/继续目前的活动";
+"settings.action_on_start.values.none" = "继续正在进行的活动并开始新活动";
+"settings.action_on_start.values.pause" = "暂停正在进行的活动并开始新活动";
+"settings.action_on_start.values.stop" = "结束正在进行的活动并开始新活动";
 
-"settings.default_edit_field.name" = "預設編輯時間欄位";
-"settings.default_edit_field.description" = "編輯活動時間時預設的編輯時間欄位";
-"settings.default_edit_field.values.from" = "開始時間";
-"settings.default_edit_field.values.to" = "結束時間";
+"settings.default_edit_field.name" = "编辑时间默认区域";
+"settings.default_edit_field.description" = "活动时间编辑界面默认编辑区域";
+"settings.default_edit_field.values.from" = "开始时间";
+"settings.default_edit_field.values.to" = "结束时间";
 
-"settings.min_duration.name" = "最小活動持續時間";
-"settings.min_duration.description" = "如果時間區段小於設置的時間區段，則活動時間將不會被保存";
-"settings.min_duration.none" = "不設置";
+"settings.min_duration.name" = "最小活动持续时间";
+"settings.min_duration.description" = "如果时间的区间小于设置的区间，活动时间不会被保存";
+"settings.min_duration.none" = "不设置";
 "settings.min_duration.10_sec" = "10 秒";
-"settings.min_duration.1_min" = "1 分鐘";
-"settings.min_duration.5_min" = "5 分鐘";
+"settings.min_duration.1_min" = "1 分钟";
+"settings.min_duration.5_min" = "5 分钟";
 
-"settings.picker_increment.name" = "時間增量選擇";
-"settings.picker_increment.description" = "在活動編輯頁面編輯時間時，時間的最小增量單位";
-"settings.picker_increment.1_min" = "1 分鐘";
-"settings.picker_increment.2_min" = "2 分鐘";
-"settings.picker_increment.5_min" = "5 分鐘";
-"settings.picker_increment.10_min" = "10 分鐘";
-"settings.picker_increment.15_min" = "15 分鐘";
+"settings.picker_increment.name" = "时间增量";
+"settings.picker_increment.description" = "在活动编辑界面编辑时间时候的时间选择不同的增量";
+"settings.picker_increment.1_min" = "1 分钟";
+"settings.picker_increment.2_min" = "2 分钟";
+"settings.picker_increment.5_min" = "5 分钟";
+"settings.picker_increment.10_min" = "10 分钟";
+"settings.picker_increment.15_min" = "15 分钟";
 
-"settings.activity.pauses" = "顯示暫停按鈕";
-"settings.activity.pauses.description" = "關閉時，活動暫停按鈕將隱藏";
+"settings.activity.pauses" = "显示暂停按钮";
+"settings.activity.pauses.description" = "关闭后，活动暂停按钮将隐藏";
 
-"settings.sections.warnings" = "彈出警告";
+"settings.sections.warnings" = "弹出警告";
 
 "settings.warn_on_actions.name" = "警告提醒";
-"settings.warn_on_actions.description" = "在開始/結束/暫停/恢復活動時彈出提醒";
+"settings.warn_on_actions.description" = "在开始/结束/暂停/恢复活动时候弹出提醒";
 
-"settings.sections.advanced" = "進階設定";
+"settings.sections.advanced" = "高级配置";
 
-"settings.remind_me.name" = "記錄提醒";
-"settings.remind_me.description" = "提醒我記錄時間";
-"settings.remind_me.title" = "記錄提醒";
-"settings.remind_me.hours" = "小時";
-"settings.remind_me.alert_sound" = "提醒音效";
-"settings.remind_me.interval" = "間隔";
+"settings.remind_me.name" = "提醒我记录时间";
+"settings.remind_me.description" = "TODO";
+"settings.remind_me.title" = "提醒我记录时间";
+"settings.remind_me.hours" = "小时";
+"settings.remind_me.alert_sound" = "提醒声音";
+"settings.remind_me.interval" = "间断";
 
-"settings.comment_on_start.name" = "在開始活動前備註";
-"settings.comment_on_start.description" = "在開始活動前進行活動備註說明";
+"settings.comment_on_start.name" = "在开始活动前评论";
+"settings.comment_on_start.description" = "TODO";
 
-"settings.comment_on_stop.name" = "在活動結束時備註";
-"settings.comment_on_stop.description" = "在活動結束時進行活動備註說明";
+"settings.comment_on_stop.name" = "在活动结束时评论";
+"settings.comment_on_stop.description" = "TODO";
 
-"settings.sections.appearance" = "主題";
-"settings.theme.name" = "選擇主題";
+"settings.sections.appearance" = "主题设置";
+"settings.theme.name" = "主题样式";
 "settings.theme.name.light" = "白天模式";
-"settings.theme.name.dark" = "夜晚模式";
-"settings.goal_progress.name" = "目標進度顏色";
+"settings.theme.name.dark" = "黑夜模式";
+"settings.goal_progress.name" = "目标进度颜色";
 "settings.goal_progress.gray" = "灰色";
 "settings.goal_progress.colored" = "彩色";
-"settings.navigation" = "導覽選單";
-"settings.navigation.left_menu" = "置於左側";
-"settings.navigation.tab_bar" = "使用導覽列";
+"settings.navigation" = "导航栏";
+"settings.navigation.left_menu" = "左边";
+"settings.navigation.tab_bar" = "标签栏";
 
-"settings.sections.history" = "歷史";
-"settings.history.order.title" = "歷史排序";
-"settings.history.order.asc" = "順向";
-"settings.history.order.desc" = "逆向";
-"settings.history.pie_view_mode.title" = "圓餅圖查看模式";
-"settings.history.pie_view_mode.grouped" = "只看群組";
-"settings.history.pie_view_mode.types_only" = "活動類型詳情";
+"settings.sections.history" = "历史";
+"settings.history.order.title" = "历史排序";
+"settings.history.order.asc" = "升序";
+"settings.history.order.desc" = "降序";
+"settings.history.pie_view_mode.title" = "饼图查看模式";
+"settings.history.pie_view_mode.grouped" = "只看群组";
+"settings.history.pie_view_mode.types_only" = "活动类型详情";
 "settings.history.pie_view_mode.description" = "";
 
-"settings.show_types_hierarchy.name" = "展開活動類型層級";
-"settings.show_types_hierarchy.description" = "在活動類型頁面直接顯示分組內的活動";
+"settings.show_types_hierarchy.name" = "展开活动类型层级";
+"settings.show_types_hierarchy.description" = "在活动类型页面直接显示分组内的活动";
 
-"settings.show_seconds.name" = "顯示秒";
-"settings.show_seconds.description" = "在報告中顯示秒";
+"settings.show_seconds.name" = "显示秒";
+"settings.show_seconds.description" = "在报告显示秒";
 
-"settings.first_day_of_week.name" = "每週開始的第一天";
-"settings.first_day_of_week.monday" = "星期一";
-"settings.first_day_of_week.tuesday" = "星期二";
-"settings.first_day_of_week.wednesday" = "星期三";
-"settings.first_day_of_week.thursday" = "星期四";
-"settings.first_day_of_week.friday" = "星期五";
-"settings.first_day_of_week.saturday" = "星期六";
-"settings.first_day_of_week.sunday" = "星期日";
+"settings.first_day_of_week.name" = "每周开始的第一天";
+"settings.first_day_of_week.monday" = "周一";
+"settings.first_day_of_week.tuesday" = "周二";
+"settings.first_day_of_week.wednesday" = "周三";
+"settings.first_day_of_week.thursday" = "周四";
+"settings.first_day_of_week.friday" = "周五";
+"settings.first_day_of_week.saturday" = "周六";
+"settings.first_day_of_week.sunday" = "周日";
 
-"settings.warn_on_intersection.name" = "時間區間衝突提醒";
-"settings.warn_on_intersection.description" = "如果兩個活動記錄的時間發生衝突，會提醒或建議您修改時間區間避免重覆記錄";
+"settings.warn_on_intersection.name" = "时间区间冲突提醒";
+"settings.warn_on_intersection.description" = "如果两个活动记录的时间发生冲突，会提醒或建议您修改时间区间避免重复记录";
 
-"settings.activity.main_timer" = "主要計時器";
+"settings.activity.main_timer" = "主要计时器";
 "settings.activity.main_timer.description" = "TODO";
-"settings.activity.main_timer.total" = "全部花費時間";
-"settings.activity.main_timer.running" = "本次活動時間";
+"settings.activity.main_timer.total" = "总共的时间";
+"settings.activity.main_timer.running" = "本次活动时间";
 
-"settings.activity.secondary_timer" = "次要計時器";
+"settings.activity.secondary_timer" = "次要计时器";
 "settings.activity.secondary_timer.description" = "TODO";
-"settings.activity.secondary_timer.no_timer" = "不設置";
-"settings.activity.secondary_timer.total" = "全部花費時間";
-"settings.activity.secondary_timer.running" = "本次活動時間";
-"settings.activity.secondary_timer.goal_left" = "目標時間";
+"settings.activity.secondary_timer.no_timer" = "不设置";
+"settings.activity.secondary_timer.total" = "总共时间";
+"settings.activity.secondary_timer.running" = "本次活动时间";
+"settings.activity.secondary_timer.goal_left" = "目标时间";
 
-"settings.activity.lock_screen" = "螢幕鎖定";
-"settings.activity.lock_screen.description" = "如果開始，畫面將不會進入鎖定狀態";
+"settings.activity.lock_screen" = "自动锁屏";
+"settings.activity.lock_screen.description" = "如果开始，软件会屏蔽自动锁屏";
 
 "settings.activity.flat_types" = "";
 "settings.activity.flat_types.description" = "TODO";
 
-"settings.pomodoro.title" = "番茄時鐘";
-"settings.pomodoro.name" = "番茄時鐘";
-"settings.pomodoro.enabled.name" = "番茄時鐘";
-"settings.pomodoro.rest_types.select" = "選擇";
-"settings.pomodoro.rest_types.name" = "設定休息類型";
-"settings.pomodoro.work_types.name" = "設定需要進行番茄的活動";
-"settings.pomodoro.work_types.select" = "選擇";
-"settings.pomodoro.pomodoro_length" = "番茄時鐘時長";
-"settings.pomodoro.pomodoro_length.1min" = "1 分鐘";
-"settings.pomodoro.pomodoro_length.2min" = "2 分鐘";
-"settings.pomodoro.pomodoro_length.5min" = "5 分鐘";
-"settings.pomodoro.pomodoro_length.10min" = "10 分鐘";
-"settings.pomodoro.pomodoro_length.15min" = "15 分鐘";
-"settings.pomodoro.pomodoro_length.20min" = "20 分鐘";
-"settings.pomodoro.pomodoro_length.25min" = "25 分鐘";
-"settings.pomodoro.pomodoro_length.30min" = "30 分鐘";
-"settings.pomodoro.pomodoro_length.35min" = "35 分鐘";
-"settings.pomodoro.pomodoro_length.40min" = "40 分鐘";
-"settings.pomodoro.pomodoro_length.45min" = "45 分鐘";
-"settings.pomodoro.pomodoro_length.50min" = "50 分鐘";
-"settings.pomodoro.pomodoro_length.55min" = "55 分鐘";
-"settings.pomodoro.pomodoro_length.60min" = "1 小時";
-"settings.pomodoro.pomodoros_a_day" = "每天番茄數";
-"settings.pomodoro.work_alert" = "番茄到時提醒";
+"settings.pomodoro.title" = "番茄钟";
+"settings.pomodoro.name" = "番茄钟";
+"settings.pomodoro.enabled.name" = "番茄钟";
+"settings.pomodoro.rest_types.select" = "选择";
+"settings.pomodoro.rest_types.name" = "设置休息类型";
+"settings.pomodoro.work_types.name" = "设置需要进行番茄的活动";
+"settings.pomodoro.work_types.select" = "选择";
+"settings.pomodoro.pomodoro_length" = "番茄钟时长";
+"settings.pomodoro.pomodoro_length.1min" = "1 分钟";
+"settings.pomodoro.pomodoro_length.2min" = "2 分钟";
+"settings.pomodoro.pomodoro_length.5min" = "5 分钟";
+"settings.pomodoro.pomodoro_length.10min" = "10 分钟";
+"settings.pomodoro.pomodoro_length.15min" = "15 分钟";
+"settings.pomodoro.pomodoro_length.20min" = "20 分钟";
+"settings.pomodoro.pomodoro_length.25min" = "25 分钟";
+"settings.pomodoro.pomodoro_length.30min" = "30 分钟";
+"settings.pomodoro.pomodoro_length.35min" = "35 分钟";
+"settings.pomodoro.pomodoro_length.40min" = "40 分钟";
+"settings.pomodoro.pomodoro_length.45min" = "45 分钟";
+"settings.pomodoro.pomodoro_length.50min" = "50 分钟";
+"settings.pomodoro.pomodoro_length.55min" = "55 分钟";
+"settings.pomodoro.pomodoro_length.60min" = "1 小时";
+"settings.pomodoro.pomodoros_a_day" = "每天番茄数";
+"settings.pomodoro.work_alert" = "番茄到时提醒";
 "settings.pomodoro.rest_alert" = "休息提醒";
-"settings.pomodoro.short_break_length" = "短休息時間長度";
-"settings.pomodoro.long_break_length" = "長休息時間長度";
-"settings.pomodoro.mode.title" = "番茄時間模式";
-"settings.pomodoro.mode.simple.title" = "一般";
-"settings.pomodoro.mode.strict.title" = "強制（番茄無法終止）";
-"settings.pomodoro.work_tick_sound" = "番茄時間發出滴答聲";
-"settings.pomodoro.break_tick_sound" = "番茄休息時發出滴答聲";
-"settings.pomodoro.cycles_count" = "多久一個長休息";
+"settings.pomodoro.short_break_length" = "短休息时间长度";
+"settings.pomodoro.long_break_length" = "长休息时间长度";
+"settings.pomodoro.mode.title" = "番茄钟模式";
+"settings.pomodoro.mode.simple.title" = "常规";
+"settings.pomodoro.mode.strict.title" = "强制（番茄无法终止）";
+"settings.pomodoro.work_tick_sound" = "番茄时间时发出滴滴声";
+"settings.pomodoro.break_tick_sound" = "番茄休息时发出滴滴声";
+"settings.pomodoro.cycles_count" = "多久一个长休息";
 
-"settings.stats_calculation.name" = "時間統計方法";
-"settings.stats_calculation.intersection_on" = "包含活動交集時間";
-"settings.stats_calculation.intersection_off" = "不包含活動交集時間";
+"settings.stats_calculation.name" = "时间统计方法";
+"settings.stats_calculation.intersection_on" = "算上活动交叉时间";
+"settings.stats_calculation.intersection_off" = "活动间交叉时间忽略";
 
-"settings.changes_applied" = "重新開啟App，進行設定變更";
+"settings.changes_applied" = "重新启动软件，变动设置";
 
-"settings.sections.formatting" = "格式設定";
+"settings.sections.formatting" = "时间格式";
 "settings.formatter.date" = "日期格式";
-"settings.formatter.time" = "時間格式";
+"settings.formatter.time" = "时间格式";
 
-"settings.show_sync_error.name" = "顯示同步錯誤";
+"settings.show_sync_error.name" = "显示同步错误";
 "settings.show_sync_error.description" = "";
 
-"activities.pomodoro.break.title" = "中斷";
+"activities.pomodoro.break.title" = "打断";
 
 /**
  Account
 */
-"account.title" = "帳戶";
+"account.title" = "帐户";
 "account.action.signout" = "登出";
-"account.action.force_sync" = "強制同步";
-"account.signout.warning" = "所有沒有同步的數據將會丟失，是否確定？";
+"account.action.force_sync" = "强制同步";
+"account.signout.warning" = "所有没有同步的数据将会丢失，你确定吗？";
 "account.last_sync.unknown" = "最近同步: 未知";
-"account.expired" = "試用到期 %@. 點擊訂閱";
-"account.free" = "免費帳戶. 點擊訂閱";
-"account.expires" = "付費用戶 (到期日期 %@ )";
+"account.expired" = "试用到期 %@. 点击订阅";
+"account.free" = "免费账户. 点击订阅";
+"account.expires" = "付费用户 (到期日期 %@ )";
 "account.last_sync.at" = "同步成功: %@";
-"account.last_sync.failed" = "同步失敗: %@. 提示: %@";
+"account.last_sync.failed" = "同步失败: %@. 提示: %@";
 
 /**
  Subscribe
 */
-"subscribe.title" = "訂閱";
-"subscribe.enable.title" = "App內購服務沒有開啟";
-"subscribe.enable.message" = "在設定裡面開啟app內購服務";
-"subscribe.settings" = "設定";
-"subscribe.payment_disabled.title" = "App內購買限制";
-"subscribe.payment_disabled.message" = "您未授權進行付費，請至設定/一般/取用限制，開啟App內購買限制";
+"subscribe.title" = "订阅";
+"subscribe.enable.title" = "应用内付费没有开启";
+"subscribe.enable.message" = "在设置里面开启应用内付费";
+"subscribe.settings" = "设置";
+"subscribe.payment_disabled.title" = "Payments restricted";
+"subscribe.payment_disabled.message" = "You are not authorized to make payments. You can enable it in Settings/General/Restrictions";
 
 /**
  About
 */
-"about.title" = "關於";
-"about.contact_support.title" = "聯絡我們";
-"about.send_db_file.title" = "發送數據文件";
-"about.send_log_file.title" = "發送系統日誌";
-"about.send_watch_log_file.title" = "發送Apple Watch系統日誌";
-"about.force_crash.title" = "強制崩潰";
+"about.title" = "关于";
+"about.contact_support.title" = "联系我们";
+"about.send_db_file.title" = "发送数据文件";
+"about.send_log_file.title" = "发送系统日志";
+"about.send_watch_log_file.title" = "发送苹果手表系统日志";
+"about.force_crash.title" = "强制奔溃";
 "about.version" = "版本: %@";
-"about.export.title" = "從aTimeLogger導入數據";
-"about.thanks.title" = "致謝";
-"about.review.title" = "我需要你們的支持，幫忙給個好評";
-"about.view_watch_info.title" = "查看Apple Watch訊息";
+"about.export.title" = "从atimelogger导入数据";
+"about.thanks.title" = "感谢";
+"about.review.title" = "我需要你们的支持，帮忙给个好评啊";
+"about.view_watch_info.title" = "查看手表信息";
 
 /**
  Today Extension
  */
-"today.action.hide" = "隱藏";
+"today.action.hide" = "隐藏";
 "today.action.more" = "更多";
 
 /**
  Help
 */
-"help.title" = "幫助";
-"help.load_error.title" = "錯誤";
-"help.load_error.description" = "登入失敗幫助，檢查您的網路環境，重新嘗試登入";
-"help.reload" = "重新啟動";
+"help.title" = "帮助";
+"help.load_error.title" = "错误";
+"help.load_error.description" = "登录失败帮助. 检查你的联网环境，重新尝试登录";
+"help.reload" = "重新启动";
 "help.quick_tutorial.title" = "快速教程";
 "help.manual.title" = "手册";
 
 "quick_tour.title" = "快速教程";
-"quick_tour.action.skip" = "跳過";
+"quick_tour.action.skip" = "跳过";
 
-"quick_tour.page1.title" = "開始活動";
-"quick_tour.page1.description" = "點擊圖示立即開始記錄時間";
+"quick_tour.page1.title" = "开始活动";
+"quick_tour.page1.description" = "点击图标即刻开始记录时间";
 
-"quick_tour.page2.title" = "停止活動";
-"quick_tour.page2.description" = "點擊停止按鈕結束記錄時間";
+"quick_tour.page2.title" = "停止活动";
+"quick_tour.page2.description" = "点击停止按钮结束记录时间";
 
-"quick_tour.page3.title" = "查看時間歷史";
-"quick_tour.page3.description" = "您能夠通過歷史按鈕來查看所記錄的活動時間";
+"quick_tour.page3.title" = "查看时间历史";
+"quick_tour.page3.description" = "你能够通过历史按钮查看所记录的活动时间";
 
-"quick_tour.page4.title" = "圖表展示";
-"quick_tour.page4.description" = "您能夠使用圓餅圖查看時間分布和改變查看的時間範圍";
+"quick_tour.page4.title" = "查看时间历史";
+"quick_tour.page4.description" = "你能够使用饼图查看时间分布和改变查看的日期范围";
 
-"quick_tour.page5.title" = "訂製您的活動";
-"quick_tour.page5.description" = "透過'+'建立您專屬的活動";
+"quick_tour.page5.title" = "定制您的活动";
+"quick_tour.page5.description" = "通过'+'创建属于您自己的活动";
 
-"quick_tour.page6.title" = "訂製您的活動類型";
-"quick_tour.page6.description" = "輸入活動名稱，選擇圖示和顏色";
+"quick_tour.page6.title" = "定制您的活动类型";
+"quick_tour.page6.description" = "键入活动名称，选择图标和颜色";
 
-"quick_tour.page7.title" = "目標";
-"quick_tour.page7.description" = "您能夠為您的活動設置一個時間目標去完成它";
+"quick_tour.page7.title" = "目标";
+"quick_tour.page7.description" = "你能够为您的活动设置一个时间目标去完成它";
 
-"quick_tour.page8.title" = "目標統計";
-"quick_tour.page8.description" = "點擊標籤的目標來查看目標統計圖";
+"quick_tour.page8.title" = "目标统计";
+"quick_tour.page8.description" = "点击标签栏的目标去查看目标统计图";
 
-"quick_tour.page9.title" = "報告";
-"quick_tour.page9.description" = "創建您自己的時間報告";
+"quick_tour.page9.title" = "报告";
+"quick_tour.page9.description" = "去创建您自己的时间报告";
 
-"quick_tour.page10.title" = "報告";
-"quick_tour.page10.description" = "報告包含總計、歷史、每日統計⋯⋯等資訊";
+"quick_tour.page10.title" = "报告";
+"quick_tour.page10.description" = "报告包含总计，历史，每日统计，等等";
 
-"quick_tour.page11.title" = "毫無疑問";
-"quick_tour.page11.description" = "Timerack.io包含各種新的功能：標籤、番茄時鐘、桌面應用、黑夜主題，可以進行各種個人化的自動設定。您可以在操作手冊中找到更多的資訊。發郵件給我，我想聽聽你們的心聲，幫助Timetrack.io更好的成長。";
+"quick_tour.page11.title" = "毫无疑问";
+"quick_tour.page11.description" = "Timerack.io包含各种新的功能：标签，番茄钟，桌面应用，黑色主题，可以进行各种个人化的自定义设置。你可以在操作手册找到更多信息。发邮件给我，我想听你们的心声，帮助Timetrack.io更好的成长。";
 
 /**
  Armchair
  */
-"If you enjoy using %@, would you mind taking a moment to rate it? It won't take more than a minute. Thanks for your support!" = "如果您用 %@ 的開心，能麻煩您花上一點點時間給我一個評價嗎？這對我來說很重要，我希望能給廣大珍惜時間的朋友們帶來更好的產品";
-"Rate %@" = "给 %@ 評分";
-"No, Thanks" = "不，謝謝";
-"Remind me later" = "稍後提醒我";
+"If you enjoy using %@, would you mind taking a moment to rate it? It won't take more than a minute. Thanks for your support!" = "如果你用 %@ 的开心，能麻烦你花上一点点时间给我一个评价吗，这对我很重要，我希望能给广大珍惜时间的中国朋友们带来更好的产品";
+"Rate %@" = "给 %@ 评分";
+"No, Thanks" = "不，谢谢";
+"Remind me later" = "稍后提醒我";
 
 /**
  Watch
  */
-"complication.start" = "點擊開始";
-"complication.no_running" = "沒有進行的活動";
-"watch.warning.first_sync" = "在手機打開App，您需要進行第一次同步";
+"complication.start" = "点击开始";
+"complication.no_running" = "没有进行的活动";
+"watch.warning.first_sync" = "在手机打开程序，你需要进行第一次同步";
