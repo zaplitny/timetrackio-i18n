@@ -31,7 +31,7 @@
 
 /**
  Common
-*/
+ */
 "common.title.warning" = "警告";
 "common.title.edit" = "編輯";
 "common.action.cancel" = "取消";
@@ -59,7 +59,7 @@
 "common.minutes" = "%ld 分鐘";
 "common.premium.message" = "這個功能僅供 Pro 帳戶使用";
 "common.premium.try_10_days" = "免費試用10天的 Pro 帳號";
-"common.premium.purchase" = "升級到 Pro 帳號;
+"common.premium.purchase" = "升級到 Pro 帳號";
 "common.premium.try_10_days_activated" = "高級用戶有效期為10天.";
 "common.mail_disabled.title" = "郵件發送失敗";
 "common.mail_disabled.description" = "請設定郵件信箱帳號";
@@ -80,7 +80,7 @@
 
 /**
  First run
-*/
+ */
 "first_run.page1.title" = "追蹤簡便";
 "first_run.page1.description" = "手指輕點追蹤你的活動！ 非常便捷的操作，選擇適時的活動圖示開始追蹤你的生活。";
 "first_run.page2.title" = "時間日誌";
@@ -92,7 +92,7 @@
 
 /**
  First sync
-*/
+ */
 "first_sync.title" = "";
 "first_sync.status.get_user_info" = "";
 "first_sync.progress.get_user_info" = "加載帳戶資訊...";
@@ -110,7 +110,7 @@
 
 /**
  Menu
-*/
+ */
 "menu.activities" = "活動";
 "menu.history" = "歷史";
 "menu.pomodoro" = "番茄時鐘";
@@ -175,8 +175,8 @@
 "edit_interval.duration.minutes" = "%d 分鐘";
 
 /**
-Pomodoros
-*/
+ Pomodoros
+ */
 "pomodoros.empty.title" = "沒有番茄時鐘";
 "pomodoros.empty.description" = "選擇的時間區間不存在番茄時鐘，請先在設定頁面開啟番茄時鐘模式再開始追蹤";
 
@@ -279,11 +279,11 @@ Pomodoros
 "goals.field.tags.value" = "%ld 標籤";
 
 "goals.notification.time_limit_reached" = "警告！你設定'%@'的時間已經超過了";
-"goals.notification.time_limit_will_reach" = "還有'%$2d'分鐘，你設定的 %$1@ 時間就超過了";
-"goals.notification.time_limit_has_been_reached" = "你設定的 %$1@ 時間，已經超過'%$2d'分鐘";
+"goals.notification.time_limit_will_reach" = "還有'%2$d'分鐘，你設定的 %1$@ 時間就超過了";
+"goals.notification.time_limit_has_been_reached" = "你設定的 %1$@ 時間，已經超過'%2$d'分鐘";
 "goals.notification.goal_reached" = "恭喜！你設定'%@'的時間目標已達成";
-"goals.notification.goal_will_reach" = "離達成'%$1@'的目標時間還有'%$2d'分鐘";
-"goals.notification.goal_has_been_reached" = "你設定的 '%$1@' 時間，已經超過'%$2d'分鐘";
+"goals.notification.goal_will_reach" = "離達成'%1$@'的目標時間還有'%2$d'分鐘";
+"goals.notification.goal_has_been_reached" = "你設定的 '%1$@' 時間，已經超過'%2$d'分鐘";
 "goals.notification.occurrence_reached" = "恭喜！目標時間已經達成: '%@'";
 "goals.notification.occurrence_limit_reached" = "注意！目標設定的完成次數'%@'已經達成。";
 
@@ -329,8 +329,8 @@ Pomodoros
 "goal.average.occurrence_per_month" = "%.1f 天/月";
 
 /**
-Tags
-*/
+ Tags
+ */
 "tags.edit.title" = "修改標籤";
 "tags.edit.placeholder.nonempty" = "選擇/新增一個標籤";
 "tags.edit.placeholder.empty" = "輸入一個新標籤";
@@ -348,7 +348,7 @@ Tags
 "%@ per activity" = "%@ 每個活動";
 
 /**
-  Pomodoros
+ Pomodoros
  */
 "pomodoro.title" = "番茄時鐘";
 "pomodoro.history" = "番茄歷史";
@@ -393,7 +393,7 @@ Tags
 
 /**
  Remind me
-*/
+ */
 "remind_me.title.what_are_you_doing" = "你現在在做什麼呢?";
 "remind_me.title.what_are_you_doing_running" = "你現在在做什麼呢？ 現在開始記錄： %@";
 "remind_me.action.change" = "更改";
@@ -643,7 +643,7 @@ Tags
 
 /**
  Account
-*/
+ */
 "account.title" = "帳戶";
 "account.action.signout" = "登出";
 "account.action.force_sync" = "強制同步";
@@ -657,7 +657,7 @@ Tags
 
 /**
  Subscribe
-*/
+ */
 "subscribe.title" = "訂閱";
 "subscribe.enable.title" = "App內購服務沒有開啟";
 "subscribe.enable.message" = "在設定裡面開啟app內購服務";
@@ -667,7 +667,7 @@ Tags
 
 /**
  About
-*/
+ */
 "about.title" = "關於";
 "about.contact_support.title" = "聯絡我們";
 "about.send_db_file.title" = "發送數據文件";
@@ -688,7 +688,7 @@ Tags
 
 /**
  Help
-*/
+ */
 "help.title" = "幫助";
 "help.load_error.title" = "錯誤";
 "help.load_error.description" = "登入失敗幫助，檢查您的網路環境，重新嘗試登入";
