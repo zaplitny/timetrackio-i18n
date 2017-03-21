@@ -46,7 +46,7 @@
 "common.action.select_tags" = "選擇標籤";
 "common.action.select_deselect" = "選擇/取消全選";
 "common.action.add_before" = "新增";
-"common.action.select_place" = "選擇地址";
+"common.action.select_place" = "選擇地點";
 "common.title.loading" = "載入中 ...";
 "common.title.syncing" = "同步中";
 "common.email.placeholder" = "請輸入郵件信箱";
@@ -347,7 +347,7 @@
 
 "more.title" = "更多";
 
-"select_value.title" = "目標完成數值基準";
+"select_value.title" = "請選擇";
 
 "Activities" = "活動";
 "History" = "歷史";
