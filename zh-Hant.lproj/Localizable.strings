@@ -46,7 +46,7 @@
 "common.action.select_tags" = "選擇標籤";
 "common.action.select_deselect" = "選擇/取消全選";
 "common.action.add_before" = "新增";
-"common.action.select_place" = "選擇地點";
+"common.action.select_place" = "選擇地址";
 "common.title.loading" = "載入中 ...";
 "common.title.syncing" = "同步中";
 "common.email.placeholder" = "請輸入郵件信箱";
@@ -123,6 +123,8 @@
 "menu.about" = "關於";
 "menu.more" = "更多";
 "menu.places" = "地點";
+"menu.calendars" = "Calendars";
+"menu.events" = "Events";
 
 /**
  Activities
@@ -173,6 +175,8 @@
 "edit_interval.now" = "目前時間";
 "edit_interval.duration.hours" = "%d 小時";
 "edit_interval.duration.minutes" = "%d 分鐘";
+"edit_interval.prev" = "Last finish";
+"edit_interval.next" = "Next start";
 
 /**
  Pomodoros
@@ -231,6 +235,9 @@
 "edit_type.field.name" = "名稱";
 "edit_type.field.icon" = "圖示";
 "edit_type.field.color" = "顏色";
+"edit_type.field.start_url" = "Start URL";
+"edit_type.field.stop_url" = "Stop URL";
+"edit_type.field.pause_url" = "Pause URL";
 "edit_type.field.calendar" = "日曆";
 "edit_type.delete.message" = "刪除類型？";
 "edit_type.empty_name.message" = "活動類型不能為空";
@@ -335,10 +342,12 @@
 "tags.edit.placeholder.nonempty" = "選擇/新增一個標籤";
 "tags.edit.placeholder.empty" = "輸入一個新標籤";
 "tags.edit.placeholder.readonly" = "從列表中選擇一個標籤";
+"tags.edit.last_used_for_type" = "Last used in \"%@\"";
+"tags.edit.all_tags" = "All tags";
 
 "more.title" = "更多";
 
-"select_value.title" = "請選擇";
+"select_value.title" = "目標完成數值基準";
 
 "Activities" = "活動";
 "History" = "歷史";
@@ -441,6 +450,7 @@
 "report.type.pie" = "圓餅圖";
 "report.type.daily_total" = "每日活動完成時間（依類型彙總）";
 "report.type.daily_bar" = "每日活動完成時間（依活動開始時間排序並彙總）";
+"report.type.tags" = "Tags";
 "report.type" = "報告類型: %@";
 "report.empty.title" = "沒有記錄";
 "report.empty.description" = "沒有選擇參數";
@@ -482,9 +492,64 @@
 "select_location.tap_and_drag" = "點擊圖釘拖動到其他位置進行手動定位";
 
 /**
+ Events
+ */
+"events.title" = "Events";
+"events.empty.no_calendars.title" = "No calendars";
+"events.empty.no_calendars.description" = "Go to Settings / Calendars and select calendars you want to use";
+"events.empty.title" = "No events found";
+"events.empty.description" = "Press '+' to create new event";
+
+"events.alert.now" = "At time of event";
+"events.alert.min" = "1 minute before event";
+"events.alert.hour" = "1 hour before event";
+"events.alert.day" = "1 day before event";
+"events.alert.custom" = "%d hours %d minutes before event";
+"events.alert.custom_hours" = "%d hours before event";
+"events.alert.custom_minutes" = "%d minutes before event";
+"events.alert.none" = "No alert";
+
+"events.repeat.every_day" = "Every day";
+"events.repeat.every_week" = "Every week";
+"events.repeat.every_month" = "Every month";
+"events.repeat.every_year" = "Every year";
+"events.repeat.never" = "Never";
+
+"events.repeat.end.always" = "Never";
+"events.repeat.end.after_occurrences" = "After %d occurrences";
+
+"events.notification.start_now" = "Starts now";
+"events.notification.in_1_min" = "In 1 minute";
+"events.notification.in_5_min" = "In 5 minutes";
+"events.notification.in_10_min" = "In 10 minutes";
+"events.notification.in_15_min" = "In 15 minutes";
+"events.notification.in_30_min" = "In 30 minutes";
+"events.notification.in_45_min" = "In 45 minutes";
+"events.notification.in_1_hour" = "In 1 hours";
+"events.notification.in_2_hours" = "In 2 hours";
+"events.notification.start_at" = "Starts at: %@";
+
+"edit_event.field.title" = "Title";
+"edit_event.field.calendar" = "Calendar";
+"edit_event.field.start" = "Start";
+"edit_event.field.finish" = "Finish";
+"edit_event.field.types" = "Type";
+"edit_event.field.repeat" = "Repeat";
+"edit_event.field.repeat_ends" = "End repeat";
+"edit_event.field.alerts" = "Alerts";
+"edit_event.field.alert_sound" = "Alert sound";
+"edit_event.delete.message" = "Remove event?";
+"edit_event.delete.action.all" = "Remove future events";
+"edit_event.delete.action.this" = "Remove only this event";
+"edit_event.add_alert" = "Add another alert";
+
+/**
  Settings
  */
 "settings.title" = "設定";
+
+"settings.sections.features" = "Features";
+
 "settings.sections.activities" = "活動";
 
 "settings.action_on_start.name" = "開始新活動時";
@@ -638,6 +703,25 @@
 
 "settings.show_sync_error.name" = "顯示同步錯誤";
 "settings.show_sync_error.description" = "";
+
+"settings.application_language.name" = "Application language";
+
+"settings.calendar.name" = "Calendar";
+"settings.calendar.field.calendars" = "Calendars";
+"settings.calendar.field.types_mapping" = "Types";
+"settings.calendar.enabled.title" = "Enabled";
+"settings.calendar.show_in_activities.title" = "Show next event in activities";
+"settings.calendar.show_in_widget.title" = "Show next event in widget";
+"settings.calendar.no_calendar.title" = "No calendars";
+"settings.calendar.no_calendar.desc" = "Select calendars you wish to work";
+
+"settings.url_scheme.name" = "URL Scheme";
+"settings.url_scheme.description" = "Call URL scheme on start and stop";
+
+"edit_calendar.field.calendar_name" = "Calendar";
+"edit_calendar.field.types" = "Types";
+"edit_calendar.field.types.value" = "%ld types";
+"edit_calendar.field.save_events_automatically" = "Post activities to calendar";
 
 "activities.pomodoro.break.title" = "中斷";
 
