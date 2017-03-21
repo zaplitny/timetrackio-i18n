@@ -123,6 +123,8 @@
 "menu.about" = "关于";
 "menu.more" = "更多";
 "menu.places" = "位置";
+"menu.calendars" = "日历";
+"menu.events" = "日程";
 
 /**
  Activities
@@ -173,10 +175,12 @@
 "edit_interval.now" = "此刻";
 "edit_interval.duration.hours" = "%d 小时";
 "edit_interval.duration.minutes" = "%d 分钟";
+"edit_interval.prev" = "上个活动";
+"edit_interval.next" = "下个活动";
 
 /**
-Pomodoros
-*/
+ Pomodoros
+ */
 "pomodoros.empty.title" = "没有番茄钟";
 "pomodoros.empty.description" = "选择的时间区间不存在番茄钟.请在设置里面设置番茄钟模式并开始追踪";
 
@@ -231,7 +235,10 @@ Pomodoros
 "edit_type.field.name" = "名称";
 "edit_type.field.icon" = "图标";
 "edit_type.field.color" = "颜色";
-"edit_type.field.calendar" = "Calendar";
+"edit_type.field.start_url" = "开始 URL";
+"edit_type.field.stop_url" = "停止 URL";
+"edit_type.field.pause_url" = "暂停 URL";
+"edit_type.field.calendar" = "日历";
 "edit_type.delete.message" = "删除类型?";
 "edit_type.empty_name.message" = "活动类型不能为空";
 
@@ -279,11 +286,11 @@ Pomodoros
 "goals.field.tags.value" = "%ld 标签";
 
 "goals.notification.time_limit_reached" = "警告!你设定'%@'的时间已经超标";
-"goals.notification.time_limit_will_reach" = "还有'%$2d'分钟，你设定的 %$1@ 时间就超标了";
-"goals.notification.time_limit_has_been_reached" = "你设定的 %$1@ 时间，已经超标了'%$2d'分钟";
+"goals.notification.time_limit_will_reach" = "还有'%2$d'分钟，你设定的 %1$@ 时间就超标了";
+"goals.notification.time_limit_has_been_reached" = "你设定的 %1$@ 时间，已经超标了'%2$d'分钟";
 "goals.notification.goal_reached" = "恭喜！你设定'%@'的时间目标已达成";
-"goals.notification.goal_will_reach" = "离达成'%$1@'的目标时间还有'%$2d'分钟";
-"goals.notification.goal_has_been_reached" = "你设定的 '%$1@' 时间，已经超越了'%$2d'分钟";
+"goals.notification.goal_will_reach" = "离达成'%1$@'的目标时间还有'%2$d'分钟";
+"goals.notification.goal_has_been_reached" = "你设定的 '%1$@' 时间，已经超越了'%2$d'分钟";
 "goals.notification.occurrence_reached" = "恭喜！目标时间已经达成: '%@'";
 "goals.notification.occurrence_limit_reached" = "目标设定的次数'%@'已经达成";
 
@@ -335,6 +342,8 @@ Tags
 "tags.edit.placeholder.nonempty" = "选择/新建一个标签";
 "tags.edit.placeholder.empty" = "键入一个新标签";
 "tags.edit.placeholder.readonly" = "从列表选择一个标签";
+"tags.edit.last_used_for_type" = "最近使用 \"%@\"";
+"tags.edit.all_tags" = "所有标签";
 
 "more.title" = "更多";
 
@@ -373,16 +382,16 @@ Tags
 "pomodoro.notification.short_break_complete" = "短休息结束!进入工作状态";
 "pomodoro.notification.long_break_complete" = "长休息结束!进入工作状态";
 
-"pomodoro.history.header.completed" = "%d 已完成完成番茄数 of %d 目标番茄数";
-"pomodoro.history.action.message" = "你可以把这时间记录从番茄记录删除（在时间历史保留）或者完全删除（包括时间历史记录）";
+"pomodoro.history.header.completed" = "%d（已完成）of %d （目标番茄数）";
+"pomodoro.history.action.message" = "删除番茄记录（在时间历史保留）或者完全删除（包括时间历史记录）";
 "pomodoro.history.action.remove_interval" = "完全删除";
 "pomodoro.history.action.remove_interval_from_pomodoro" = "在番茄记录移除";
 
 "pomodoro.stats.total" = "全部";
 "pomodoro.stats.completed" = "完成";
 "pomodoro.stats.uncompleted" = "未完成";
-"pomodoro.stats.average_completed_day" = "平均每天完成番茄钟数";
-"pomodoro.stats.average_completed_duration" = "平均每天完成番茄钟时间";
+"pomodoro.stats.average_completed_day" = "平均每天完成番茄数";
+"pomodoro.stats.average_completed_duration" = "平均每天完成番茄时间";
 "pomodoro.stats.average_break_duration" = "平均每天中断时间";
 "pomodoro.stats.header.daily" = "番茄统计图（天）";
 
@@ -441,6 +450,7 @@ Tags
 "report.type.pie" = "饼图";
 "report.type.daily_total" = "每日活动完成时间（按类型汇总）";
 "report.type.daily_bar" = "每日活动完成时间（按活动开始时间排序并汇总）";
+"report.type.tags" = "Tags";
 "report.type" = "报告类型: %@";
 "report.empty.title" = "没有记录";
 "report.empty.description" = "没有选择参数";
@@ -482,9 +492,64 @@ Tags
 "select_location.tap_and_drag" = "点击图钉拖动到其他地址进行手动定位";
 
 /**
+ Events
+ */
+"events.title" = "日程";
+"events.empty.no_calendars.title" = "没有日历";
+"events.empty.no_calendars.description" = "前往设定/日历，然后选取你要使用的日历";
+"events.empty.title" = "没有日程";
+"events.empty.description" = "按 '+' 创建新事件";
+
+"events.alert.now" = "活动发生时";
+"events.alert.min" = "1分钟前";
+"events.alert.hour" = "1小时前";
+"events.alert.day" = "1天前";
+"events.alert.custom" = " %d 小时 %d 分前";
+"events.alert.custom_hours" = " %d 小时前";
+"events.alert.custom_minutes" = "%d 分钟前";
+"events.alert.none" = "无提醒";
+
+"events.repeat.every_day" = "每天";
+"events.repeat.every_week" = "每周";
+"events.repeat.every_month" = "每月";
+"events.repeat.every_year" = "每年";
+"events.repeat.never" = "永不";
+
+"events.repeat.end.always" = "永不";
+"events.repeat.end.after_occurrences" = "重复 %d 次";
+
+"events.notification.start_now" = "现在开始";
+"events.notification.in_1_min" = " 1 分钟";
+"events.notification.in_5_min" = " 5 分钟";
+"events.notification.in_10_min" = " 1 分钟";
+"events.notification.in_15_min" = " 15 分钟";
+"events.notification.in_30_min" = " 30 分钟";
+"events.notification.in_45_min" = " 45 分钟";
+"events.notification.in_1_hour" = " 1 小时";
+"events.notification.in_2_hours" = " 2 小时";
+"events.notification.start_at" = "开始于: %@";
+
+"edit_event.field.title" = "事件";
+"edit_event.field.calendar" = "日历";
+"edit_event.field.start" = "开始";
+"edit_event.field.finish" = "结束";
+"edit_event.field.types" = "活动";
+"edit_event.field.repeat" = "重复";
+"edit_event.field.repeat_ends" = "停止重复";
+"edit_event.field.alerts" = "提醒";
+"edit_event.field.alert_sound" = "提醒铃声";
+"edit_event.delete.message" = "删除事件?";
+"edit_event.delete.action.all" = "删除所有将来事件";
+"edit_event.delete.action.this" = "仅删除此事件";
+"edit_event.add_alert" = "添加其他提醒";
+
+/**
  Settings
  */
 "settings.title" = "设置";
+
+"settings.sections.features" = "功能";
+
 "settings.sections.activities" = "活动";
 
 "settings.action_on_start.name" = "开始新活动时";
@@ -639,6 +704,25 @@ Tags
 "settings.show_sync_error.name" = "显示同步错误";
 "settings.show_sync_error.description" = "";
 
+"settings.application_language.name" = "语言";
+
+"settings.calendar.name" = "日历";
+"settings.calendar.field.calendars" = "日历";
+"settings.calendar.field.types_mapping" = "活动";
+"settings.calendar.enabled.title" = "启用";
+"settings.calendar.show_in_activities.title" = "在活动页中显示下一个活动";
+"settings.calendar.show_in_widget.title" = "在插件小工具中显示下一个活动";
+"settings.calendar.no_calendar.title" = "无日历";
+"settings.calendar.no_calendar.desc" = "选择你要使用的日历";
+
+"settings.url_scheme.name" = "URL 方案";
+"settings.url_scheme.description" = "启动或停止调用 URL 方案";
+
+"edit_calendar.field.calendar_name" = "日历";
+"edit_calendar.field.types" = "活动";
+"edit_calendar.field.types.value" = "%ld 活动";
+"edit_calendar.field.save_events_automatically" = "将活动同步到日历";
+
 "activities.pomodoro.break.title" = "打断";
 
 /**
@@ -662,8 +746,8 @@ Tags
 "subscribe.enable.title" = "应用内付费没有开启";
 "subscribe.enable.message" = "在设置里面开启应用内付费";
 "subscribe.settings" = "设置";
-"subscribe.payment_disabled.title" = "Payments restricted";
-"subscribe.payment_disabled.message" = "You are not authorized to make payments. You can enable it in Settings/General/Restrictions";
+"subscribe.payment_disabled.title" = "支付受限";
+"subscribe.payment_disabled.message" = "您无法进行付款，您可以在 系统设置/通用/访问限制 中启用";
 
 /**
  About
@@ -677,7 +761,7 @@ Tags
 "about.version" = "版本: %@";
 "about.export.title" = "从atimelogger导入数据";
 "about.thanks.title" = "感谢";
-"about.review.title" = "我需要你们的支持，帮忙给个好评啊";
+"about.review.title" = "觉得不错，可以好评支持一下";
 "about.view_watch_info.title" = "查看手表信息";
 
 /**
@@ -735,7 +819,7 @@ Tags
 /**
  Armchair
  */
-"If you enjoy using %@, would you mind taking a moment to rate it? It won't take more than a minute. Thanks for your support!" = "如果你用 %@ 的开心，能麻烦你花上一点点时间给我一个评价吗，这对我很重要，我希望能给广大珍惜时间的中国朋友们带来更好的产品";
+"If you enjoy using %@, would you mind taking a moment to rate it? It won't take more than a minute. Thanks for your support!" = "如果觉得 %@ 不错，你可以花上一点点时间给我一个评价！这对我很重要，我希望能给广大珍惜时间的中国朋友们带来更好的产品";
 "Rate %@" = "给 %@ 评分";
 "No, Thanks" = "不，谢谢";
 "Remind me later" = "稍后提醒我";
