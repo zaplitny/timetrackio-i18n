@@ -95,7 +95,7 @@
  */
 "first_sync.title" = "";
 "first_sync.status.get_user_info" = "";
-"first_sync.progress.get_user_info" = "加載帳戶資訊...";
+"first_sync.progress.get_user_info" = "讀取帳戶資訊...";
 "first_sync.status.sync_data" = "";
 "first_sync.progress.sync_data" = "同步數據...";
 
@@ -514,12 +514,12 @@
 "events.repeat.every_month" = "每月";
 "events.repeat.every_year" = "每年";
 "events.repeat.never" = "從不";
-"events.repeat.custom" = "Custom";
+"events.repeat.custom" = "自訂";
 
 "events.repeat.end.always" = "從不";
 "events.repeat.end.after_occurrences" = "在 %d 之後發生";
-"events.repeat.end.after" = "Ends After"; // ends after 10 occurrences
-"events.repeat.end.on" = "Ends On"; // ends on May 10
+"events.repeat.end.after" = "在事件結束之後"; // ends after 10 occurrences
+"events.repeat.end.on" = "在事件結束時"; // ends on May 10
 
 "events.notification.start_now" = "從現在開始";
 "events.notification.in_1_min" = "1 分鐘後";
@@ -545,9 +545,9 @@
 "edit_event.delete.action.all" = "移除未發生的所有事件";
 "edit_event.delete.action.this" = "只移除目前事件";
 "edit_event.add_alert" = "加入另一個事件";
-"edit_event.update.message" = "This is a repeating event";
-"edit_event.update.action.this" = "Save for this event only";
-"edit_event.update.action.all" = "Save for future events";
+"edit_event.update.message" = "這是一個重覆執行的事件";
+"edit_event.update.action.this" = "只修改本次事件";
+"edit_event.update.action.all" = "修改套用至未來所有事件";
 
 /**
  Settings
@@ -720,8 +720,8 @@
 "settings.calendar.show_in_widget.title" = "在widget中顯示下一個即將到來的事件";
 "settings.calendar.no_calendar.title" = "沒有行事曆";
 "settings.calendar.no_calendar.desc" = "選擇你要進行的行事曆";
-"settings.calendar.default_sound.title" = "Default sound";
-"settings.calendar.default_alerts.title" = "Default alerts";
+"settings.calendar.default_sound.title" = "預設音效";
+"settings.calendar.default_alerts.title" = "預設提醒";
 
 "settings.url_scheme.name" = "URL Scheme";
 "settings.url_scheme.description" = "呼叫URL scheme來開始與結束";
@@ -730,8 +730,8 @@
 "edit_calendar.field.types" = "類型";
 "edit_calendar.field.types.value" = "%ld 類型";
 "edit_calendar.field.save_events_automatically" = "發佈至行事曆";
-"edit_calendar.no_types.title" = "No types";
-"edit_calendar.no_types.description" = "Add types if you want to automatically save activities in calendar";
+"edit_calendar.no_types.title" = "無類型";
+"edit_calendar.no_types.description" = "加入在行事曆中要自動儲存的活動類型";
 
 "activities.pomodoro.break.title" = "中斷";
 
