@@ -136,7 +136,7 @@
 "activities.title" = "活動";
 "activities.action.start" = "開始";
 "activities.action.stop" = "停止";
-"activities.action.resume" = "恢復";
+"activities.action._" = "恢復";
 "activities.action.pause" = "暫停";
 "activities.action.start_pomodoro" =  "使用番茄時鐘";
 "activities.action.start_usual" = "一般追蹤";
@@ -238,10 +238,10 @@
 "edit_type.field.name" = "名稱";
 "edit_type.field.icon" = "圖示";
 "edit_type.field.color" = "顏色";
-"edit_type.field.start_url" = "Start URL";
-"edit_type.field.stop_url" = "Stop URL";
-"edit_type.field.pause_url" = "Pause URL";
-"edit_type.field.resume_url" = "Resume URL";
+"edit_type.field.start_url" = "Start URL"; // see resume 
+"edit_type.field.stop_url" = "Stop URL"; // see resume
+"edit_type.field.pause_url" = "Pause URL";  // see resume
+"edit_type.field.resume_url" = "Resume URL"; // it's activity type setting. timetrack.io can launch other apps (e.g ical://blabla) and this URL is called when activity of this type is resumed
 "edit_type.field.calendar" = "日曆";
 "edit_type.delete.message" = "刪除類型？";
 "edit_type.empty_name.message" = "活動類型不能為空";
@@ -254,7 +254,7 @@
 "select_color.manual" = "調色板";
 
 "select_icon.title" = "選擇圖示";
-"select_icon.premium.message" = "Coloured icons is premium feature. Subscribe to premium to use it";
+"select_icon.premium.message" = "Coloured icons is premium feature. Subscribe to premium to use it"; // now colored icons available on premium account
 
 "select_move_to.action.move_to_top" = "移到頂端";
 
@@ -289,7 +289,7 @@
 "goals.field.alerts.after_event" = "目標達成後 %d 分鐘";
 "goals.field.types.value" = "%ld 活動";
 "goals.field.tags.value" = "%ld 標籤";
-"goals.field.days" = "Days of week";
+"goals.field.days" = "Days of week"; // can be set for daily goal. for example "Work 8 hours a day" should be only on Saturday and Sunday
 "goals.field.days.value_count" = "%d days";
 "goals.field.days.all" = "All";
 
@@ -619,7 +619,7 @@
 "settings.comment_on_stop.name" = "在活動結束時備註";
 "settings.comment_on_stop.description" = "在活動結束時進行活動備註說明";
 
-"settings.tag_on_start.name" = "Tag on start";
+"settings.tag_on_start.name" = "Tag on start"; // alternative to "Comment on start". If type selected in "Tag on start" and user starts activity of this type then some tags are shown below activity. User can quickly check them and update activity
 
 "settings.sections.appearance" = "主題";
 "settings.theme.name" = "選擇主題";
@@ -676,7 +676,7 @@
 "settings.activity.lock_screen" = "螢幕鎖定";
 "settings.activity.lock_screen.description" = "如果開始，畫面將不會進入鎖定狀態";
 
-"settings.activity.flat_types" = "Groups on activities tab";
+"settings.activity.flat_types" = "Groups on activities tab"; // lot of users (especially in China) use groups just to display statistics grouped but they don't need groups to be shown on Activities tab. E.g Group1 contains Type1 and Type2,  they want to see only Type1 and Type2 on activities tab but they want grouped statistics
 "settings.activity.flat_types.description" = "TODO";
 
 "settings.icons_per_row.name" = "Icons per row";
@@ -749,12 +749,12 @@
 "settings.url_scheme.name" = "URL Scheme";
 "settings.url_scheme.description" = "呼叫URL scheme來開始與結束";
 
-"settings.csv_group_separate_column.name" = "Separate groups column in csv report";
+"settings.csv_group_separate_column.name" = "Separate groups column in csv report"; // this feature is for csv export. Groups are shown in separate columns. Let's say you have Type that is inside Subgroup that is inside Group. Then in export type 1st column is Group, 2nd column is Subgroup and 3rd column is Type. This is very useful for building reports in Excel
 "settings.csv_group_separate_column.description" = "Separate groups column in csv report";
 
-"settings.day_start.name" = "Day start";
-"settings.default_type.name" = "Default type";
-"settings.default_duration.name" = "Default duration";
+"settings.day_start.name" = "Day start"; // some users finish working at 2 am and they want those stats not to be splitted into 2 days.
+"settings.default_type.name" = "Default type"; // default type when you press "+" on activities or history tab
+"settings.default_duration.name" = "Default duration"; // default duration of new interval when you press "+" on history tab
 
 "edit_calendar.field.calendar_name" = "行事曆名稱";
 "edit_calendar.field.types" = "類型";
@@ -762,7 +762,7 @@
 "edit_calendar.field.save_events_automatically" = "發佈至行事曆";
 "edit_calendar.no_types.title" = "無類型";
 "edit_calendar.no_types.description" = "加入在行事曆中要自動儲存的活動類型";
-"edit_calendar.field.save_comment.title" = "Save comment to calendar";
+"edit_calendar.field.save_comment.title" = "Save comment to calendar"; // now type name saved to calendar event comment, if comment is entered in log then it's saved instead of type name
 "edit_calendar.field.save_comment.description" = "If comment available it's saved as event title";
 
 "activities.pomodoro.break.title" = "中斷";
