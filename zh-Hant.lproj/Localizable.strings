@@ -13,6 +13,8 @@
 "Internet" = "上網";
 "Drink" = "飲酒";
 
+"Untracked time" = "未記錄的時間";
+
 "history.title" = "歷史";
 
 "first_run.sign_in" = "登入";
@@ -200,6 +202,7 @@
 "history.view.calendar" = "日曆";
 "history.time_tracked" = "記錄時間總計： %@";
 "history.title.delete_interval" = "您確定要刪除這個時間段？";
+"history.search.placeholder" = "Enter type name, comment or tag...";
 
 /**
  Types
@@ -238,6 +241,7 @@
 "edit_type.field.start_url" = "Start URL";
 "edit_type.field.stop_url" = "Stop URL";
 "edit_type.field.pause_url" = "Pause URL";
+"edit_type.field.resume_url" = "Resume URL";
 "edit_type.field.calendar" = "日曆";
 "edit_type.delete.message" = "刪除類型？";
 "edit_type.empty_name.message" = "活動類型不能為空";
@@ -250,6 +254,7 @@
 "select_color.manual" = "調色板";
 
 "select_icon.title" = "選擇圖示";
+"select_icon.premium.message" = "Coloured icons is premium feature. Subscribe to premium to use it";
 
 "select_move_to.action.move_to_top" = "移到頂端";
 
@@ -284,6 +289,9 @@
 "goals.field.alerts.after_event" = "目標達成後 %d 分鐘";
 "goals.field.types.value" = "%ld 活動";
 "goals.field.tags.value" = "%ld 標籤";
+"goals.field.days" = "Days of week";
+"goals.field.days.value_count" = "%d days";
+"goals.field.days.all" = "All";
 
 "goals.notification.time_limit_reached" = "警告！你設定'%@'的時間已經超過了";
 "goals.notification.time_limit_will_reach" = "還有'%2$d'分鐘，你設定的 %1$@ 時間就超過了";
@@ -319,6 +327,7 @@
 "edit_goal.goal_type.day" = "天";
 "edit_goal.goal_type.week" = "週";
 "edit_goal.goal_type.month" = "月";
+"edit_goal.goal_type.year" = "year";
 "edit_goal.goal_type.total" = "全部";
 
 "goal.description.duration_per_activity" = "%@ 活動每次";
@@ -326,14 +335,17 @@
 "goal.description.duration_per_day" = "%@ 每天";
 "goal.description.duration_per_week" = "%@ 每週";
 "goal.description.duration_per_month" = "%@ 每月";
+"goal.description.duration_per_year" = "%@ per year";
 "goal.description.duration_total" = "%@ 全部";
 "goal.description.occurrence_per_day" = "每天 %d 次";
 "goal.description.occurrence_per_week" = "每週 %d 次";
 "goal.description.occurrence_per_month" = "每月 %d 次";
+"goal.description.occurrence_per_year" = "%d times per year";
 
 "goal.average.occurrence_per_day" = "%.1f 天/次";
 "goal.average.occurrence_per_week" = "%.1f 天/週";
 "goal.average.occurrence_per_month" = "%.1f 天/月";
+"goal.average.occurrence_per_year" = "%.1f times per year";
 
 /**
  Tags
@@ -607,10 +619,14 @@
 "settings.comment_on_stop.name" = "在活動結束時備註";
 "settings.comment_on_stop.description" = "在活動結束時進行活動備註說明";
 
+"settings.tag_on_start.name" = "Tag on start";
+
 "settings.sections.appearance" = "主題";
 "settings.theme.name" = "選擇主題";
 "settings.theme.name.light" = "白天模式";
 "settings.theme.name.dark" = "夜晚模式";
+"settings.theme.name.white" = "Neutral";
+"settings.theme.name.dark2" = "Black";
 "settings.goal_progress.name" = "目標進度顏色";
 "settings.goal_progress.gray" = "灰色";
 "settings.goal_progress.colored" = "彩色";
@@ -660,8 +676,15 @@
 "settings.activity.lock_screen" = "螢幕鎖定";
 "settings.activity.lock_screen.description" = "如果開始，畫面將不會進入鎖定狀態";
 
-"settings.activity.flat_types" = "";
+"settings.activity.flat_types" = "Groups on activities tab";
 "settings.activity.flat_types.description" = "TODO";
+
+"settings.icons_per_row.name" = "Icons per row";
+"settings.icons_per_row.description" = "Number of activity type icons per row on Activities tab";
+"settings.icons_per_row.value" = "%d icons";
+
+"settings.icons_per_row_widget.name" = "Icons per row on widget";
+"settings.icons_per_row_widget.description" = "Number of activity type icons per row on Today Widget screen";
 
 "settings.pomodoro.title" = "番茄時鐘";
 "settings.pomodoro.name" = "番茄時鐘";
@@ -726,12 +749,21 @@
 "settings.url_scheme.name" = "URL Scheme";
 "settings.url_scheme.description" = "呼叫URL scheme來開始與結束";
 
+"settings.csv_group_separate_column.name" = "Separate groups column in csv report";
+"settings.csv_group_separate_column.description" = "Separate groups column in csv report";
+
+"settings.day_start.name" = "Day start";
+"settings.default_type.name" = "Default type";
+"settings.default_duration.name" = "Default duration";
+
 "edit_calendar.field.calendar_name" = "行事曆名稱";
 "edit_calendar.field.types" = "類型";
 "edit_calendar.field.types.value" = "%ld 類型";
 "edit_calendar.field.save_events_automatically" = "發佈至行事曆";
 "edit_calendar.no_types.title" = "無類型";
 "edit_calendar.no_types.description" = "加入在行事曆中要自動儲存的活動類型";
+"edit_calendar.field.save_comment.title" = "Save comment to calendar";
+"edit_calendar.field.save_comment.description" = "If comment available it's saved as event title";
 
 "activities.pomodoro.break.title" = "中斷";
 
