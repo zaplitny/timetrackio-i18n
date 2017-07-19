@@ -238,10 +238,10 @@
 "edit_type.field.name" = "名稱";
 "edit_type.field.icon" = "圖示";
 "edit_type.field.color" = "顏色";
-"edit_type.field.start_url" = "Start URL"; // see resume 
-"edit_type.field.stop_url" = "Stop URL"; // see resume
-"edit_type.field.pause_url" = "Pause URL";  // see resume
-"edit_type.field.resume_url" = "Resume URL"; // it's activity type setting. timetrack.io can launch other apps (e.g ical://blabla) and this URL is called when activity of this type is resumed
+"edit_type.field.start_url" = "開始 URL"; // see resume 
+"edit_type.field.stop_url" = "停止 URL"; // see resume
+"edit_type.field.pause_url" = "暫停 URL";  // see resume
+"edit_type.field.resume_url" = "恢復 URL"; // it's activity type setting. timetrack.io can launch other apps (e.g ical://blabla) and this URL is called when activity of this type is resumed
 "edit_type.field.calendar" = "日曆";
 "edit_type.delete.message" = "刪除類型？";
 "edit_type.empty_name.message" = "活動類型不能為空";
@@ -254,7 +254,7 @@
 "select_color.manual" = "調色板";
 
 "select_icon.title" = "選擇圖示";
-"select_icon.premium.message" = "Coloured icons is premium feature. Subscribe to premium to use it"; // now colored icons available on premium account
+"select_icon.premium.message" = "彩色圖示是高級功能。請訂閱以使用它"; // now colored icons available on premium account
 
 "select_move_to.action.move_to_top" = "移到頂端";
 
@@ -289,9 +289,9 @@
 "goals.field.alerts.after_event" = "目標達成後 %d 分鐘";
 "goals.field.types.value" = "%ld 活動";
 "goals.field.tags.value" = "%ld 標籤";
-"goals.field.days" = "Days of week"; // can be set for daily goal. for example "Work 8 hours a day" should be only on Saturday and Sunday
-"goals.field.days.value_count" = "%d days";
-"goals.field.days.all" = "All";
+"goals.field.days" = "每週天數"; // can be set for daily goal. for example "Work 8 hours a day" should be only on Saturday and Sunday
+"goals.field.days.value_count" = "%d 天";
+"goals.field.days.all" = "全部";
 
 "goals.notification.time_limit_reached" = "警告！你設定'%@'的時間已經超過了";
 "goals.notification.time_limit_will_reach" = "還有'%2$d'分鐘，你設定的 %1$@ 時間就超過了";
@@ -327,7 +327,7 @@
 "edit_goal.goal_type.day" = "天";
 "edit_goal.goal_type.week" = "週";
 "edit_goal.goal_type.month" = "月";
-"edit_goal.goal_type.year" = "year";
+"edit_goal.goal_type.year" = "年";
 "edit_goal.goal_type.total" = "全部";
 
 "goal.description.duration_per_activity" = "%@ 活動每次";
@@ -335,17 +335,17 @@
 "goal.description.duration_per_day" = "%@ 每天";
 "goal.description.duration_per_week" = "%@ 每週";
 "goal.description.duration_per_month" = "%@ 每月";
-"goal.description.duration_per_year" = "%@ per year";
+"goal.description.duration_per_year" = "%@ 每年";
 "goal.description.duration_total" = "%@ 全部";
 "goal.description.occurrence_per_day" = "每天 %d 次";
 "goal.description.occurrence_per_week" = "每週 %d 次";
 "goal.description.occurrence_per_month" = "每月 %d 次";
-"goal.description.occurrence_per_year" = "%d times per year";
+"goal.description.occurrence_per_year" = "每年 %d 次";
 
-"goal.average.occurrence_per_day" = "%.1f 天/次";
-"goal.average.occurrence_per_week" = "%.1f 天/週";
-"goal.average.occurrence_per_month" = "%.1f 天/月";
-"goal.average.occurrence_per_year" = "%.1f times per year";
+"goal.average.occurrence_per_day" = "%.1f 次/天";
+"goal.average.occurrence_per_week" = "%.1f 次/週";
+"goal.average.occurrence_per_month" = "%.1f 次/月";
+"goal.average.occurrence_per_year" = "%.1f 次/年";
 
 /**
  Tags
@@ -619,7 +619,7 @@
 "settings.comment_on_stop.name" = "在活動結束時備註";
 "settings.comment_on_stop.description" = "在活動結束時進行活動備註說明";
 
-"settings.tag_on_start.name" = "Tag on start"; // alternative to "Comment on start". If type selected in "Tag on start" and user starts activity of this type then some tags are shown below activity. User can quickly check them and update activity
+"settings.tag_on_start.name" = "在開始活動時加入標籤"; // alternative to "Comment on start". If type selected in "Tag on start" and user starts activity of this type then some tags are shown below activity. User can quickly check them and update activity
 
 "settings.sections.appearance" = "主題";
 "settings.theme.name" = "選擇主題";
@@ -674,17 +674,17 @@
 "settings.activity.secondary_timer.goal_left" = "目標時間";
 
 "settings.activity.lock_screen" = "螢幕鎖定";
-"settings.activity.lock_screen.description" = "如果開始，畫面將不會進入鎖定狀態";
+"settings.activity.lock_screen.description" = "app啟動時畫面將不會進入鎖定狀態";
 
-"settings.activity.flat_types" = "Groups on activities tab"; // lot of users (especially in China) use groups just to display statistics grouped but they don't need groups to be shown on Activities tab. E.g Group1 contains Type1 and Type2,  they want to see only Type1 and Type2 on activities tab but they want grouped statistics
+"settings.activity.flat_types" = "活動分群"; // lot of users (especially in China) use groups just to display statistics grouped but they don't need groups to be shown on Activities tab. E.g Group1 contains Type1 and Type2,  they want to see only Type1 and Type2 on activities tab but they want grouped statistics
 "settings.activity.flat_types.description" = "TODO";
 
-"settings.icons_per_row.name" = "Icons per row";
-"settings.icons_per_row.description" = "Number of activity type icons per row on Activities tab";
-"settings.icons_per_row.value" = "%d icons";
+"settings.icons_per_row.name" = "每行圖示數";
+"settings.icons_per_row.description" = "每行的活動類型圖示個數";
+"settings.icons_per_row.value" = "%d 圖示";
 
-"settings.icons_per_row_widget.name" = "Icons per row on widget";
-"settings.icons_per_row_widget.description" = "Number of activity type icons per row on Today Widget screen";
+"settings.icons_per_row_widget.name" = "wdiget上每行顯示圖示";
+"settings.icons_per_row_widget.description" = "Widget上每行的活動類型圖示個數";
 
 "settings.pomodoro.title" = "番茄時鐘";
 "settings.pomodoro.name" = "番茄時鐘";
@@ -749,12 +749,12 @@
 "settings.url_scheme.name" = "URL Scheme";
 "settings.url_scheme.description" = "呼叫URL scheme來開始與結束";
 
-"settings.csv_group_separate_column.name" = "Separate groups column in csv report"; // this feature is for csv export. Groups are shown in separate columns. Let's say you have Type that is inside Subgroup that is inside Group. Then in export type 1st column is Group, 2nd column is Subgroup and 3rd column is Type. This is very useful for building reports in Excel
-"settings.csv_group_separate_column.description" = "Separate groups column in csv report";
+"settings.csv_group_separate_column.name" = "分群顯示的報告"; // this feature is for csv export. Groups are shown in separate columns. Let's say you have Type that is inside Subgroup that is inside Group. Then in export type 1st column is Group, 2nd column is Subgroup and 3rd column is Type. This is very useful for building reports in Excel
+"settings.csv_group_separate_column.description" = "顯示分群欄位";
 
-"settings.day_start.name" = "Day start"; // some users finish working at 2 am and they want those stats not to be splitted into 2 days.
-"settings.default_type.name" = "Default type"; // default type when you press "+" on activities or history tab
-"settings.default_duration.name" = "Default duration"; // default duration of new interval when you press "+" on history tab
+"settings.day_start.name" = "日期起迄"; // some users finish working at 2 am and they want those stats not to be splitted into 2 days.
+"settings.default_type.name" = "預設類型"; // default type when you press "+" on activities or history tab
+"settings.default_duration.name" = "預設持續時間"; // default duration of new interval when you press "+" on history tab
 
 "edit_calendar.field.calendar_name" = "行事曆名稱";
 "edit_calendar.field.types" = "類型";
@@ -762,8 +762,8 @@
 "edit_calendar.field.save_events_automatically" = "發佈至行事曆";
 "edit_calendar.no_types.title" = "無類型";
 "edit_calendar.no_types.description" = "加入在行事曆中要自動儲存的活動類型";
-"edit_calendar.field.save_comment.title" = "Save comment to calendar"; // now type name saved to calendar event comment, if comment is entered in log then it's saved instead of type name
-"edit_calendar.field.save_comment.description" = "If comment available it's saved as event title";
+"edit_calendar.field.save_comment.title" = "儲存備註到行事曆中"; // now type name saved to calendar event comment, if comment is entered in log then it's saved instead of type name
+"edit_calendar.field.save_comment.description" = "將備註導入到事件名稱";
 
 "activities.pomodoro.break.title" = "中斷";
 
@@ -822,7 +822,7 @@
 "help.quick_tutorial.title" = "快速教程";
 "help.manual.title" = "手册";
 
-"quick_tour.title" = "快速教程";
+"quick_tour.title" = "快速教學";
 "quick_tour.action.skip" = "跳過";
 
 "quick_tour.page1.title" = "開始活動";
