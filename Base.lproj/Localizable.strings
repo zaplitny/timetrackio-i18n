@@ -13,6 +13,8 @@
 "Internet" = "Internet";
 "Drink" = "Drink";
 
+"Untracked time" = "Untracked time";
+
 "history.title" = "History";
 
 "first_run.sign_in" = "Already a Member?";
@@ -98,6 +100,7 @@
 "first_sync.progress.get_user_info" = "Loading account info...";
 "first_sync.status.sync_data" = "";
 "first_sync.progress.sync_data" = "Sync data...";
+"first_sync.error.password_expired" = "Your session expired. Please sign out and sign in again";
 
 /**
  Restore
@@ -123,6 +126,8 @@
 "menu.about" = "About";
 "menu.more" = "More";
 "menu.places" = "Places";
+"menu.calendars" = "Calendars";
+"menu.events" = "Events";
 
 /**
  Activities
@@ -173,6 +178,8 @@
 "edit_interval.now" = "Now";
 "edit_interval.duration.hours" = "%d h";
 "edit_interval.duration.minutes" = "%d min";
+"edit_interval.prev" = "Last finish";
+"edit_interval.next" = "Next start";
 
 /**
 Pomodoros
@@ -196,6 +203,7 @@ Pomodoros
 "history.view.calendar" = "Calendar";
 "history.time_tracked" = "Time tracked: %@";
 "history.title.delete_interval" = "Are you sure you want to delete this interval?";
+"history.search.placeholder"="Enter type name, comment or tag...";
 
 /**
  Types
@@ -231,6 +239,11 @@ Pomodoros
 "edit_type.field.name" = "Name";
 "edit_type.field.icon" = "Icon";
 "edit_type.field.color" = "Color";
+"edit_type.field.calendar" = "Calendar";
+"edit_type.field.start_url" = "Start URL";
+"edit_type.field.stop_url" = "Stop URL";
+"edit_type.field.pause_url" = "Pause URL";
+"edit_type.field.resume_url" = "Resume URL";
 "edit_type.delete.message" = "Delete type?";
 "edit_type.empty_name.message" = "Name cannot be empty";
 
@@ -242,6 +255,7 @@ Pomodoros
 "select_color.manual" = "Manual";
 
 "select_icon.title" = "Select icon";
+"select_icon.premium.message" = "Coloured icons is premium feature. Subscribe to premium to use it";
 
 "select_move_to.action.move_to_top" = "Move to top level";
 
@@ -276,13 +290,16 @@ Pomodoros
 "goals.field.alerts.after_event" = "%d minutes after event";
 "goals.field.types.value" = "%ld types";
 "goals.field.tags.value" = "%ld tags";
+"goals.field.days" = "Days of week";
+"goals.field.days.value_count" = "%d days";
+"goals.field.days.all" = "All";
 
 "goals.notification.time_limit_reached" = "Attention! Time limit of goal \"%@\" has been reached.";
-"goals.notification.time_limit_will_reach" = "Time limit of goal \"%@\" will be reached in %d minutes";
-"goals.notification.time_limit_has_been_reached" = "Time limit of goal \"%@\" has been reached %d minutes ago";
+"goals.notification.time_limit_will_reach" = "Time limit of goal \"%1$@\" will be reached in %2$d minutes";
+"goals.notification.time_limit_has_been_reached" = "Time limit of goal \"%1$@\" has been reached %2$d minutes ago";
 "goals.notification.goal_reached" = "Congratulations! Goal reached: \"%@\"";
-"goals.notification.goal_will_reach" = "You will reach goal \"%@\" in %d minutes";
-"goals.notification.goal_has_been_reached" = "Goal \"%@\" has been reached %d minutes ago";
+"goals.notification.goal_will_reach" = "You will reach goal \"%1$@\" in %2$d minutes";
+"goals.notification.goal_has_been_reached" = "Goal \"%1$@\" has been reached %2$d minutes ago";
 "goals.notification.occurrence_reached" = "Congratulations! You reached the goal: \"%@\"";
 "goals.notification.occurrence_limit_reached" = "Attention! Limit of occurrences for goal \"%@\" exceeded";
 
@@ -311,6 +328,7 @@ Pomodoros
 "edit_goal.goal_type.day" = "day";
 "edit_goal.goal_type.week" = "week";
 "edit_goal.goal_type.month" = "month";
+"edit_goal.goal_type.year" = "year";
 "edit_goal.goal_type.total" = "total";
 
 "goal.description.duration_per_activity" = "%@ per activity";
@@ -318,14 +336,17 @@ Pomodoros
 "goal.description.duration_per_day" = "%@ a day";
 "goal.description.duration_per_week" = "%@ a week";
 "goal.description.duration_per_month" = "%@ a month";
+"goal.description.duration_per_year" = "%@ per year";
 "goal.description.duration_total" = "%@ total";
 "goal.description.occurrence_per_day" = "%d times a day";
 "goal.description.occurrence_per_week" = "%d times a week";
 "goal.description.occurrence_per_month" = "%d times a month";
+"goal.description.occurrence_per_year" = "%d times per year";
 
 "goal.average.occurrence_per_day" = "%.1f times a day";
 "goal.average.occurrence_per_week" = "%.1f times a week";
 "goal.average.occurrence_per_month" = "%.1f times a month";
+"goal.average.occurrence_per_year" = "%.1f times per year";
 
 /**
 Tags
@@ -334,6 +355,9 @@ Tags
 "tags.edit.placeholder.nonempty" = "Select tags from the list or enter new";
 "tags.edit.placeholder.empty" = "Enter new tag";
 "tags.edit.placeholder.readonly" = "Select tags from the list";
+"tags.edit.last_used_for_type" = "Last used in \"%@\"";
+"tags.edit.all_tags" = "All tags";
+
 
 "more.title" = "More";
 
@@ -349,7 +373,7 @@ Tags
 /**
   Pomodoros
  */
-"pomodoro.title" = "Pomodoros";
+"pomodoro.title" = "Pomodoro";
 "pomodoro.history" = "History";
 "pomodoro.statistics" = "Statistics";
 "pomodoro.time_tracked" = "Time tracked: %@";
@@ -440,6 +464,7 @@ Tags
 "report.type.pie" = "Pie chart";
 "report.type.daily_total" = "Daily total";
 "report.type.daily_bar" = "Daily entry";
+"report.type.tags" = "Tags";
 "report.type" = "Type: %@";
 "report.empty.title" = "Nothing tracked";
 "report.empty.description" = "Nothing tracked for selected parameters";
@@ -462,18 +487,17 @@ Tags
 "places.field.entry_types.value" = "%ld types";
 
 "places.empty.title" = "You have no places";
-"places.empty.description" = "Places let you check-in in different locations and get geo notifications";
+"places.empty.description" = "Places let you check-in to different locations and get geo notifications";
 
 "places.premium.message" = "Number of places is limited to 2 for free account";
 
 "edit_place.error.empty_name" = "Place name cannot be empty";
-"place.notification.location_changed" = "Your location changed";
+"place.notification.location_changed" = "Your place changed";
 "place.notification.entered" = "You entered \"%@\"";
 "place.notification.leaving" = "You are leaving \"%@\"";
 "place.notification.start_new" = "Start new";
 "place.notification.start" = "Start \"%@\"";
 "place.notification.pause" = "Pause \"%@\"";
-
 "select_location.title" = "Select location";
 "select_location.subtitle" = "Map provider: %@";
 "select_location.provider.apple" = "Apple";
@@ -481,9 +505,70 @@ Tags
 "select_location.tap_and_drag" = "To move pin to another location tap it and drag";
 
 /**
+ Events
+ */
+"events.title" = "Events";
+"events.empty.no_calendars.title" = "No calendars";
+"events.empty.no_calendars.description" = "Go to Settings / Calendars and select calendars you want to use";
+"events.empty.title" = "No events found";
+"events.empty.description" = "Press '+' to create new event";
+
+"events.alert.now" = "At time of event";
+"events.alert.min" = "1 minute before event";
+"events.alert.hour" = "1 hour before event";
+"events.alert.day" = "1 day before event";
+"events.alert.custom" = "%d hours %d minutes before event";
+"events.alert.custom_hours" = "%d hours before event";
+"events.alert.custom_minutes" = "%d minutes before event";
+"events.alert.none" = "No alert";
+
+"events.repeat.every_day" = "Every day";
+"events.repeat.every_week" = "Every week";
+"events.repeat.every_month" = "Every month";
+"events.repeat.every_year" = "Every year";
+"events.repeat.never" = "Never";
+"events.repeat.custom" = "Custom";
+
+"events.repeat.end.always" = "Never";
+"events.repeat.end.after_occurrences" = "After %d occurrences";
+"events.repeat.end.after" = "Ends After";
+"events.repeat.end.on" = "Ends On";
+
+"events.notification.start_now" = "Starts now";
+"events.notification.in_1_min" = "In 1 minute";
+"events.notification.in_5_min" = "In 5 minutes";
+"events.notification.in_10_min" = "In 10 minutes";
+"events.notification.in_15_min" = "In 15 minutes";
+"events.notification.in_30_min" = "In 30 minutes";
+"events.notification.in_45_min" = "In 45 minutes";
+"events.notification.in_1_hour" = "In 1 hours";
+"events.notification.in_2_hours" = "In 2 hours";
+"events.notification.start_at" = "Starts at: %@";
+
+"edit_event.field.title" = "Title";
+"edit_event.field.calendar" = "Calendar";
+"edit_event.field.start" = "Start";
+"edit_event.field.finish" = "Finish";
+"edit_event.field.types" = "Type";
+"edit_event.field.repeat" = "Repeat";
+"edit_event.field.repeat_ends" = "End repeat";
+"edit_event.field.alerts" = "Alerts";
+"edit_event.field.alert_sound" = "Alert sound";
+"edit_event.delete.message" = "Remove event?";
+"edit_event.delete.action.all" = "Remove future events";
+"edit_event.delete.action.this" = "Remove only this event";
+"edit_event.add_alert" = "Add another alert";
+"edit_event.update.message" = "This is a repeating event";
+"edit_event.update.action.this" = "Save for this event only";
+"edit_event.update.action.all" = "Save for future events";
+
+/**
  Settings
  */
 "settings.title" = "Settings";
+
+"settings.sections.features" = "Features";
+
 "settings.sections.activities" = "Activities";
 
 "settings.action_on_start.name" = "Action on start";
@@ -535,10 +620,14 @@ Tags
 "settings.comment_on_stop.name" = "Comment on stop";
 "settings.comment_on_stop.description" = "TODO";
 
+"settings.tag_on_start.name" = "Tag on start";
+
 "settings.sections.appearance" = "Appearance";
 "settings.theme.name" = "Theme";
 "settings.theme.name.light" = "Light";
-"settings.theme.name.dark" = "Dark";
+"settings.theme.name.dark" = "Graphite";
+"settings.theme.name.white" = "Neutral";
+"settings.theme.name.dark2" = "Black";
 "settings.goal_progress.name" = "Goal progress";
 "settings.goal_progress.gray" = "Gray";
 "settings.goal_progress.colored" = "Colored";
@@ -588,8 +677,15 @@ Tags
 "settings.activity.lock_screen" = "Lock activities screen";
 "settings.activity.lock_screen.description" = "When disabled activities screen won't be locked automatically";
 
-"settings.activity.flat_types" = "Flat types";
-"settings.activity.flat_types.description" = "TODO";
+"settings.activity.flat_types" = "Groups on activities tab";
+"settings.activity.flat_types.description" = "";
+
+"settings.icons_per_row.name" = "Icons per row";
+"settings.icons_per_row.description" = "Number of activity type icons per row on Activities tab";
+"settings.icons_per_row.value" = "%d icons";
+
+"settings.icons_per_row_widget.name" = "Icons per row on widget";
+"settings.icons_per_row_widget.description" = "Number of activity type icons per row on Today Widget screen";
 
 "settings.pomodoro.title" = "Pomodoro";
 "settings.pomodoro.name" = "Pomodoro";
@@ -623,6 +719,7 @@ Tags
 "settings.pomodoro.mode.strict.title" = "Strict";
 "settings.pomodoro.work_tick_sound" = "Work tick sound";
 "settings.pomodoro.break_tick_sound" = "Break tick sound";
+"settings.pomodoro.cycles_count" = "Number of cycles";
 
 "settings.stats_calculation.name" = "Statistics calculation";
 "settings.stats_calculation.intersection_on" = "With intersections";
@@ -637,6 +734,38 @@ Tags
 "settings.show_sync_error.name" = "Display sync errors";
 "settings.show_sync_error.description" = "";
 
+"settings.application_language.name" = "Application language";
+
+"settings.calendar.name" = "Calendar";
+"settings.calendar.field.calendars" = "Calendars";
+"settings.calendar.field.types_mapping" = "Types";
+"settings.calendar.enabled.title" = "Enabled";
+"settings.calendar.show_in_activities.title" = "Show next event in activities";
+"settings.calendar.show_in_widget.title" = "Show next event in widget";
+"settings.calendar.no_calendar.title" = "No calendars";
+"settings.calendar.no_calendar.desc" = "Add calendars you wish to work with";
+"settings.calendar.default_sound.title" = "Default sound";
+"settings.calendar.default_alerts.title" = "Default alerts";
+
+"settings.url_scheme.name" = "URL Scheme";
+"settings.url_scheme.description" = "Call URL scheme on start and stop";
+
+"settings.csv_group_separate_column.name" = "Separate groups column in csv report";
+"settings.csv_group_separate_column.description" = "Separate groups column in csv report";
+
+"settings.day_start.name" = "Day start";
+"settings.default_type.name" = "Default type";
+"settings.default_duration.name" = "Default duration";
+
+"edit_calendar.field.calendar_name" = "Calendar";
+"edit_calendar.field.types" = "Types";
+"edit_calendar.field.types.value" = "%ld types";
+"edit_calendar.field.save_events_automatically" = "Post activities to calendar";
+"edit_calendar.no_types.title" = "No types";
+"edit_calendar.no_types.description" = "Add types if you want to automatically save activities in calendar";
+"edit_calendar.field.save_comment.title" = "Save comment to calendar";
+"edit_calendar.field.save_comment.description" = "If comment available it's saved as event title";
+
 "activities.pomodoro.break.title" = "Break";
 
 /**
@@ -648,8 +777,8 @@ Tags
 "account.signout.warning" = "All of your unsynced data will be lost. Are you sure?";
 "account.last_sync.unknown" = "Last sync: Unknown";
 "account.expired" = "Expired on %@. Press to subscribe";
-"account.free" = "Free account. Press to subscribe";
-"account.expires" = "Premium account (active till %@ )";
+"account.free" = "BASIC account. Press to subscribe";
+"account.expires" = "PREMIUM (expires %@ )";
 "account.last_sync.at" = "Successful sync: %@";
 "account.last_sync.failed" = "Sync failed: %@. Message: %@";
 
@@ -660,6 +789,8 @@ Tags
 "subscribe.enable.title" = "In-App Purchases Not Enabled";
 "subscribe.enable.message" = "Please enable In App Purchase in Settings";
 "subscribe.settings" = "Settings";
+"subscribe.payment_disabled.title" = "Payments restricted";
+"subscribe.payment_disabled.message" = "You are not authorized to make payments. You can enable it in Settings/General/Restrictions";
 
 /**
  About
