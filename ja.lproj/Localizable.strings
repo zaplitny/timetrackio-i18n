@@ -17,18 +17,18 @@
 
 "history.title" = "履歴";
 
-"first_run.sign_in" = "Already a Member?";
+"first_run.sign_in" = "既に加入していますか？";
 "first_run.sign_up" = "Get Started";
 
 "first_run_setup.message.import" = "Do you want to use predefined types or import data from aTimeLogger 2?";
 "first_run_setup.action.init_with_default" = "Use predefined";
-"first_run_setup.action.import" = "Import data from aTimeLogger";
+"first_run_setup.action.import" = "aTimeLoggerからデータを読み込む";
 
-"import.action.import" = "Import";
+"import.action.import" = "読み込む";
 
-"sign_up.error.empty_email" = "Email cannot be empty";
-"sign_up.error.invalid_email" = "Email is not valid";
-"sign_up.error.empty_password" = "Password cannot be empty";
+"sign_up.error.empty_email" = "メールアドレスを記入して下さい";
+"sign_up.error.invalid_email" = "メールアドレスは無効";
+"sign_up.error.empty_password" = "パスワードを記入してう下さい";
 "sign_up.error.password_match" = "Password and repeat password fields do not match";
 
 /**
@@ -42,42 +42,42 @@
 "common.action.edit" = "編集";
 "common.action.close" = "閉じる";
 "common.action.back" = "戻る";
-"common.action.select" = "Select";
+"common.action.select" = "選択";
 "common.action.select_type" = "種類の選択";
-"common.action.select_types" = "Select types";
-"common.action.select_tags" = "Select tags";
+"common.action.select_types" = "種類を選択";
+"common.action.select_tags" = "タグの選択";
 "common.action.select_deselect" = "全てを選択／選択を解除";
 "common.action.add_before" = "Add";
-"common.action.select_place" = "Select place";
+"common.action.select_place" = "場所を選択";
 "common.title.loading" = "読込中...";
-"common.title.syncing" = "Syncing ...";
+"common.title.syncing" = "同期中  ...";
 "common.email.placeholder" = "メールアドレス";
-"common.first_name.placeholder" = "Your first name";
-"common.last_name.placeholder" = "Your last name";
+"common.first_name.placeholder" = "名";
+"common.last_name.placeholder" = "姓";
 "common.password.placeholder" = "パスワード";
-"common.repeat_password.placeholder" = "Repeat your password";
-"common.enabled" = "Enabled";
+"common.repeat_password.placeholder" = "パスワードを更に記入して下さい";
+"common.enabled" = "オン";
 "common.disabled" = "オフ";
 "common.minutes" = "%ld分";
-"common.premium.message" = "The feature is available only for PRO account";
-"common.premium.try_10_days" = "Try 10 days for FREE";
+"common.premium.message" = "この機能はプロ会員に限る";
+"common.premium.try_10_days" = "１０日無料で体験します";
 "common.premium.purchase" = "Upgrade";
-"common.premium.try_10_days_activated" = "Premium features will be available 10 days for FREE";
+"common.premium.try_10_days_activated" = "プレミアムの機能は１０日間無料で体験できます";
 "common.mail_disabled.title" = "この機械はメールを送信できません";
 "common.mail_disabled.description" = "Please set up email account";
-"common.title.sync_failed" = "Sync failed";
-"common.action.retry" = "Retry";
+"common.title.sync_failed" = "同期が失敗に終わった";
+"common.action.retry" = "やり直す";
 
 /**
  Sign In
  */
 "sign_in.sign_in" = "サインイン";
-"sign_in.forgot" = "Forgot password?";
+"sign_in.forgot" = "パスワードを忘れてしまいました";
 
-"sign_up.sign_up" = "Sign Up";
-"User already exists" = "User with such email already exists. If you have aTimeLogger account sign in with its credentials";
+"sign_up.sign_up" = "新規登録";
+"User already exists" = "このメールアドレスは既に登録しています。aTimeLoggerのアカウントをお持ちの方はサインインをお願いします。";
 
-"error.invalid_grant" = "Invalid username/password";
+"error.invalid_grant" = "ユーザーネーム・パスワードが無効";
 "error.unknown" = "Unknown error occurred. Contact us at support@timetrack.io";
 
 /**
@@ -97,35 +97,36 @@
 */
 "first_sync.title" = "";
 "first_sync.status.get_user_info" = "";
-"first_sync.progress.get_user_info" = "Loading account info...";
+"first_sync.progress.get_user_info" = "アカウント情報を読み込み中...";
 "first_sync.status.sync_data" = "";
-"first_sync.progress.sync_data" = "Sync data...";
+"first_sync.progress.sync_data" = "データ同期...";
 "first_sync.error.password_expired" = "Your session expired. Please sign out and sign in again";
 
 /**
  Restore
  */
-"restore.title" = "Restore password";
-"restore.action.restore" = "Restore password";
-"restore.message.success" = "Message with instructions has been sent to your email";
-"restore.message.failure" = "Error occured while send instructions. Check your email and try again later or contact support";
-"restore.message.email_invalid" = "Email is not valid";
+
+"restore.title" = "パスワード リセット";
+"restore.action.restore" = "パスワードをリセットする";
+"restore.message.success" = "パスワードをリセットする方法をメールで送りました。";
+"restore.message.failure" = "メール送信のエラーがありました。メールアドレスをチェックして下さい。問題の解決しない場合サポートに連絡して下さい。";
+"restore.message.email_invalid" = "メールアドレスは間違っています";
 
 /**
  Menu
 */
 "menu.activities" = "記録画面";
 "menu.history" = "履歴";
-"menu.pomodoro" = "Pomodoro";
+"menu.pomodoro" = "ポモドーロ";
 "menu.types" = "種類";
 "menu.goals" = "目標";
 "menu.reports" = "レポート";
 "menu.settings" = "環境設定";
-"menu.account" = "Account";
+"menu.account" = "アカウント";
 "menu.help" = "ヘルプ";
 "menu.about" = "このアプリについて";
 "menu.more" = "設定";
-"menu.places" = "Places";
+"menu.places" = "場所";
 "menu.calendars" = "Calendars";
 "menu.events" = "Events";
 
@@ -133,19 +134,19 @@
  Activities
  */
 "activities.empty.title" = "アクティビティの種類がありません";
-"activities.empty.description" = "You have no types. To create new type press on \"+\" button on \"Types\" tab";
+"activities.empty.description" = "アクティビティーの書類がありません。「書類」タブで「＋」ボタンを多し下さい。";
 "activities.title" = "記録画面";
 "activities.action.start" = "開始";
 "activities.action.stop" = "停止";
 "activities.action.resume" = "再開";
 "activities.action.pause" = "中断";
-"activities.action.start_pomodoro" =  "Start Pomodoro";
-"activities.action.start_usual" = "Start Usual";
+"activities.action.start_pomodoro" =  "ポモドーロを始める";
+"activities.action.start_usual" = "通常に始める";
 "activities.start.message" = "記録を開始しますか?";
 "activities.stop.message" = "記録を停止しますか?";
 "activities.pause.message" = "記録を中断しますか?";
 "activities.resume.message" = "記録を再開しますか?";
-"activities.start_pomodoro.message" = "Do you want to start it as pomodoro?";
+"activities.start_pomodoro.message" = "ポモドーロとして始めたいですか？";
 "activities.sync.title" = "同期";
 
 "edit_activity.title" = "編集";
@@ -159,7 +160,7 @@
 "edit_activity.paused" = "中断";
 "edit_activity.stopped" = "停止";
 "edit_activity.empty.description" = "期間を追加するには＋をタップ";
-"edit_activity.no_comment" = "No comment";
+"edit_activity.no_comment" = "コメント無し";
 "edit_activity.delete.message" = "記録を削除しますか？";
 "edit_activity.error.no_type" = "Select type of activity";
 "edit_activity.error.no_intervals" = "Activity must have at least 1 interval";
@@ -200,9 +201,9 @@ Pomodoros
 "history.range.month" = "月";
 "history.view.list" = "履歴リストの表示"; // need something shorter
 "history.view.pie" = "円グラフの表示"; // need something shorter
-"history.view.calendar" = "Calendar";
+"history.view.calendar" = "カレンダー";
 "history.time_tracked" = "合計時間: %@";
-"history.title.delete_interval" = "Are you sure you want to delete this interval?";
+"history.title.delete_interval" = "この時期を消しますか？";
 "history.search.placeholder"="Enter type name, comment or tag...";
 
 /**
@@ -212,7 +213,7 @@ Pomodoros
 "types.empty.description" = "You have no types. To create new type press on \"+\" button in upper right";
 "types.title" = "種類";
 "types.order.title" = "並び替え: %@";
-"types.order.manual" = "Manual";
+"types.order.manual" = "マニュアル";
 "types.order.by_name" = "名前";
 "types.archived" = "アーカイブしたアクティビティの種類"; // need something shorter
 
@@ -228,33 +229,33 @@ Pomodoros
 "type_details.items" = "項目";
 "type_details.empty.title" = "No children";
 "type_details.empty.description" = "[＋]ボタンでこのグループにアクティビティの種類を入れることができます";
-"type_details.last_activity" = "Last activity: %@";
-"type_details.last_activity.running" = "Last activity: now running";
-"type_details.last_activity.empty" = "Last activity: nothing tracked";
-"type_details.average" = "Average/activity";
-"type_details.average_day" = "Average/day";
+"type_details.last_activity" = "最終行動: %@";
+"type_details.last_activity.running" = "最終行動: 記録中";
+"type_details.last_activity.empty" = "最終行動: 無し";
+"type_details.average" = "行動の平均";
+"type_details.average_day" = "日の平均";
 "type_details.total" = "合計";
 
 "edit_type.field.group" = "グループ";
 "edit_type.field.name" = "名前";
 "edit_type.field.icon" = "アイコン";
 "edit_type.field.color" = "色";
-"edit_type.field.calendar" = "Calendar";
+"edit_type.field.calendar" = "カレンダー";
 "edit_type.field.start_url" = "Start URL";
 "edit_type.field.stop_url" = "Stop URL";
 "edit_type.field.pause_url" = "Pause URL";
 "edit_type.field.resume_url" = "Resume URL";
 "edit_type.delete.message" = "アクティビティの種類を削除するとその記録がすべて削除されます。よろしいですか？";
-"edit_type.empty_name.message" = "Name cannot be empty";
+"edit_type.empty_name.message" = "名前を記入して下さい";
 
-"archived.title" = "Archived";
+"archived.title" = "アーカイブ";
 
 "select_color.title" = "色を選択";
 "select_color.picker" = "Picker: %@";
 "select_color.predefined" = "Predefined";
-"select_color.manual" = "Manual";
+"select_color.manual" = "マニュアル";
 
-"select_icon.title" = "Select icon";
+"select_icon.title" = "アイコンを選択";
 "select_icon.premium.message" = "Coloured icons is premium feature. Subscribe to premium to use it";
 
 "select_move_to.action.move_to_top" = "Move to top level";
@@ -262,34 +263,34 @@ Pomodoros
 /**
  Goals
  */
-"goals.archived" = "Archived";
-"goals.title" = "目標";
-"goals.order.title" = "Order: %@";
-"goals.order.manual" = "Manual";
+"goals.archived" = "アーカイブ";
+"goals.title" = "ゴール";
+"goals.order.title" = "順: %@";
+"goals.order.manual" = "マニュアル";
 "goals.order.by_name" = "名前";
-"goals.empty.title" = "No goals";
+"goals.empty.title" = "ゴール無し";
 "goals.empty.description" = "You have no goals. Create goals and reach them by pressing on \"+\"";
 "goals.delete.title" = "目標を削除？";
 "goals.field.name" = "名前";
 "goals.field.goal_type" = "目標の種類";
-"goals.field.goal_type.limit" = "Limit"; // it was limit duration before but now it can also be limit occurrence
+"goals.field.goal_type.limit" = "制限"; // it was limit duration before but now it can also be limit occurrence
 "goals.field.goal_type.reach" = "Reach"; //
 "goals.field.based_on" = "Based on";
-"goals.field.based_on.duration" = "Duration";
-"goals.field.based_on.occurrence" = "Occurrence";
+"goals.field.based_on.duration" = "期間";
+"goals.field.based_on.occurrence" = "行動数";
 "goals.field.types" = "種類";
-"goals.field.tags" = "Tags";
-"goals.field.alerts" = "Alerts";
-"goals.field.alerts.no_alerts" = "No alerts";
-"goals.field.alert_sound" = "Alert sound";
-"goals.field.alert_sound.no_sound" = "No sound";
-"goals.field.alerts.value" = "%ld alerts";
-"goals.field.alerts.action.add" = "Add another alert";
-"goals.field.alerts.at_time_of_event" = "At time of event";
-"goals.field.alerts.before_event" = "%d minutes before event";
-"goals.field.alerts.after_event" = "%d minutes after event";
-"goals.field.types.value" = "%ld types";
-"goals.field.tags.value" = "%ld tags";
+"goals.field.tags" = "タグ";
+"goals.field.alerts" = "警報";
+"goals.field.alerts.no_alerts" = "警報無し";
+"goals.field.alert_sound" = "警報の音";
+"goals.field.alert_sound.no_sound" = "無音";
+"goals.field.alerts.value" = "%ldつの警報";
+"goals.field.alerts.action.add" = "警報を追加する";
+"goals.field.alerts.at_time_of_event" = "イベントの時";
+"goals.field.alerts.before_event" = "イベントの%d分前";
+"goals.field.alerts.after_event" = "イベントの%d分後";
+"goals.field.types.value" = "%ldつの書類";
+"goals.field.tags.value" = "%ldつのタグ";
 "goals.field.days" = "Days of week";
 "goals.field.days.value_count" = "%d days";
 "goals.field.days.all" = "All";
@@ -303,33 +304,33 @@ Pomodoros
 "goals.notification.occurrence_reached" = "Congratulations! You reached the goal: \"%@\"";
 "goals.notification.occurrence_limit_reached" = "Attention! Limit of occurrences for goal \"%@\" exceeded";
 
-"goal_details.title" = "Goal";
+"goal_details.title" = "ゴール";
 "goal_details.action.archive" = "アーカイブ";
 "goal_details.action.unarchive" = "アーカイブから復元";
-"goal_details.unarchive.message" = "Unarchive goal?";
-"goal_details.archive.message" = "Archive goal?";
-"goal_details.last10_days.title" = "Last 10 days"; 
-"goal_details.last30_days.title" = "Last 30 days";
-"goal_details.last10_weeks.title" = "Last 10 weeks";
-"goal_details.last10_months.title" = "Last 10 months";
-"goal_details.last10_activities.title" = "Last 10 activities";
-"goal_details.last10_intervals.title" = "Last 10 intervals";
-"goal_details.stats.line.goal_value" = "Goal value";
-"goal_details.stats.average" = "Average";
-"goal_details.stats.total" = "Total";
-"goal_details.stats.success" = "Success";
+"goal_details.unarchive.message" = "ゴールをアーカイブから取り戻す？";
+"goal_details.archive.message" = "ゴールをアーカイブに？";
+"goal_details.last10_days.title" = "最近の１０日間";
+"goal_details.last30_days.title" = "最近の３０日間";
+"goal_details.last10_weeks.title" = "最近の１０週間";
+"goal_details.last10_months.title" = "最近の１０ヶ月間";
+"goal_details.last10_activities.title" = "最終の10つ行動";
+"goal_details.last10_intervals.title" = "最終の10つ期間";
+"goal_details.stats.line.goal_value" = "ゴールの数値";
+"goal_details.stats.average" = "平均";
+"goal_details.stats.total" = "合計";
+"goal_details.stats.success" = "成功";
 
-"edit_goal.title" = "目標を編集";
-"edit_goal.error.empty_name" = "Name cannot be empty";
-"edit_goal.error.types" = "At least 1 type should be selected";
-"edit_goal.error.duration_or_occurence" = "Duration or occurrence should be selected";
-"edit_goal.goal_type.activity" = "activity";
-"edit_goal.goal_type.interval" = "interval";
-"edit_goal.goal_type.day" = "day";
-"edit_goal.goal_type.week" = "week";
-"edit_goal.goal_type.month" = "month";
+"edit_goal.title" = "ゴール編集";
+"edit_goal.error.empty_name" = "ゴールなを記入して下さい。";
+"edit_goal.error.types" = "少なくとも１つの書類を選択して下さい。";
+"edit_goal.error.duration_or_occurence" = "「期間」又は「行動数」を選んで下さい。";
+"edit_goal.goal_type.activity" = "行動数";
+"edit_goal.goal_type.interval" = "時期";
+"edit_goal.goal_type.day" = "日";
+"edit_goal.goal_type.week" = "週";
+"edit_goal.goal_type.month" = "月";
 "edit_goal.goal_type.year" = "year";
-"edit_goal.goal_type.total" = "total";
+"edit_goal.goal_type.total" = "合計";
 
 "goal.description.duration_per_activity" = "%@ 記録ごと";
 "goal.description.duration_per_interval" = "%@ 期間ごと";
@@ -337,24 +338,24 @@ Pomodoros
 "goal.description.duration_per_week" = "%@ 週ごと";
 "goal.description.duration_per_month" = "%@ 月ごと";
 "goal.description.duration_per_year" = "%@ per year";
-"goal.description.duration_total" = "%@ total";
-"goal.description.occurrence_per_day" = "%d times a day";
-"goal.description.occurrence_per_week" = "%d times a week";
-"goal.description.occurrence_per_month" = "%d times a month";
+"goal.description.duration_total" = "全部%@回";
+"goal.description.occurrence_per_day" = "一日%d回";
+"goal.description.occurrence_per_week" = "週%d回";
+"goal.description.occurrence_per_month" = "月%d回";
 "goal.description.occurrence_per_year" = "%d times per year";
 
-"goal.average.occurrence_per_day" = "%.1f times a day";
-"goal.average.occurrence_per_week" = "%.1f times a week";
-"goal.average.occurrence_per_month" = "%.1f times a month";
+"goal.average.occurrence_per_day" = "一日%.1f回";
+"goal.average.occurrence_per_week" = "週%.1f回";
+"goal.average.occurrence_per_month" = "月%.1f回";
 "goal.average.occurrence_per_year" = "%.1f times per year";
 
 /**
 Tags
 */
-"tags.edit.title" = "Edit Tags";
-"tags.edit.placeholder.nonempty" = "Select tags from the list or enter new";
-"tags.edit.placeholder.empty" = "Enter new tag";
-"tags.edit.placeholder.readonly" = "Select tags from the list";
+"tags.edit.title" = "タグ編集";
+"tags.edit.placeholder.nonempty" = "列記からタグを選んで、又は新規記録を下さい。";
+"tags.edit.placeholder.empty" = "新しいタグを記入";
+"tags.edit.placeholder.readonly" = "列記からタグを選択";
 "tags.edit.last_used_for_type" = "Last used in \"%@\"";
 "tags.edit.all_tags" = "All tags";
 
@@ -362,56 +363,56 @@ Tags
 
 "select_value.title" = "Select Value";
 
-"Activities" = "記録画面";
+"Activities" = "行動";
 "History" = "履歴";
 "Types" = "種類";
-"Goals" = "目標";
+"Goals" = "ゴール";
 "Reports" = "レポート";
 "%@ per activity" = "%@ 記録ごと";
 
 /**
   Pomodoros
  */
-"pomodoro.title" = "Pomodoro";
-"pomodoro.history" = "History";
-"pomodoro.statistics" = "Statistics";
-"pomodoro.time_tracked" = "Time tracked: %@";
-"pomodoro.action.reset" = "Reset";
-"pomodoro.action.short_break" = "Short Break";
-"pomodoro.action.long_break" = "Long Break";
-"pomodoro.title.quit" = "Quit pomodoro mode?";
-"pomodoro.action.quit" = "Quit Pomodoro";
-"pomodoro.action.break" = "Break";
-"pomodoro.action.resume_previous" = "Resume Previous";
-"pomodoro.title.resume_previous" = "Resume previous activity?";
-"pomodoro.action.start_new" = "Start New";
-"pomodoro.action.resume" = "Resume";
-"pomodoro.action.more" = "More";
+"pomodoro.title" = "ポモドーロ";
+"pomodoro.history" = "歴史";
+"pomodoro.statistics" = "統計";
+"pomodoro.time_tracked" = "記録時期: %@";
+"pomodoro.action.reset" = "リセット";
+"pomodoro.action.short_break" = "短い休憩";
+"pomodoro.action.long_break" = "長い休憩";
+"pomodoro.title.quit" = "ポモドーロモードから出る？";
+"pomodoro.action.quit" = "ポモドーロモードから出る？";
+"pomodoro.action.break" = "休憩";
+"pomodoro.action.resume_previous" = "Resume Previous";		  "pomodoro.action.resume_previous" = "Resume Previous";
+"pomodoro.title.resume_previous" = "Resume previous activity?";		  "pomodoro.title.resume_previous" = "Resume previous activity?";
+"pomodoro.action.start_new" = "Start New";		  "pomodoro.action.start_new" = "Start New";
+"pomodoro.action.resume" = "Resume";		  "pomodoro.action.resume" = "Resume";
+"pomodoro.action.more" = "More";		  "pomodoro.action.more" = "More";
 "pomodoro.title.select_work_type" = "Select work type";
 "pomodoro.title.select_break_type" = "Select break type";
-"pomodoro.title.reset" = "Reset pomodoro?";
-"pomodoro.completed" = "%d of %d";
-"pomodoro.notification.work_complete" = "Time to have a break";
-"pomodoro.notification.short_break_complete" = "You had short break. It's time to work";
-"pomodoro.notification.long_break_complete" = "You had long break. It's time to work";
+"pomodoro.title.reset" = "ポモドーロをリセットする？";
+"pomodoro.completed" = "済：%d （全て：%d）";
+"pomodoro.notification.work_complete" = "休憩の時間です";
+"pomodoro.notification.short_break_complete" = "短い休憩が終わりました。仕事に戻る時間です。";
+"pomodoro.notification.long_break_complete" = "長い休憩が終わりました。仕事に戻る時間です。";
 
-"pomodoro.history.header.completed" = "%d out of %d completed";
+"pomodoro.history.header.completed" = "済：%d （全て：%d）";
 "pomodoro.history.action.message" = "You can remove the interval from pomodoros only or remove completely from history";
 "pomodoro.history.action.remove_interval" = "Remove completely";
 "pomodoro.history.action.remove_interval_from_pomodoro" = "Remove from pomodoros only";
 
-"pomodoro.stats.total" = "Total";
-"pomodoro.stats.completed" = "Completed";
-"pomodoro.stats.uncompleted" = "Uncompleted";
-"pomodoro.stats.average_completed_day" = "Average completed a day";
+"pomodoro.stats.total" = "合計";
+"pomodoro.stats.completed" = "済";
+"pomodoro.stats.uncompleted" = "未";
+"pomodoro.stats.average_completed_day" = "不済　Average completed a day";
 "pomodoro.stats.average_completed_duration" = "Average completed duration";
-"pomodoro.stats.average_break_duration" = "Average break duration";
-"pomodoro.stats.header.daily" = "Statistics by day";
+"pomodoro.stats.average_break_duration" = "平均休憩時間";
+"pomodoro.stats.header.daily" = "日の統計";
 
-"pomodoro.stats.bar.completed" = "Completed";
-"pomodoro.stats.bar.uncompleted" = "Uncompleted";
-"pomodoro.stats.bar.break" = "Break";
-"pomodoro.stats.line.daily_goal" = "Daily goal";
+"pomodoro.stats.bar.completed" = "済";
+"pomodoro.stats.bar.uncompleted" = "未";
+"pomodoro.stats.bar.break" = "休憩";
+"pomodoro.stats.line.daily_goal" = "日のゴール";
 
 /**
  Remind me
@@ -419,34 +420,34 @@ Tags
 "remind_me.title.what_are_you_doing" = "今は何をやってますか？";
 "remind_me.title.what_are_you_doing_running" = "今は何をやってますか？今は「%@」を記録中";
 "remind_me.action.change" = "変更";
-"remind_me.action.start" = "Start activity";
+"remind_me.action.start" = "行動を始める";
 
 /**
  Reports
  */
 "reports.title" = "レポート";
-"reports.type.custom" = "Custom";
+"reports.type.custom" = "カスタム";
 "reports.type.predefined" = "Predefined";
-"reports.type.user" = "User";
+"reports.type.user" = "ユーザー";
 "reports.type.range_type" = "Range";
 "reports.type.predefined.today" = "今日";
-"reports.type.predefined.this_week" = "This week";
-"reports.type.predefined.this_month" = "This month";
-"reports.type.predefined.last_10_days" = "Last 10 days";
-"reports.type.predefined.last_30_days" = "Last 30 days";
+"reports.type.predefined.this_week" = "今週";
+"reports.type.predefined.this_month" = "今月";
+"reports.type.predefined.last_10_days" = "最近の１０日間";
+"reports.type.predefined.last_30_days" = "最近の３０日間";
 "reports.type.predefined.yesterday" = "昨日";
-"reports.type.predefined.last_week" = "Last week";
-"reports.type.predefined.last_month" = "Last month";
+"reports.type.predefined.last_week" = "先週";
+"reports.type.predefined.last_month" = "先月";
 "reports.range_picker.range_type" = "Range type";
-"reports.range_picker.manual" = "Manual";
+"reports.range_picker.manual" = "マニュアル";
 "reports.range_picker.predefined" = "Predefined";
 "reports.premium.message" = "Number of report filters is limited to 2 for free account";
 "report.title" = "レポート";
 "report.action.select_format" = "フォーマットの選択";
 "report.action.create" = "レポートの作成";
 "report.action.export" = "エクスポート";
-"report.action.batch_remove" = "Remove all";
-"report.action.save_to" = "Save to Documents";
+"report.action.batch_remove" = "すべてを除去";
+"report.action.save_to" = "ドキュメントで保存する";
 "report.action.send_by_email" = "メールで送信";
 "report.action.collapse_expand" = "Collapse/expand all";
 "report.title.saved" = "保存に成功しました";
@@ -475,29 +476,29 @@ Tags
 /**
  Places
  */
-"places.field.name" = "Name";
-"places.field.location" = "Location";
-"places.field.notify_on_entry" = "Notify on entry";
-"places.field.notify_on_exit" = "Notify on exit";
-"places.delete.title" = "Delete place?";
+"places.field.name" = "名前";
+"places.field.location" = "場所";
+"places.field.notify_on_entry" = "入る時の通知";
+"places.field.notify_on_exit" = "出る時の通知";
+"places.delete.title" = "場所を消す？";
 "places.field.exit_types" = "Exit types";
 "places.field.entry_types" = "Entry types";
 "places.field.exit_types.value" = "%ld types";
 "places.field.entry_types.value" = "%ld types";
 
-"places.empty.title" = "You have no places";
+"places.empty.title" = "場所は記入されていません";
 "places.empty.description" = "Places let you check-in to different locations and get geo notifications";
 
 "places.premium.message" = "Number of places is limited to 2 for free account";
 
-"edit_place.error.empty_name" = "Place name cannot be empty";
-"place.notification.location_changed" = "Your place changed";
-"place.notification.entered" = "You entered \"%@\"";
-"place.notification.leaving" = "You are leaving \"%@\"";
+"edit_place.error.empty_name" = "場所の名前を記入して下さい";
+"place.notification.location_changed" = "場所が変化しました";
+"place.notification.entered" = "\"%@\"に入りました";
+"place.notification.leaving" = "\"%@\"から出ました";
 "place.notification.start_new" = "Start new";
 "place.notification.start" = "Start \"%@\"";
 "place.notification.pause" = "Pause \"%@\"";
-"select_location.title" = "Select location";
+"select_location.title" = "場所を選択";
 "select_location.subtitle" = "Map provider: %@";
 "select_location.provider.apple" = "Apple";
 "select_location.provider.baidu" = "Baidu";
@@ -568,7 +569,7 @@ Tags
 
 "settings.sections.features" = "Features";
 
-"settings.sections.activities" = "Activities";
+"settings.sections.activities" = "行動";
 
 "settings.action_on_start.name" = "開始時の動作";
 "settings.action_on_start.description" = "When start new activity current running can be stopped/paused automatically or continue running";
@@ -584,9 +585,9 @@ Tags
 "settings.min_duration.name" = "最短記録時間";
 "settings.min_duration.description" = "Activity is not saved if its duration is less than this value";
 "settings.min_duration.none" = "None";
-"settings.min_duration.10_sec" = "10 seconds";
-"settings.min_duration.1_min" = "1 minute";
-"settings.min_duration.5_min" = "5 minutes";
+"settings.min_duration.10_sec" = "10秒";
+"settings.min_duration.1_min" = "1分";
+"settings.min_duration.5_min" = "5分";
 
 "settings.picker_increment.name" = "時間間隔の設定";
 "settings.picker_increment.description" = "Increment step on time and duration pickers";
@@ -626,16 +627,16 @@ Tags
 "settings.theme.name.white" = "Neutral";
 "settings.theme.name.dark2" = "Black";
 "settings.goal_progress.name" = "Goal progress";
-"settings.goal_progress.gray" = "Gray";
-"settings.goal_progress.colored" = "Colored";
-"settings.navigation" = "Navigation";
-"settings.navigation.left_menu" = "Left Menu";
+"settings.goal_progress.gray" = "グレー";
+"settings.goal_progress.colored" = "カラー";
+"settings.navigation" = "ナビゲーション";
+"settings.navigation.left_menu" = "左のメニュー";
 "settings.navigation.tab_bar" = "Tab Bar";
 
-"settings.sections.history" = "History";
-"settings.history.order.title" = "History order"; // jan1, jan2, jan3 OR jan3, jan2, jan1
-"settings.history.order.asc" = "Ascending";
-"settings.history.order.desc" = "Descending";
+"settings.sections.history" = "歴史";
+"settings.history.order.title" = "順"; // jan1, jan2, jan3 OR jan3, jan2, jan1
+"settings.history.order.asc" = "下から";
+"settings.history.order.desc" = "上から";
 "settings.history.pie_view_mode.title" = "Pie view mode";
 "settings.history.pie_view_mode.grouped" = "Grouped"; // top groups and activity types OR activity types only
 "settings.history.pie_view_mode.types_only" = "Types only";
@@ -659,9 +660,9 @@ Tags
 "settings.warn_on_intersection.name" = "Warn on intersection";
 "settings.warn_on_intersection.description" = "Warning and edit suggestions are shown when records intersects";
 
-"settings.activity.main_timer" = "Main timer";
+"settings.activity.main_timer" = "本タイマー";
 "settings.activity.main_timer.description" = "TODO";
-"settings.activity.main_timer.total" = "Total";
+"settings.activity.main_timer.total" = "合格";
 "settings.activity.main_timer.running" = "Running";
 
 "settings.activity.secondary_timer" = "Secondary timer";
@@ -684,14 +685,14 @@ Tags
 "settings.icons_per_row_widget.name" = "Icons per row on widget";
 "settings.icons_per_row_widget.description" = "Number of activity type icons per row on Today Widget screen";
 
-"settings.pomodoro.title" = "Pomodoro";
-"settings.pomodoro.name" = "Pomodoro";
-"settings.pomodoro.enabled.name" = "Pomodoro";
-"settings.pomodoro.rest_types.select" = "Select";
-"settings.pomodoro.rest_types.name" = "Break types";
-"settings.pomodoro.work_types.name" = "Work types";
-"settings.pomodoro.work_types.select" = "Select";
-"settings.pomodoro.pomodoro_length" = "Pomodoro Length";
+"settings.pomodoro.title" = "ポモドーロ";
+"settings.pomodoro.name" = "ポモドーロ";
+"settings.pomodoro.enabled.name" = "ポモドーロ";
+"settings.pomodoro.rest_types.select" = "選択";
+"settings.pomodoro.rest_types.name" = "休憩の書類";
+"settings.pomodoro.work_types.name" = "仕事の書類";
+"settings.pomodoro.work_types.select" = "選択";
+"settings.pomodoro.pomodoro_length" = "ポモドーロの長さ";
 "settings.pomodoro.pomodoro_length.1min" = "1分";
 "settings.pomodoro.pomodoro_length.2min" = "2分";
 "settings.pomodoro.pomodoro_length.5min" = "5分";
@@ -706,14 +707,15 @@ Tags
 "settings.pomodoro.pomodoro_length.50min" = "50分";
 "settings.pomodoro.pomodoro_length.55min" = "55分";
 "settings.pomodoro.pomodoro_length.60min" = "1時間";
-"settings.pomodoro.pomodoros_a_day" = "Pomodoros a day";
-"settings.pomodoro.work_alert" = "Work alert";
-"settings.pomodoro.rest_alert" = "Break alert";
-"settings.pomodoro.short_break_length" = "Short Break Length";
-"settings.pomodoro.long_break_length" = "Long Break Length";
-"settings.pomodoro.mode.title" = "Pomodoro mode";
-"settings.pomodoro.mode.simple.title" = "Default";
-"settings.pomodoro.mode.strict.title" = "Strict";
+
+"settings.pomodoro.pomodoros_a_day" = "一日のポモドーロ数";
+"settings.pomodoro.work_alert" = "仕事の警報";
+"settings.pomodoro.rest_alert" = "休憩の警報";
+"settings.pomodoro.short_break_length" = "短い休憩の長さ";
+"settings.pomodoro.long_break_length" = "長い休憩の長さ";
+"settings.pomodoro.mode.title" = "ポモドーロモード";
+"settings.pomodoro.mode.simple.title" = "デフォルト";
+"settings.pomodoro.mode.strict.title" = "厳しい";
 "settings.pomodoro.work_tick_sound" = "Work tick sound";
 "settings.pomodoro.break_tick_sound" = "Break tick sound";
 "settings.pomodoro.cycles_count" = "Number of cycles";
@@ -728,7 +730,7 @@ Tags
 "settings.formatter.date" = "Date format";
 "settings.formatter.time" = "Time format";
 
-"settings.show_sync_error.name" = "Display sync errors";
+"settings.show_sync_error.name" = "データ同期のエラーの表示";
 "settings.show_sync_error.description" = "";
 
 "settings.application_language.name" = "Application language";
@@ -768,17 +770,17 @@ Tags
 /**
  Account
 */
-"account.title" = "Account";
+"account.title" = "アカウント";
 "account.action.go_premium" = "Go Premium";
 "account.action.signout" = "ログアウト";
-"account.action.force_sync" = "Force Sync";
-"account.signout.warning" = "All of your unsynced data will be lost. Are you sure?";
-"account.last_sync.unknown" = "Last sync: Unknown";
-"account.expired" = "Expired on %@. Press to subscribe";
-"account.free" = "BASIC account. Press to subscribe";
-"account.expires" = "PREMIUM (expires %@ )";
-"account.last_sync.at" = "Successful sync: %@";
-"account.last_sync.failed" = "Sync failed: %@. Message: %@";
+"account.action.force_sync" = "データ同期を施行";
+"account.signout.warning" = "同期されてないデータを失います。同意しますか？";
+"account.last_sync.unknown" = "一番最近データ同期: 不明";
+"account.expired" = "%@に満了しました。ボタンを押して応募して下さい。";
+"account.free" = "無料アカウント。ボタンを押して加入して下さい。";
+"account.expires" = "プレミアムアカウント（%@まで)";
+"account.last_sync.at" = "最新同期: %@";
+"account.last_sync.failed" = "データ同期が失敗に終わった： %@。 メッセージ： %@";
 
 "premium.pomodoro.title" = "Pomodoro";
 "premium.pomodoro.description" = "Use pomodoro technique to concentrate on tasks";
@@ -806,10 +808,10 @@ Tags
 /**
  Subscribe
 */
-"subscribe.title" = "Subscribe";
+"subscribe.title" = "応募";
 "subscribe.enable.title" = "In-App Purchases Not Enabled";
 "subscribe.enable.message" = "Please enable In App Purchase in Settings";
-"subscribe.settings" = "Settings";
+"subscribe.settings" = "設定";
 "subscribe.payment_disabled.title" = "Payments restricted";
 "subscribe.payment_disabled.message" = "You are not authorized to make payments. You can enable it in Settings/General/Restrictions";
 
@@ -823,8 +825,8 @@ Tags
 "about.send_watch_log_file.title" = "Send Watch Log file";
 "about.force_crash.title" = "Force Crash";
 "about.version" = "バージョン: %@";
-"about.export.title" = "Import from aTimeLogger";
-"about.thanks.title" = "Thanks to";
+"about.export.title" = "aTimeLoggerから読み込む";
+"about.thanks.title" = "感謝：";
 "about.review.title" = "Review in AppStore";
 "about.view_watch_info.title" = "View watch info";
 
@@ -838,7 +840,7 @@ Tags
  Help
 */
 "help.title" = "ヘルプ";
-"help.load_error.title" = "Error";
+"help.load_error.title" = "help.load_error.title\" = \"エラー";
 "help.load_error.description" = "Error loading help. Check your connection and reload";
 "help.reload" = "Reload";
 "help.quick_tutorial.title" = "Quick Tour";
