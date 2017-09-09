@@ -13,21 +13,21 @@
 "Internet" = "인터넷";
 "Drink" = "술자리";
 
-"Untracked time" = "Untracked time";
+"Untracked time" = "트랙하지 않은 시간";
 
 "history.title" = "히스토리";
 
 "first_run.sign_in" = "이미 계정이 있으신가요?";
 "first_run.sign_up" = "시작";
 
-"first_run_setup.message.import" = "Do you want to use predefined types or import data from aTimeLogger 2?";
-"first_run_setup.action.init_with_default" = "Use predefined";
-"first_run_setup.action.import" = "Import data from aTimeLogger";
+"first_run_setup.message.import" = "정해진 타입을 사용하시겠습니까 아니면 aTimeLogger 2에서 데이터를 불러오시겠습니까?";
+"first_run_setup.action.init_with_default" = "정해진 타입";
+"first_run_setup.action.import" = "aTimeLogger에서 데이터 불러오기";
 
-"import.action.import" = "Import";
+"import.action.import" = "불러오기";
 
 "sign_up.error.empty_email" = "이메일을 입력해주세요";
-"sign_up.error.invalid_email" = "Email is not valid";
+"sign_up.error.invalid_email" = "올바른 이메일이 아닙니다";
 "sign_up.error.empty_password" = "비밀번호를 입력해주세요";
 "sign_up.error.password_match" = "비밀번호가 일치하지 않습니다";
 
@@ -42,15 +42,15 @@
 "common.action.edit" = "수정";
 "common.action.close" = "닫기";
 "common.action.back" = "뒤로가기";
-"common.action.select" = "Select";
-"common.action.select_type" = "Select type";
-"common.action.select_types" = "Select types";
-"common.action.select_tags" = "Select tags";
-"common.action.select_deselect" = "Select/deselect all";
+"common.action.select" = "정하기";
+"common.action.select_type" = "타입 정하기";
+"common.action.select_types" = "타입 정하기";
+"common.action.select_tags" = "태그 정하기";
+"common.action.select_deselect" = "모두 정하기/정하지 않기";
 "common.action.add_before" = "추가";
-"common.action.select_place" = "Select place";
+"common.action.select_place" = "장소 정하기";
 "common.title.loading" = "로딩중 ...";
-"common.title.syncing" = "Syncing ...";
+"common.title.syncing" = "동기화중 ...";
 "common.email.placeholder" = "이메일을 입력해주세요";
 "common.first_name.placeholder" = "이름";
 "common.last_name.placeholder" = "성";
@@ -65,7 +65,7 @@
 "common.premium.try_10_days_activated" = "지금부터 10일 동안 프리미엄 판을 체험하실 수 있습니다";
 "common.mail_disabled.title" = "이메일을 보낼 수 없습니다";
 "common.mail_disabled.description" = "이메일을 설정해주세요";
-"common.title.sync_failed" = "Sync failed";
+"common.title.sync_failed" = "동기화 실패";
 "common.action.retry" = "재시도";
 
 /**
@@ -75,22 +75,22 @@
 "sign_in.forgot" = "비밀번호 찾기";
 
 "sign_up.sign_up" = "회원가입";
-"User already exists" = "User with such email already exists. If you have aTimeLogger account sign in with its credentials";
+"User already exists" = "이미 해당 이메일 계정이 있습니다. aTimeLogger에 계정이 있으시면 그 계정으로 로그인해주십시오";
 
-"error.invalid_grant" = "Invalid username/password";
+"error.invalid_grant" = "올바른 아이디/비밀번호가 아닙니다";
 "error.unknown" = "알 수 없는 에러가 났습니다. support@timetrack.io로 연락을 주세요";
 
 /**
  First run
 */
-"first_run.page1.title" = "Track with ease";
-"first_run.page1.description" = "Start tracking an activity with a single tap! Simply open the app and tap on the appropriate activity type icon.";
-"first_run.page2.title" = "Daily log";
-"first_run.page2.description" = "Review your activities day by day and see how your productivity improves.";
-"first_run.page3.title" = "Visualize data";
-"first_run.page3.description" = "Statistics are available in form of bar or pie chart. Everybody likes charts!";
-"first_run.page4.title" = "Reach goals";
-"first_run.page4.description" = "Create goals and reach them. When a goal is reached, you will be notified by the app.";
+"first_run.page1.title" = "쉽게 시간 트래킹하기";
+"first_run.page1.description" = "원클릭으로 활동 트랙하기! 앱을 켜고 활동을 클릭하세요.";
+"first_run.page2.title" = "하루 로그";
+"first_run.page2.description" = "매일 활동을 검토하고 생산력을 높이세요.";
+"first_run.page3.title" = "데이터 시각화";
+"first_run.page3.description" = "통계를 차트로 한눈으로 볼 수 있어요!";
+"first_run.page4.title" = "시간 채우기 목표";
+"first_run.page4.description" = "목표를 정하시면 시간을 채울 때 앱 알림을 드립니다";
 
 /**
  First sync
@@ -108,8 +108,8 @@
 "restore.title" = "비밀번호 찾기";
 "restore.action.restore" = "비밀번호 찾기";
 "restore.message.success" = "비밀번호 복구 이메일을 보냈습니다";
-"restore.message.failure" = "Error occured while send instructions. Check your email and try again later or contact support";
-"restore.message.email_invalid" = "Email is not valid";
+"restore.message.failure" = "에러가 났습니다. 이메일을 체크해보시고 서포트에 이메일을 주십시오";
+"restore.message.email_invalid" = "올바른 이메일이 아닙니다";
 
 /**
  Menu
@@ -118,58 +118,58 @@
 "menu.history" = "히스토리";
 "menu.pomodoro" = "뽀모도로";
 "menu.types" = "활동유형";
-"menu.goals" = "Goals";
-"menu.reports" = "Reports";
-"menu.settings" = "Settings";
-"menu.account" = "Account";
-"menu.help" = "Help";
-"menu.about" = "About";
+"menu.goals" = "목표";
+"menu.reports" = "보고서";
+"menu.settings" = "설정";
+"menu.account" = "계정";
+"menu.help" = "도움";
+"menu.about" = "설명";
 "menu.more" = "더보기";
-"menu.places" = "Places";
+"menu.places" = "장소";
 "menu.calendars" = "캘린더";
-"menu.events" = "Events";
+"menu.events" = "이벤트";
 
 /**
  Activities
  */
-"activities.empty.title" = "No types";
-"activities.empty.description" = "You have no types. To create new type press on \"+\" button on \"Types\" tab";
-"activities.title" = "Activities";
-"activities.action.start" = "Start";
-"activities.action.stop" = "Stop";
-"activities.action.resume" = "Resume";
-"activities.action.pause" = "Pause";
-"activities.action.start_pomodoro" =  "Start Pomodoro";
-"activities.action.start_usual" = "Start Usual";
-"activities.start.message" = "Start activity?";
-"activities.stop.message" = "Stop activity?";
-"activities.pause.message" = "Pause activity?";
-"activities.resume.message" = "Resume activity?";
-"activities.start_pomodoro.message" = "Do you want to start it as pomodoro?";
-"activities.sync.title" = "Sync";
+"activities.empty.title" = "타입 없음";
+"activities.empty.description" = "탑이 없습니다. \"타입\" 탭에 \"+\"버튼을 눌러 새로 만들어 주세요";
+"activities.title" = "활동";
+"activities.action.start" = "시작";
+"activities.action.stop" = "정지";
+"activities.action.resume" = "이어가기";
+"activities.action.pause" = "일시정지";
+"activities.action.start_pomodoro" =  "뽀모도로 시작";
+"activities.action.start_usual" = "평소대로 시작";
+"activities.start.message" = "활동을 시작하시겠습니까?";
+"activities.stop.message" = "활동을 정지하시겠습니까?";
+"activities.pause.message" = "활동을 일시정지하시겠습니까?";
+"activities.resume.message" = "활동을 다시 시작 하시겠습니까?";
+"activities.start_pomodoro.message" = "뽀모도로로 시작하시겠습니까?";
+"activities.sync.title" = "동기화";
 
 "edit_activity.title" = "수정";
 "edit_activity.field.type" = "활동유형";
-"edit_activity.field.comment" = "Comment";
+"edit_activity.field.comment" = "코멘트";
 "edit_activity.field.tags" = "태그";
 "edit_activity.field.start" = "시작";
 "edit_activity.field.place" = "Place";
 "edit_activity.intervals" = "시간 간격";
-"edit_activity.running" = "Running";
-"edit_activity.paused" = "Paused";
-"edit_activity.stopped" = "Stopped";
-"edit_activity.empty.description" = "Press \"+\" to add interval";
-"edit_activity.no_comment" = "No comment";
+"edit_activity.running" = "트랙킹 중";
+"edit_activity.paused" = "일시정지";
+"edit_activity.stopped" = "멈춤";
+"edit_activity.empty.description" = "\"+\"을 눌러 인터벌을 만들어주세요";
+"edit_activity.no_comment" = "코멘트 없음";
 "edit_activity.delete.message" = "활동을 지울까요?";
-"edit_activity.error.no_type" = "Select type of activity";
-"edit_activity.error.no_intervals" = "Activity must have at least 1 interval";
+"edit_activity.error.no_type" = "활동 유형을 정하기";
+"edit_activity.error.no_intervals" = "적어도 인터벌 하나가 필요합니다";
 "edit_activity.action.skip_and_save" = "건너뛰고 저장";
 "edit_activity.intersection.change" = "Change %@ to %@";
 "edit_activity.intersection.start_date_intersects" = "Start date %@ intersects interval %@";
 "edit_activity.intersection.change_start_date" = "Change start date to %@";
 "edit_activity.intersection.interval_intersects" = "Interval %@ intersects %@ (%@)";
 
-"edit_interval.title" = "Edit";
+"edit_interval.title" = "수정";
 "edit_interval.error.from_greater_to" = "From is greater than To";
 "edit_interval.field.from" = "From";
 "edit_interval.field.to" = "To";
@@ -184,24 +184,24 @@
 /**
 Pomodoros
 */
-"pomodoros.empty.title" = "No pomodoros";
+"pomodoros.empty.title" = "뽀모도로가 없습니다";
 "pomodoros.empty.description" = "No pomodoros for selected period. Set up pomodoro mode in settings and start tracking it on activities tab";
 
 /**
  History
  */
-"history.title" = "History";
-"history.pie.show_untracked" = "Show Untracked Time";
-"history.empty.title" = "Nothing tracked";
+"history.title" = "히스토리";
+"history.pie.show_untracked" = "트랙하지 않은 시간 보기";
+"history.empty.title" = "트래킹한 활동이 없습니다";
 "history.empty.description" = "Nothing tracked for selected period. Choose another period or start logging your time";
-"history.range.today" = "Today";
-"history.range.day" = "Day";
-"history.range.week" = "Week";
-"history.range.month" = "Month";
-"history.view.list" = "List";
-"history.view.pie" = "Pie";
-"history.view.calendar" = "Calendar";
-"history.time_tracked" = "Time tracked: %@";
+"history.range.today" = "오늘";
+"history.range.day" = "1일";
+"history.range.week" = "1주";
+"history.range.month" = "1달";
+"history.view.list" = "리스트";
+"history.view.pie" = "파이차트";
+"history.view.calendar" = "캘린더";
+"history.time_tracked" = "트래킹한 시간: %@";
 "history.title.delete_interval" = "Are you sure you want to delete this interval?";
 "history.search.placeholder"="Enter type name, comment or tag...";
 
@@ -607,38 +607,38 @@ Tags
 
 "settings.sections.advanced" = "세부설정";
 
-"settings.remind_me.name" = "Remind me";
+"settings.remind_me.name" = "다시 알려주세요";
 "settings.remind_me.description" = "TODO";
-"settings.remind_me.title" = "Remind me";
-"settings.remind_me.hours" = "Hours";
-"settings.remind_me.alert_sound" = "Alert sound";
-"settings.remind_me.interval" = "Interval";
+"settings.remind_me.title" = "다시 알려주세요";
+"settings.remind_me.hours" = "시간";
+"settings.remind_me.alert_sound" = "알림음";
+"settings.remind_me.interval" = "인터벌";
 
-"settings.comment_on_start.name" = "Comment on start";
+"settings.comment_on_start.name" = "시작할 때 코멘트";
 "settings.comment_on_start.description" = "TODO";
 
-"settings.comment_on_stop.name" = "Comment on stop";
+"settings.comment_on_stop.name" = "멈출 때 코멘트";
 "settings.comment_on_stop.description" = "TODO";
 
-"settings.tag_on_start.name" = "Tag on start";
+"settings.tag_on_start.name" = "시작할 때 태그";
 
-"settings.sections.appearance" = "Appearance";
+"settings.sections.appearance" = "인터페이스";
 "settings.theme.name" = "테마";
 "settings.theme.name.light" = "밝음";
-"settings.theme.name.dark" = "Graphite";
+"settings.theme.name.dark" = "회색";
 "settings.theme.name.white" = "Neutral";
-"settings.theme.name.dark2" = "Black";
-"settings.goal_progress.name" = "Goal progress";
-"settings.goal_progress.gray" = "Gray";
-"settings.goal_progress.colored" = "Colored";
+"settings.theme.name.dark2" = "검정";
+"settings.goal_progress.name" = "계획 진행률";
+"settings.goal_progress.gray" = "회색";
+"settings.goal_progress.colored" = "색깔";
 "settings.navigation" = "Navigation";
 "settings.navigation.left_menu" = "왼쪽 메뉴";
-"settings.navigation.tab_bar" = "Tab Bar";
+"settings.navigation.tab_bar" = "탭 바";
 
 "settings.sections.history" = "히스토리";
 "settings.history.order.title" = "히스토리 순서";
-"settings.history.order.asc" = "Ascending";
-"settings.history.order.desc" = "Descending";
+"settings.history.order.asc" = "순서 앞에서";
+"settings.history.order.desc" = "순서 거꾸로";
 "settings.history.pie_view_mode.title" = "파이 차트 모드";
 "settings.history.pie_view_mode.grouped" = "Grouped";
 "settings.history.pie_view_mode.types_only" = "Types only";
@@ -648,9 +648,9 @@ Tags
 "settings.show_types_hierarchy.description" = "Expanded groups shown on Types screen";
 
 "settings.show_seconds.name" = "초 단위 노출";
-"settings.show_seconds.description" = "Display seconds in report";
+"settings.show_seconds.description" = "보고서에 초 단위 노출";
 
-"settings.first_day_of_week.name" = "First day of week";
+"settings.first_day_of_week.name" = "주 시작일";
 "settings.first_day_of_week.monday" = "월요일";
 "settings.first_day_of_week.tuesday" = "화요일";
 "settings.first_day_of_week.wednesday" = "수요일";
@@ -664,15 +664,15 @@ Tags
 
 "settings.activity.main_timer" = "메인 타이머";
 "settings.activity.main_timer.description" = "TODO";
-"settings.activity.main_timer.total" = "Total";
+"settings.activity.main_timer.total" = "합";
 "settings.activity.main_timer.running" = "진행중";
 
-"settings.activity.secondary_timer" = "Secondary timer";
+"settings.activity.secondary_timer" = "두번째 타이머";
 "settings.activity.secondary_timer.description" = "TODO";
-"settings.activity.secondary_timer.no_timer" = "No timer";
-"settings.activity.secondary_timer.total" = "Total";
+"settings.activity.secondary_timer.no_timer" = "타이머 없음";
+"settings.activity.secondary_timer.total" = "합";
 "settings.activity.secondary_timer.running" = "진행중";
-"settings.activity.secondary_timer.goal_left" = "Goal progress";
+"settings.activity.secondary_timer.goal_left" = "계획 진행률";
 
 "settings.activity.lock_screen" = "Lock activities screen";
 "settings.activity.lock_screen.description" = "When disabled activities screen won't be locked automatically";
@@ -680,9 +680,9 @@ Tags
 "settings.activity.flat_types" = "Groups on activities tab";
 "settings.activity.flat_types.description" = "";
 
-"settings.icons_per_row.name" = "Icons per row";
+"settings.icons_per_row.name" = "줄 당 아이콘";
 "settings.icons_per_row.description" = "Number of activity type icons per row on Activities tab";
-"settings.icons_per_row.value" = "%d icons";
+"settings.icons_per_row.value" = "%d 아이콘";
 
 "settings.icons_per_row_widget.name" = "Icons per row on widget";
 "settings.icons_per_row_widget.description" = "Number of activity type icons per row on Today Widget screen";
@@ -710,42 +710,42 @@ Tags
 "settings.pomodoro.pomodoro_length.55min" = "55분";
 "settings.pomodoro.pomodoro_length.60min" = "1 시간";
 "settings.pomodoro.pomodoros_a_day" = "뽀모도로/일";
-"settings.pomodoro.work_alert" = "Work alert";
-"settings.pomodoro.rest_alert" = "Break alert";
-"settings.pomodoro.short_break_length" = "Short Break Length";
-"settings.pomodoro.long_break_length" = "Long Break Length";
-"settings.pomodoro.mode.title" = "Pomodoro mode";
-"settings.pomodoro.mode.simple.title" = "Default";
-"settings.pomodoro.mode.strict.title" = "Strict";
-"settings.pomodoro.work_tick_sound" = "Work tick sound";
-"settings.pomodoro.break_tick_sound" = "Break tick sound";
-"settings.pomodoro.cycles_count" = "Number of cycles";
+"settings.pomodoro.work_alert" = "일하기 알림";
+"settings.pomodoro.rest_alert" = "휴식 알림";
+"settings.pomodoro.short_break_length" = "짧은 휴식 길이";
+"settings.pomodoro.long_break_length" = "긴 휴식 길이";
+"settings.pomodoro.mode.title" = "뽀모도로 모드";
+"settings.pomodoro.mode.simple.title" = "기본";
+"settings.pomodoro.mode.strict.title" = "엄격";
+"settings.pomodoro.work_tick_sound" = "일하기 음";
+"settings.pomodoro.break_tick_sound" = "휴식 음";
+"settings.pomodoro.cycles_count" = "사이클 수";
 
-"settings.stats_calculation.name" = "Statistics calculation";
+"settings.stats_calculation.name" = "통계 계산";
 "settings.stats_calculation.intersection_on" = "With intersections";
 "settings.stats_calculation.intersection_off" = "Without intersections";
 
-"settings.changes_applied" = "Changes will be applied after application restart";
+"settings.changes_applied" = "앱을 다시 시작하신 후 변경사항이 적용됩니다";
 
 "settings.sections.formatting" = "포맷";
 "settings.formatter.date" = "날짜 포맷";
 "settings.formatter.time" = "시간 포맷";
 
-"settings.show_sync_error.name" = "Display sync errors";
+"settings.show_sync_error.name" = "동기화 에러 보기";
 "settings.show_sync_error.description" = "";
 
-"settings.application_language.name" = "Application language";
+"settings.application_language.name" = "시스템 언어";
 
 "settings.calendar.name" = "캘린더";
 "settings.calendar.field.calendars" = "캘린더";
-"settings.calendar.field.types_mapping" = "Types";
+"settings.calendar.field.types_mapping" = "유형";
 "settings.calendar.enabled.title" = "Enabled";
-"settings.calendar.show_in_activities.title" = "Show next event in activities";
-"settings.calendar.show_in_widget.title" = "Show next event in widget";
-"settings.calendar.no_calendar.title" = "No calendars";
-"settings.calendar.no_calendar.desc" = "Add calendars you wish to work with";
-"settings.calendar.default_sound.title" = "Default sound";
-"settings.calendar.default_alerts.title" = "Default alerts";
+"settings.calendar.show_in_activities.title" = "다음 이벤트를 활동에 보이기";
+"settings.calendar.show_in_widget.title" = "위젯에 다음 이벤트 넣기";
+"settings.calendar.no_calendar.title" = "캘린더 없음";
+"settings.calendar.no_calendar.desc" = "캘런더 넣기";
+"settings.calendar.default_sound.title" = "기본음";
+"settings.calendar.default_alerts.title" = "기본알림";
 
 "settings.url_scheme.name" = "URL Scheme";
 "settings.url_scheme.description" = "Call URL scheme on start and stop";
@@ -754,19 +754,19 @@ Tags
 "settings.csv_group_separate_column.description" = "Separate groups column in csv report";
 
 "settings.day_start.name" = "하루 시작";
-"settings.default_type.name" = "Default type";
-"settings.default_duration.name" = "Default duration";
+"settings.default_type.name" = "기본 유형";
+"settings.default_duration.name" = "기본 시간";
 
 "edit_calendar.field.calendar_name" = "캘린더";
-"edit_calendar.field.types" = "Types";
-"edit_calendar.field.types.value" = "%ld types";
-"edit_calendar.field.save_events_automatically" = "Post activities to calendar";
-"edit_calendar.no_types.title" = "No types";
+"edit_calendar.field.types" = "유형";
+"edit_calendar.field.types.value" = "%ld 유형";
+"edit_calendar.field.save_events_automatically" = "캘린터에 활동 저장하기";
+"edit_calendar.no_types.title" = "유형 없음";
 "edit_calendar.no_types.description" = "Add types if you want to automatically save activities in calendar";
-"edit_calendar.field.save_comment.title" = "Save comment to calendar";
+"edit_calendar.field.save_comment.title" = "캘린터에 코멘트 달기";
 "edit_calendar.field.save_comment.description" = "If comment available it's saved as event title";
 
-"activities.pomodoro.break.title" = "Break";
+"activities.pomodoro.break.title" = "휴식";
 
 /**
  Account
@@ -776,8 +776,8 @@ Tags
 "account.action.force_sync" = "강제 동기화";
 "account.signout.warning" = "동기화되지 않은 데이터가 사라집니다. 괜찮습니까?";
 "account.last_sync.unknown" = "마지막 동기화: 알 수 없음";
-"account.expired" = "%@ 만료. Press to subscribe";
-"account.free" = "기본 계정. Press to subscribe";
+"account.expired" = "%@ 만료. 구독하기";
+"account.free" = "기본 계정. 구독하기";
 "account.expires" = "프리미엄 계정 (%@ 만료)";
 "account.last_sync.at" = "동기화 성공: %@";
 "account.last_sync.failed" = "동기화 실패: %@. 메세지: %@";
@@ -785,10 +785,10 @@ Tags
 /**
  Subscribe
 */
-"subscribe.title" = "Subscribe";
-"subscribe.enable.title" = "In-App Purchases Not Enabled";
-"subscribe.enable.message" = "Please enable In App Purchase in Settings";
-"subscribe.settings" = "Settings";
+"subscribe.title" = "프리미엄 구독";
+"subscribe.enable.title" = "앱내 결제 허용되지 않음";
+"subscribe.enable.message" = "앱내 결제를 설정에서 허용해주세요";
+"subscribe.settings" = "설정";
 "subscribe.payment_disabled.title" = "Payments restricted";
 "subscribe.payment_disabled.message" = "You are not authorized to make payments. You can enable it in Settings/General/Restrictions";
 
@@ -835,34 +835,34 @@ Tags
 "quick_tour.page3.title" = "히스토리 보기";
 "quick_tour.page3.description" = "You can view your data on History tab";
 
-"quick_tour.page4.title" = "Charts";
+"quick_tour.page4.title" = "차트";
 "quick_tour.page4.description" = "You can view data in form of calendar or pie chart and change date range";
 
 "quick_tour.page5.title" = "Custom type";
 "quick_tour.page5.description" = "To create custom activity type, press on \"+\" on \"Types\" tab";
 
-"quick_tour.page6.title" = "Custom type";
+"quick_tour.page6.title" = "지정 유형";
 "quick_tour.page6.description" = "Enter name, select icon, color and press \"Save\". You can also create group here";
 
-"quick_tour.page7.title" = "Goals";
+"quick_tour.page7.title" = "목표";
 "quick_tour.page7.description" = "Create goals to set a limit or reach a target";
 
-"quick_tour.page8.title" = "Goal statistics";
+"quick_tour.page8.title" = "목표 통계";
 "quick_tour.page8.description" = "Goal details screen shows goal statistics for previous periods";
 
 "quick_tour.page9.title" = "보고서";
-"quick_tour.page9.description" = "You can create 보고서 based on different parameters and then export them to CSV";
+"quick_tour.page9.description" = "다양한 파라미터에 따라 보고서를 만들고 CSV로 옮길 수 있습니다";
 
 "quick_tour.page10.title" = "보고서";
-"quick_tour.page10.description" = "Report contains total, history, daily statistics, etc";
+"quick_tour.page10.description" = "보고서에는 총합, 히스토리, 일일 통계, 등등이 있습니다";
 
-"quick_tour.page11.title" = "And much more";
+"quick_tour.page11.title" = "그리고 더";
 "quick_tour.page11.description" = "Tags, pomodoros, desktop web application, dark theme and many settings for personalization and customization. You can find more information in Manual. \n\nWe are open for any suggestions. Mail us if you have some";
 
 /**
  Armchair
  */
-"If you enjoy using %@, would you mind taking a moment to rate it? It won't take more than a minute. Thanks for your support!" = "If you enjoy using %@, would you mind taking a moment to rate it? It won't take more than a minute. Thanks for your support!";
+"If you enjoy using %@, would you mind taking a moment to rate it? It won't take more than a minute. Thanks for your support!" = "잠시만 시간내어 주셔서 의 별점 주세요! 이용해주셔서 감사합니다!";
 "Rate %@" = "%@ 별점주기";
 "No, Thanks" = "취소";
 "Remind me later" = "나중에";
